@@ -17,6 +17,7 @@
 "New Event"=>"Neues Ereignis",
 "Overdue"=>"überfällig",
 "P"=>"P",
+"Parent Task"=>"Übergeordnete Aufgabe",
 "Progress"=>"Fortschritt",
 "Recurs"=>"Wiederkehrend",
 "Remind Me"=>"Erinnere mich",
