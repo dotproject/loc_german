@@ -51,7 +51,7 @@
 "adminValidPassword"=>"Bitte ein gültiges Passwort eingeben (mehr als 4 Zeichen).",
 "adminValidUserName"=>"Bitte einen gültigen Benutzernamen eingeben.",
 "change password"=>"Passwort ändern!",
-"companies list"=>"Firmenliste";
+"companies list"=>"Firmenliste",
 "deny"=>"verbieten",
 "edit"=>"bearbeiten",
 "edit preferences"=>"die Einstellungen bearbeiten",
