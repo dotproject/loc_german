@@ -6,6 +6,7 @@
 "Date"=>"Datum",
 "Edit File"=>"Datei bearbeiten",
 "File Name"=>"Dateiname",
+"File could not be written"=>"Datei konnte nicht gespeichert werden",
 "New File"=>"Neue Datei",
 "new file"=>"Neue Datei",
 "Size"=>"Grφίe",
