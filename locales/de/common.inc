@@ -51,6 +51,7 @@
 "File"=>"Datei",
 "File Name"=>"Dateiname",
 "Files"=>"Dateien",
+"Files Content"=>"Dateiinhalte",
 "First Name"=>"Vorname",
 "Forum"=>"Forum",
 "Forums"=>"Foren",
