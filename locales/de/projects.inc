@@ -77,7 +77,7 @@
 "new task"=>"neue Aufgabe",
 "noCompanies"=>"Bitte zuerst eine Firma erstellen.",
 "noDeleteRecord"=>"Löschung nicht möglich! Abhängigkeit(en)",
-"projects list"=>"Projektliste",
+"projects list"=>"Projekteliste",
 "projectsBadCompany"=>"Bitte eine Firma auswählen.",
 "projectsBadEndDate1"=>"Das Datum des Projektendes muss nach dem Datum des Projektbeginns liegen",
 "projectsBadEndDate2"=>"Das aktuelle Datum des Projektendes muss nach dem Datum des Projektbeginnes liegend",

@@ -18,6 +18,8 @@
 "companyValidName"=>"Bitte einen gültigen Firmennamen eingeben",
 "delete company"=>"Firma löschen",
 "edit this company"=>"diese Firma bearbeiten",
+"e-mail"=>"E-Mail",
 "inserted"=>"hinzugefügt",
 "new company"=>"Neue Firma",
+"new contact"=>"neuer Kontakt",
 "view this company"=>"diese Firma ansehen",

@@ -3,6 +3,7 @@
 ##
 "All Projects"=>"Alle Projekte",
 "Add File"=>"Datei hinzufügen",
+"Are you sure you want to cancel?"=>"Soll dieser Vorgang wirklich abgebrochen werden?",
 "Date"=>"Datum",
 "Edit File"=>"Datei bearbeiten",
 "File Name"=>"Dateiname",
