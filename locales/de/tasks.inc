@@ -1,7 +1,7 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 #
-"none"=>"Kein",
+"none"=>"Keine",
 "Action"=>"Aktion",
 "Active"=>"Aktiv",
 "Add Log"=>"Logeintrag",

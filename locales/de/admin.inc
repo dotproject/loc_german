@@ -28,7 +28,7 @@
 "Owned Projects"=>"Eigene Projekte",
 "Permissions"=>"Rechte",
 "Proposed"=>"Vorgeschlagen",
-"Real Name"=>"Realer Name",
+"Real Name"=>"Echter Name",
 "Signature"=>"Signatur",
 "Super User"=>"Benutzer mit höchsten Rechten",
 "Supervisor"=>"",
