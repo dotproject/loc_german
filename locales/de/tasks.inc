@@ -2,6 +2,7 @@
 ## DO NOT MODIFY THIS FILE BY HAND!
 #
 "none"=>"Keine",
+"Access"=>"Zugang",
 "Action"=>"Aktion",
 "Active"=>"Aktiv",
 "Add Log"=>"Logeintrag",
@@ -37,6 +38,7 @@
 "My Tasks"=>"Meine Aufgaben",
 "My Tasks (show in-active)"=>"Meine Aufgaben (zeige inaktive)",
 "My Tasks To Do"=>"Meine anstehenden Aufgaben",
+"My Unfinished Tasks"=>"Meine laufenden Aufgaben",
 "New Log"=>"Neuer Eintrag",
 "Overdue"=>"Überfällig",
 "P"=>"P",

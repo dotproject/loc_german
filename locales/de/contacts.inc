@@ -5,6 +5,8 @@
 "Contact Notes"=>"Kontaktnotizen",
 "Display Name"=>"Angezeigter Name",
 "Edit Contact"=>"Kontakt bearbeiten",
+"Reset search"=>"Suche zurücksetzen",
+"Search for"=>"Suche nach",
 "contacts list"=>"Kontaktliste",
 "contactsDelete"=>"Soll dieser Kontakt wirklich gelöscht werden?",
 "contactsOrderBy"=>"Bitte ein Ordnungskriterium eingeben",
