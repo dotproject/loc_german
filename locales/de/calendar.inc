@@ -31,6 +31,7 @@
 "Remind Me"=>"Erinnere mich",
 "Should have started"=>"Sollte bereits begonnen sein",
 "Start Date"=>"Anfangsdatum",
+"Start-Date >= End-Date, please correct"=>"Anfangsdatum >= Enddatum, bitte korrigieren",
 "Started and on time"=>"Begonnen und in der Zeit",
 "Starts"=>"Beginn",
 "Task / Project"=>"Aufgabe / Projekt",
