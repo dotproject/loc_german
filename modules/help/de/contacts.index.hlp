@@ -1,4 +1,4 @@
-<!-- $Id: contacts.index.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<!-- $Id: contacts.index.hlp,v 1.3 2003/06/17 18:46:30 gregorerhardt Exp $ -->
 <h2>Kontakte Index</h2>
 
 <p>Die <strong>Kontakte</strong> Seite funktioniert etwa wie ein Adressbuch. Man kann dort Informationen über vorhandene Kontakte abrufen, indem man auf einen der hyperlinkartigen Kontaktnamen klickt.</p>
@@ -9,7 +9,7 @@
 <ul>
 	<li>Vorname, Nachname und anzuzeigender Name</li>
 	<li>Firma, Titel, und Typ</li>
-	<li>Addresse1, Addresse2, Stadt, Staat, PLZ</li>
+	<li>Adresse1, Adresse2, Stadt, Staat, PLZ</li>
 	<li>Telefon1, Telefon2, Mobiltelefon</li>
 	<li>Email1, Email2, ICQ</li>
 	<li>Geburtstag</li>

@@ -1,25 +1,45 @@
-<!-- $Id: install.upgrade.hlp,v 1.3 2003/05/18 11:46:01 eddieajau Exp $ -->
-<h2>Upgrading an Existing Version</h2>
-<p>Here is a general outline of how to upgrade your existing version of dotProject (probably version 0.2.1 or 0.2.2)<p>
+<!-- $Id: install.upgrade.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<h2>Eine bestehende Version aktualisieren</h2>
+<p>Dies stellt eine allgemeine Anleitung für die Aktualisierung der bestehenden dotProject-Version
+dar (etwa Version 0.2.1 oder 0.2.2)<p>
 <ol>
-	<li>Download the latest release and follow the install instructions placing it in a new directory.</li>
-	<li>Create a copy of your existing dotProject database.</li>
-	<li>Edit the database parameters in the config.php file to point to this copied db.</li>
-	<li>Apply the upgrade script to the copied db.</li>
-	<li>Test out the new version of dotProject.  If all is well then promote this version to production and archive your old data (just in case).  If there is a problem then let up know.</li>
+	<li>Man besorge das neueste Paket von dotProject und folge den Installationsanweisungen, um
+	dieses in einem neuem Verzeichnis zu installieren.</li>
+	<li>Man erstelle eine Kopie der bestehenden Datenbank.</li>
+	<li>Man bearbeite die Datenbankparameter in der Datei config.php, so dass sie auf die neue
+	Datenbank zeigen und passe gegebenenfalls die anderen Parameter den Gegebenheiten an.
+	Viele der Einstellungen können aus der alten Version übernommen werden bzw. sind dieser ähnlich.</li>
+	<li>Man wende das mitgelieferte Aktualisierungsskript auf die neue Datenbank an.</li>
+	<li>Man teste die neue Version von dotProject.  Für den Fall, dass alles optimal funktioniert,
+	stelle man auf die Benutzung der neuen Version um und archiviere die ehemalige Version
+	Für den Fall, dass Probleme auftreten, wende man sich an das dotProject Entwicklerteam.</li>
 </ol>
 
-<h3>Upgrading to Version 1.0</h3>
-Version 1.0 incorporates many additions and modifications to existing database structure.&nbsp; You need to apply the script upgrade_022_to_100.sql to your MySQL database to upgrade from wither version 0.2.1 or 0.2.2.<br />
+Die folgenden Befehle werden von der Kommandozeile innerhalb des dotProject-Datenbankverzeichnisses ausgeführt.
+
+<strong>Erstellung einer Sicherungskopie einer bestehenden Datenbank</strong><br />
+<emphasis>mysqldump -udp_user -pdp_pass dp_1_0_alpha >
+ dp_1_0_alpha1_backup.sql</emphasis><br />
+<br />
+
+<strong>Aktualisierung der bestehenden Datenbank</strong><br />
+<emphasis>mysql -udp_user -pdp_pass dp_1_0_alpha <
+ upgrade_100_alpha1_to_alpha2.sql</emphasis><br />
+<br />
+
+<h3>Aktualisierung auf Version 1.0</h3>
+Version 1.0 beinhaltet viele Erweiterungen und Änderungen bezüglich der bestehenden
+Datenbankstruktur. Es ist notwendig, das Skript upgrade_022_to_100.sql auf die MySQL Datenbank
+anzuwenden, um auf die neue Datenbankstruktur umzustellen.<br />
 <br />
 <br />
 
-<h3>Upgrading DotProject 1.0 alpha 1 to DotProject 1.0 alpha 2</h3>
-The task_log, tasks and projects tables have all changed slightly from alpha 1 to alpha 2. You will need to upgrade your database to take advantage of these improvements.<br />
+<h3>Aktualisierung von DotProject 1.0 alpha 1 auf DotProject 1.0 alpha 2</h3>
+Die Datenbankstruktur des Aufgabenlogbuchs und des Projektmoduls wurden von alpha1 nach alpha2 leicht verändert. Es wird notwendig sein, das Datenbanksystem zu aktualisieren, um die Verbesserungen nutzbar zu machen.<br />
 <br />
-Apply the <code>upgrade_alpha2_to_beta1.sql</code> script to your database copy.<br />
+Man wende das Skript <code>upgrade_alpha2_to_beta1.sql</code> auf die kopierte Datenbank an.<br />
 <br />
-The example below assumes the following configuration. Please modify the example commands to match your local settings. These commands are executed from the commandline within the dotproject database directory.<br />
+Das folgende Beispiel geht von einer entsprechenden Konfiguration aus. Man passe es den eigenen Gegebenheiten an.<br />
 <br />
 <strong>
 $dPconfig['dbname'] = "dp_1_0_alpha";<br />
@@ -28,23 +48,16 @@ $dPconfig['dbpass'] = "dp_pass";<br />
 </strong>
 <br />
 
-<h3>Upgrading DotProject 1.0 alpha 2 to DotProject 1.0 beta 1</h3>
-Beta 1 includes two major security improvements.  Changes were made to prevent a vulnerability caused by malicious injection of SQL into the username and password fields.  The password encryption method was also changed in line with recommendations from MySQL.<br />
+<h3>Aktualisierung von  DotProject 1.0 alpha 2 auf DotProject 1.0 beta 1</h3>
+Beta 1 beinhaltet zwei größere Verbesserung im Bereich der Sicherheit.  Die Veränderungen wurden vorgenommen, um eine Sicherheitslücke bei der SQL-Behandlung der Benutzename/Passwort-Kombination zu stopfen. Außerdem wurde die Verschlüsselungsmethode für Passwörter den Empfehlungen von MySQL entsprechend geändert.<br />
 <br />
-Apply the <code>upgrade_alpha2_to_beta1.sql</code> script to your database copy.<br />
+Man wende das Skript code>upgrade_alpha2_to_beta1.sql</code> auf die kopierte Datenbank an.<br />
 <br />
-There is a configuration variable, <code>check_legacy_password</code>, that also needs to be set to <code>true</code>.
+Außerdem muss die Konfigurationsvariable <code>check_legacy_password</code> auf <code>true</code> gesetzt werden:.
 <pre>$dPconfig['check_legacy_password'] = true;</pre>
-This will capture a password verified under the old encyption scheme and upgrade on the first successful login of the user.<br/>
+Dies wird das Passwort nach altem Schema bei der ersten Anmeldung des Benutzers zu einem Passwort neuen Schemas aktualisieren.<br/>
 <br />
 
 
 
-<strong>Backup Existing Database</strong><br />
-<emphasis>mysqldump -udp_user -pdp_pass dp_1_0_alpha > dp_1_0_alpha1_backup.sql</emphasis><br />
-<br />
-
-<strong>Upgrade the Database</strong><br />
-<emphasis>mysql -udp_user -pdp_pass dp_1_0_alpha < upgrade_100_alpha1_to_alpha2.sql</emphasis><br />
-<br />
 

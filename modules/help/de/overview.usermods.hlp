@@ -1,4 +1,5 @@
-<!-- $Id: overview.usermods.hlp,v 1.2 2003/04/13 09:38:44 eddieajau Exp $ -->
-<h2>User Mods</h2>
-<p>A new sourceforge project has been started at <a href="http://sourceforge.net/projects/dotmods">http://sourceforge.net/projects/dotmods</a></p>
-<p>This has been&nbsp;created for users to&nbsp;contribute additional modules and user interface styles to dotproject.</p>
+<!-- $Id: overview.usermods.hlp,v 1.1 2003/06/09 21:08:21 gregorerhardt Exp $ -->
+<h2>Benutzermodule</h2>
+<p>Unter <a href="http://sourceforge.net/projects/dotmods">http://sourceforge.net/projects/dotmods</a>
+wurde ein neues SourceForge-Projekt ins Leben gerufen, um Benutzern die Möglichkeit zur Entwicklung
+weiterer Module und Zusätze aller Art (Sprachdateien, Benutzeroberflächenstile, Dokumentationen etc.) zu geben.</p>

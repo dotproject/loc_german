@@ -1,40 +1,36 @@
-<h2>Edit User Preferences</h2>
+<h2>Benutzereinstellungen bearbeiten</h2>
 
-<p>The <strong>Edit User Preferences</strong> page allows you to customise
-particular parts of dotproject.</p>
+<p>Die Seite <strong>Benutzereinstellungen bearbeiten</strong> erlaubt es, bestimmte Bereiche in
+dotProject an die eigenen Bedürfnisse anzupassen.</p>
 
-<p>You acces this page by either selecting:</p>
+<p>Diese Seite erreicht man über folgende Wege:</p>
 
 <ul>
-  <li>the System Admin module link, then Default User Preferences; or</li>
+  <li>den Link 'Systemverwalter', dann Standard 'Standardeinstellungen für Benutzer'</li>
 
-  <li>the 'My Info' link in the top menu, then 'edit preferences' from the
-  breadcrumbs; or</li>
+  <li>den Link 'persönliche Informationen' im top menu, dann 'Einstellungen bearbeiten'
+  aus den Brotkrümeln</li>
 
-  <li>the User Admin module link, then selecting a login name to view the user
-  information, then 'edit preferences' from the breadcrumbs</li>
+  <li>den Link für das Modul 'Benutzerverwalter', dann wähle man den zu bearbeitenden Benutzernamen
+  und auf der folgenden Seite schließlich'Einstellungen bearbeiten' aus den Brotkrümeln</li>
 </ul>
 
-<p>You are able to configure settings for each individual user.&#160; You are
-also able to configure the 'default' system settings.&#160; These are the
-settings that will be in effect when a new user is created or a new preference
-is added to the core system.</p>
+<p>Für jeden Benutzer können individuelle Voreinstellungen vorgenommen werden (Weg 2 und 3 oben). Ausserdem besteht
+die Möglichkeit, systemweit Standardeinstellungen für Benutzer zu definieren, die immer dann gültig sind,
+wenn ein neuer Benutzer erstellt wurde und dessen individuellen Voreinstellungen noch nicht gesetzt
+wurden (Weg 1 oben).</p>
 
-<p><strong>Locale</strong>: This is the language setting that the user&#160;or
-system will present in the user interface.</p>
+<p><strong>Orts- &amp; Sprachanpassung</strong>: In dieser Sprache wird die Benutzeroberfläche
+für den einzelnen Benutzer oder das ganze System angezeigt.</p>
 
-<p><strong>Tabbed Box View</strong>:&#160; Tabbed boxes may be viewed in a
-'flat' configuration.&#160; This settings allows you&#160;the option or
-displaying the bread-crumbs to&#160;toggle between the flat and tabbed styles
-(select the value '<em>either</em>'), or you may select to have o&#173;nly
-'<em>tabbed</em>' or o&#173;nly '<em>flat</em>' views all of the time.</p>
+<p><strong>Tabellendarstellung</strong>: Die Tabellendarstellung kann sowohl in Form von
+(flachen) 'Tabellen', als auch in Form von 'Registerkarten' geschehen. Die Option 'beide(s)' bietet die
+Wahlmöglichkeit zwischen den Varianten noch zur Laufzeit über die Brotkrümel.</p>
 
-<p><strong>Short Date Format</strong>:&#160; This settings gives you a choice
-of short date formats that comprises the day number, the abbreviated month name
-and the year.</p>
+<p><strong>Datumkurzformat</strong>: Hier besteht die Möglichkeit zur Wahl zwischen verschiedenen
+Kurzformaten für das Datum mit Tag, Monat, Jahr.</p>
 
-<p><strong>Time Format</strong>:&#160; This setting gives you a choice of 12
-and 24 hour time formats.</p>
+<p><strong>Zeitformat</strong>: Hier hat man die Wahl unter 12- und 24-stündigen Zeitformaten.</p>
 
-<p><strong>User Interface Style</strong>:&#160; This setting allow you to
-configure which user interface style you wish to use.</p>
+<p><strong>Stil für Benutzeroberfläche</strong>: Hier kann man konfigurieren, in welchem Stil die
+Benutzeroberfläche dargestellt werden soll.</p>

@@ -1,35 +1,31 @@
-<!-- $Id: start.addcomp.hlp,v 1.2 2003/04/09 01:43:34 eddieajau Exp $ -->
-<h2>Adding a Company</h2>
+<!-- $Id: start.addcomp.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<h2>Eine Firma hinzufügen</h2>
 <style type="text/css">
 /*<![CDATA[*/
 strong.c1 {color: #0000ff}
 /*]]>*/
 </style>
 
-<p>The first thing you need to do is to add a company.&#160; A company may
-be&#160;one that&#160;you will be doing your work for (that is, your
-client) or it could be the company that you work for.&#160; All users are
-associated with a company as are all projects.</p>
+<p>Ein erster obligatorischer Schritt in dotProject ist es, eine Firma hinzu zu fügen. 
+Dies kann eine Firma vom Typ "Kunde" sein, für die man einen Auftrag erledigt, oder auch die Firma
+für die man selbst arbeitet. In dotProject werden sowohl alle Benutzer als auch alle Projekte mit einer
+Firma assoziiert.</p>
 
-<p>Log in as the Administrator with a username of <strong>admin</strong>
-and a password of <strong>passwd</strong> (this is the default password but
-we recommend that you change it).</p>
+<p>Man melde sich hierfür als Administrator (Systemverwalter) mit dem Benutzernamen <strong>admin</strong> 
+und dem Passwort <strong>passwd</strong> (Dies ist das voreingestellte Passwort für den Administrator - 
+es wird dringend empfohlen dieses zu ändern).</p>
 
-<p>Select <strong>Companies &amp; Clients</strong> from the left navigation
-menu. If this is a fresh install&#160;you will see that the results table
-is empty.</p>
+<p>Dann wähle man <strong>Firmen</strong> aus der Navigationsleiste. Sofern dies eine Erstinstallation ist, werden die angezeigten Tabellen leer sein.</p>
 
-<p>Click o&#173;n the <strong>new company</strong> button.&#160; You will
-be presented with an input form.&#160; As an example we'll call this
-company <strong class="c1">Xinul</strong>.&#160; Fill in some of the other
-fields with any sort of information. For the moment, leave the company
-owner as the admin user.</p>
+<p>Man klicke auf den Schalter <strong>neue Firma</strong>. Nun gilt es, das geöffnete Eingabeformular 
+mit entsprechenden Daten auszufüllen. Man nenne die Firma zum Beispiel <strong class="c1">Xinul</strong> 
+und fülle noch weitere Felder beliebig aus. Man beachte lediglich, dass der Administrator der Firmenbesitzer bleibt.</p>
 
-<p>Click o&#173;n&#160;the <strong>submit</strong> button at the bottom of
-the form.&#160; You will be taken back to the Company Index page where you
-started.&#160; There should now be o&#173;ne entry in the list.&#160; It
-will show that your new company has no active or archived projects.</p>
+<p>man klicke nun auf den Schalter <strong>abschicken</strong> unterhalb des Formulars. 
+Man wird nun (wie in dotProject üblich) zurück zu jener Seite geleitet, von der man die Aktion begonnen hatte. 
+Dort wird man nun einen Eintrag in der Liste sehen. Es wird angezeigt, dass mit der neuen Firma keine aktiven 
+oder archivierten Projekte assoziiert sind.</p>
 
-<p>Now create another company.&#160; As an example we'll call it <strong
+<p>Man erstelle nun ein weitere neue Firma zum Beispiel mit dem Namen <strong
 class="c1">Swodniw</strong>.
 </p>

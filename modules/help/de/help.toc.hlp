@@ -1,4 +1,4 @@
-<!-- $Id: help.toc.hlp,v 1.9 2003/05/29 06:24:58 eddieajau Exp $ -->
+<!-- $Id: help.toc.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
 <table cellspacing="2" cellpadding="4" border="0" class="tbl" width="100%">
 <tr>
 	<td width="50%" valign="top">
@@ -48,7 +48,7 @@
 			<br />
 			<br /><strong>Kontakte</strong>
 			<br /><a href="?m=help&dialog=1&hid=contacts.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=contacts.addedit">Kontakte hinzufügen, bearbeiten oder löschen</a>
+			<br /><a href="?m=help&dialog=1&hid=contacts.addedit">Kontakte hinzufügen/bearbeiten/löschen</a>
 			<br />
 			<br /><strong>Foren</strong>
 			<br /><a href="?m=help&dialog=1&hid=forums.index">Index</a>

@@ -1,69 +1,35 @@
-<!-- $Id: start.adduser.hlp,v 1.1 2003/04/09 01:43:34 eddieajau Exp $ -->
-<h2>Adding a User</h2>
+<!-- $Id: start.adduser.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<h2>Einen Benutzer hinzufügen</h2>
 
-<p>The next thing you may want to do is create a couple of users.&#160; Users
-can be given access to the whole of dotProject or be restricted to only certain
-parts.&#160; A fresh install of dotProject will provide you with one
-Administrator user.</p>
+<p>Der nächste sinnvolle Schritt könnte sein, einige weitere Benutzer hinzu zu fügen. Benutzer können das Recht erhalten auf vollen Zugang zu ganz dotProject oder auch nur auf teilweisen Zugang zu bestimmten Bereichen. Im Auslieferungszustand von dotProject existiert bereits der Systemverwalter als Benutzer.</p>
 
-<p>Click on the User Admin menu item. You should see one item there, that being
-the admin user you have logged in as.&#160; Click on the <strong>add
-user</strong> button.</p>
+<p>Man klicke in der Navigationsleiste auf 'Benutzerverwalter' (dieser link sollte vorhanden sein, vorausgesetzt man ist als Systemverwalter angemeldet). Man wähle nun <strong>Benutzer hinzufügen</strong>.</p>
 
-<p>You'll see a form to fill out for the user.&#160; Give the user a Login
-Name, a password (and repeat it in the password2 field).&#160; Fill in the
-user's real name.&#160; We'll user <strong class="c1">Linus Soft</strong> as an
-example.</p>
+<p>Nun wird ein Formular angezeigt, das mit den Daten des künftigen Benutzers ausgefüllt werden muss. Man vergebe dem Benutzer einen Benutzernamen, ein Passwort (wiederhole dies im Feld Passwort2). Man gebe ausserdem den echten Namen des Benutzers an, zum Beispiel <strong class="c1">Linus Soft</strong>.</p>
 
-<p>Assign the user to the Xinul Company by selecting it from the drop down
-list.&#160; You must assign a user to a company.&#160; Skip over the Department
-field and fill in an email (it is better to be a real one because a user can be
-notified of certain things in other module of dotProject).&#160; Fill in any of
-the other remaining fields at your leisure.</p>
+<p>Man ordne den Benutzer der Firma Xinul zu, indem man diese aus der Aufklappliste auswählt. Jeder Benutzer muss einer Firma zugeordnet sein. Man lasse das Feld für die Abteilung aus, gebe aber eine Emailadresse an (es empfiehlt sich, eine existierende gültige Emailadresse anzugeben, denn dann kann der Benutzer später über andere Module von dotProject benachrichtigt werden). Man fülle die verbleibenden Felder nach Lust und Laune aus.</p>
 
-<p>Click on the <strong>submit</strong> button when you are finished.</p>
+<p>Man klicke auf <strong>abschicken</strong>, wenn man fertig ist.</p>
 
-<p>This will take you back to the user list page.&#160; How come their is only
-the admin user?&#160; When you create a new user they have no rights to any
-module in dotProject.&#160; Therefore they are consider an
-<strong>In-Active</strong> user.</p>
+<p>Nun wird man zurück zu der Benutzerliste geleitet. Wieso ist da nur der Systemverwalter mit dem Namen 'admin'? Erstellt man einen neuen Benutzer, hat dieser noch keine Rechte für irgendein Modul. Deshalb wird ein neuer Benutzer zunächst als <strong>Inaktiv</strong> angesehen.</p>
 
-<p>Click on the <strong>In-Active Users</strong> tab.&#160; You should see the
-new user you just created.&#160; You can click on the login name link to view
-the user's profile but we want to get straight to giving this person some
-permissions.&#160; Click on the lock icon to the left of the login name.</p>
+<p>Man klicke auf <strong>Inaktive Benutzer</strong>, sofern die Registerkartenansicht aktiviert ist, ansonsten scrolle man zur entsprechenden Tabelle. Dort sollte man den neu erstellten Benutzer vorfinden. Man klicke auf dessen Benutzernamen, um das Benutzerprofil einsehen zu können. Wir beeilen uns nun allerdings dem Benutzer Rechte zu verleihen. Dazu klicke man auf das SchlossSymbol links des Benutzernamens in der Benutzerliste. Alternativ findet man das Rechtemodul auch im Benutzerprofil weiter unten auf der Seite als Tabelle oder Registerkarte.</p>
 
-<p>In the upper half of the screen you will see the information you entered
-about the user.&#160; In the bottom half of the screen you will see an area to
-edit the permissions for the user.</p>
+<p>In der oberen Hälfte des Bildschirms sieht man die bereits eingegebenen Informationen zu diesem Benutzer. In der unteren Hälfte den Bereich für die Rechteverteilung für diesen Benutzer.</p>
 
-<p>We'll be working mostly in the <strong>Add or Edit Permissions</strong> box
-on the right.<br />
-- Select a <strong>Module</strong> from the down down list (say,
-companies).<br />
-- Select a <strong>Level</strong> of <strong>read-write</strong> from the drop
-down list.<br />
-- Click on the <strong>add</strong> button.</p>
+<p>Wir werden hauptsächlich in der rechten Box <strong>Rechte ändern oder setzen</strong> arbeiten.<br />
+- Man wähle ein <strong>Modul</strong> aus der Liste (nehmen wir, companies).<br />
+- Man wähle eine <strong>Stufe</strong> für das Recht vom Typ <strong>read-write</strong> aus der Liste.<br />
+- Man klicke auf den Schalter <strong>hinzufügen</strong>.</p>
 
-<p>When the screen refreshes you that Linus Soft now has read-write permission
-to the companies module.&#160; Linus is a bit of a funny chap though.&#160; We
-don't want to give him access to the Swodniw company (for obvious
-reasons).&#160; To do this:<br />
-- Select a module of Companies.<br />
-- Click on the dialog button next to the item field (the one with the [...] in
-it).<br />
-- In the pop-up dialog box, click on the Swodniw item in the list.<br />
-- Click on the select button in the dialog box.&#160; You will see the Swodniw
-name appear in the Item box.<br />
-- Select a Level of deny.<br />
-- Click on the add button.</p>
+<p>Nach automatisch neu geladenem Bildschirm, sieht man, dass Linus Soft nun uneingeschränkten Zugang (read-write) zum Firmenmodul Companies hat. Linus ist ein kleiner Gauner. Wir wollen ihm also den Zutritt zur Firma Swodniw verwehren (aus gegebenen Gründen). Dazu ist folgendes notwendig:<br />
+- Man wähle das Modul Companies.<br />
+- Man klicke auf den Schalter [...] rechts neben dem Eintragfeld.<br />
+- Im aufgehenden Fenster wähle man Swodniw aus der Liste.<br />
+- Man klicke auf den Auswahlschalter in der Dialogbox. Nun erscheint Swodniw in dem Feld Eintrag.<br />
+- Man wähle die Rechtestufe 'deny'.<br />
+- Man klicke auf den Schalter 'hinzufügen'.</p>
 
-<p>When the screen refreshes you will see that Linus has read-write permissions
-to all companies&#160;but is denied access to the&#160;Swodniw company.<br />
+<p>Nachdem die Seite neu aufgebaut wurde, ist ersichtlich, dass Linus uneingeschränkten Zugang zum Firmenmodul hat, aber ihm der Zugang zur Firma Swodniw versagt bleibt.<br />
 </p>
-
-<p>Now, click on the <strong>user list</strong> bread-crumb in the title
-block.&#160; If the In-Active Users tab is showing (which it probably is;
-dotProject will generally remember where you were) you will see that Linus no
-longer appears in this list.&#160; Click on the Active Users tab.&#160; You
-should see that Linus now appears in this list.</p>
+<p>Man klicke nun auf <strong>Benutzerliste</strong> aus den Brotkrümeln im Titelblock. Sollte die Registerkarte Inaktive Benutzer angezeigt werden (dotProject merkt sich normalerweise, wo man sich vor einer Aktion befand), stellt man fest, dass Linus nicht mehr dieser Liste angehört. Klickt man auf Aktive Benutzer, findet man dort unter anderem Linus.</p>

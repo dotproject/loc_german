@@ -1,4 +1,4 @@
-<!-- $Id: contacts.addedit.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<!-- $Id: contacts.addedit.hlp,v 1.3 2003/06/17 18:46:30 gregorerhardt Exp $ -->
 <h2>Einen Kontakteintrag hinzufügen, bearbeiten oder löschen</h2>
 
 <h3>Einen neuen Kontakt hinzufügen</h3>
@@ -12,7 +12,7 @@
 <ul>
 <li>Vorname, Nachname und anzuzeigender Name</li>
 	<li>Firma, Titel, und Typ</li>
-	<li>Addresse1, Addresse2, Stadt, Staat, PLZ</li>
+	<li>Adresse1, Adresse2, Stadt, Staat, PLZ</li>
 	<li>Telefon1, Telefon2, Mobiltelefon</li>
 	<li>Email1, Email2, ICQ</li>
 	<li>Geburtstag</li>

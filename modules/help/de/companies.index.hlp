@@ -1,5 +1,6 @@
-<!-- $Id: companies.index.hlp,v 1.2 2003/05/06 12:17:58 eddieajau Exp $ -->
-<h2>Companies Index Page</h2>
-<p>This page shows you a list of the companies that have been defined.  The number of project associated with the a company and the type of company is also shown.</p>
-<p>Click on the Company Name to view more information about the company.</p>
-<p>Click on the "<strong>new company</strong>" button to add a new company to your database.</p>
+<!-- $Id: companies.index.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<h2>Firmen Index Seite</h2>
+<p>Diese Seite zeigt eine Liste bereits definierter Firmen, die Anzahl der assoziierten Projekte
+und den Firmentyp.</p>
+<p>Man klicke auf den Firmennamen, um detaillierte Informationen über eine Firma zu erhalten.</p>
+<p>Man klicke auf "<strong>neue Firma</strong>", um der Datenbank eine neue Firma hinzu zu fügen.</p>
