@@ -44,7 +44,36 @@
 		<br /><b>session.save_path = "d:/apache/php/sessiontemp"</b> (Windows-Stil)
 		<br />Man überprüfe die Existenz dieses obligatorischen Verzeichnisses.
 	</li>
+	<li>
+		<b>file_uploads = on</b>
+		<br />Mit 'on' wird das Dateihochladen erlaubt. Außerdem muss die Dateiablage für hochgeladene Dateien die entsprechenden Rechteeinstellungen besitzen. Die maximal erlaubte Größe für hochzuladende Dateien (Maximum upload size) kann ebenfalls in der <b>php.ini</b> konfiguriert werden.
+	</li>
 </ol>
+
+<h2>Maximale Dateigröße für Hochladeprozesse [Einstellungen in der php.ini]</h2>
+Maximale Dateigröße für Hochladeprozesse ist abhängig von:<br />
+<ol>
+	<li>
+		<b>der Serverkonfiguration</b>
+	</li>
+	<li>
+		<b>der Bandbreite der Anbindungy</b>
+	</li>
+</ol>
+In den meisten Fällen erhält man die Möglichkeit, GROSSE (>8 MB) Dateien hochzuladen, indem man die <code>php.ini</code> entsprechend modifiziert. Die Änderungen können jedoch auch darüber hinaus gehen, einfach nur die PHPKonfigurationsvariable <code>upload_max_filesize</code> zu modifizieren.<br />
+<br />
+Nachfolgend stehen einige Beispiele für Änderungen in der <code>php.ini</code>, um eine Datei mit 11MB+ Größe hochzuladen:<br />
+<br />
+<pre>
+	<code>upload_max_filesize = 20M </code>; STANDARD ist 2M 
+	<code>max_execution_time = 300 </code>; STANDARD ist 30 [sec] 
+	<code>post_max_size = 12M </code>; STANDARD ist 8M 
+</pre>
+Mancher möchte vielleicht auch die Größe des Speichers (<code>memory_limit</code> Resource Limit) verändern. Dies sollte allerdings bei guter Bandbreite kein Thema sein.<br />
+<br />
+Um einen 3MB-Hochladeprozess mit der eigenen LAN-Umgebung zu ermöglichen, reicht es aus, die Variable <code>upload_max_filesize</code> zu modifizieren. Allerdings können Dateihochladeprozesse fehlschlagen, weil das ausgeführte Skript zu lange läuft (<code>max_execution_time</code>), wenn etwa die Netzwerkverbindung zwischen Client und Server langsam ist (z.B. bei Einwahlverbindungen).<br />
+<br />
+Um Änderungen an der PHP-Konfiguration in <code>php.ini</code> wirksam zu machen, muss der (Apache-)Webserver neu gestartet werden.<br /><br /> 
 
 <h2>PHP</h2>
 <ol>

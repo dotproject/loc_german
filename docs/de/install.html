@@ -99,7 +99,8 @@
 		<li>Es ist sehr wichtig, dass die Konfigurationsvariable $root_dir in <code>"includes/config.php"</code>korrekt gesetzt ist. $root_dir muss den vollen Pfad zu der Realisierung der dotProject-Installation und deren Verzeichnisnamen enthalten.
 		<pre>
         $root_dir = "/var/www/html/dotproject";     // Beispiel 1
-        $root_dir = "/wwwroot/dotproject";          // Beispiel 2</pre>
+        $root_dir = "/wwwroot/dotproject";          // Beispiel 2
+        $dPconfig['root_dir'] = "C:/apache/htdocs/dotproject";  // No trailing slash - kein abschließender Schrägstrich</pre>
 		</li>
 
 		<li><p>Rechte des Dateiordners</p>
@@ -129,6 +130,8 @@ Warning: Cannot add header information - headers already sent by (output
 		</pre>
 		<p>Trotz dieser (das Dateisystem betreffende) Fehlermeldungen, ist es möglich, dass die Datenbankeinträge ordnungsgemäß ausgeführt werden. Dennoch wird der Inhalt der hochgeladenen Dateien vielleicht nicht dem Original entsprechen bzw. leer sein. Stattdessen enthalten die "Dateien" Fehlermeldungen, die bei der Problemlösung behilflich sein können.</p>
 		<p>Ändert sich der Verzeichnisinhalt beim Hochladen von Dateien nicht, während jedoch korrekte Datenbankeinträge hinzugefügt werden, ist das ein Indiz für einen inkorrekten Pfad in der Konfigurationsvariable <code>$root_dir</code>.
+		<p>Man stelle sicher, dass in der PHPKonfigurationsdatei <code>php.ini</code> das Hochladen von Dateien allgemein erlaubt ist, indem die Konfigurationsvariable <code>file_uploads = on</code> entsprechend gesetzt ist.</p>
+		<p>Man möchte vielleicht die <b>maximale Dateigröße für Hochladevorgänge</b> über die Standardgröße der Datei <code>php.ini</code> setzen. Wie man dies erreicht, wird in der Seite "Problembehandlung" in dieser Dokumentation beschrieben.</p>
 		</li>
 
 		<li><p>Verbesserung der Sicherheit</p>

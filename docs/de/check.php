@@ -1,4 +1,4 @@
-<?php /* $Id: check.php,v 1.3 2003/05/28 04:31:57 eddieajau Exp $ */ ?> 
+<?php /* $Id: check.php,v 1.1 2003/07/11 13:11:03 gregorerhardt Exp $ */ ?> 
 <html> 
 <head> 
 	<title>dotProject Roadmap</title> 
@@ -74,18 +74,22 @@ $sid = intval( get_cfg_var( 'session.use_trans_sid' ) );
 $msg = $sid ? "<td class=warning>Bei eingeschalteter Funktion besteht Sicherheitsrisiko!</td>" : "<td>OK</td>"; 
 echo "<tr><td>session.use_trans_sid</td><td>$sid</td>$msg</tr>"; 
  
+$fup = get_cfg_var( 'file_uploads' );
+$msg = $fup ? "<td>OK</td>" : "<td class=warning>Hochladen von Dateien nicht möglich</td>";
+echo "<tr><td>Dateien hochladen</td><td>$fup</td>$msg</tr>";
+
 $iw = is_writable( "{$dPconfig['root_dir']}/locales/en" ); 
 $msg = $iw ? '<td>OK</td>' : '<td class=warning>Warnung: Übersetzungdateien können nicht gespeichert werden. Zugriffsrechte für Verzeichnisstruktur überprüfen.</td>'; 
-echo "<tr><td>Schreibrechte für /locales/en Verzeichnis </td><td>$iw</td>$msg</tr>"; 
+echo "<tr><td>Schreibrechte für locales/en/ Verzeichnis </td><td>$iw</td>$msg</tr>"; 
 
 $iw = is_writable( "{$dPconfig['root_dir']}/locales/de" );
 $msg = $iw ? '<td>OK</td>' : '<td class=warning>Warnung: Übersetzungdateien können nicht gespeichert werden. Zugriffsrechte für Verzeichnisstruktur überprüfen.</td>';
-echo "<tr><td>Schreibrechte für /locales/de Verzeichnis </td><td>$iw</td>$msg</tr>";
+echo "<tr><td>Schreibrechte für locales/de/ Verzeichnis </td><td>$iw</td>$msg</tr>";
  
 $iw = is_writable( "{$dPconfig['root_dir']}/files" ); 
 $msg = $iw ? '<td>OK</td>' : '<td class=warning>Warnung: Es können keine Dateien hochgeladen werden. Zugriffsrechte für Verzeichnisstruktur überprüfen.</td>'; 
  
-echo "<tr><td>Schreibrechte für /files Verzeichnis</td><td>$iw</td>$msg</tr>"; 
+echo "<tr><td>Schreibrechte für files/ Verzeichnis</td><td>$iw</td>$msg</tr>"; 
  
 $iw = is_writable( "{$dPconfig['root_dir']}/files/temp" ); 
 $msg = $iw ? '<td>OK</td>' : '<td class=warning>Warnung: Es können keine PDF\'s erstellt werden. Zugriffsrechte für Verzeichnisstruktur überprüfen.</td>'; 
