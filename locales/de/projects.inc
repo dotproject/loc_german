@@ -66,6 +66,7 @@
 "new project"=>"neues Projekt",
 "new task"=>"neue Aufgabe",
 "noCompanies"=>"Bitte zuerst eine Firma erstellen.",
+"noDeleteRecord"=>"Löschung nicht möglich! Abhängigkeit(en)",
 "projects list"=>"Projektliste",
 "projectsBadCompany"=>"Bitte eine Firma auswählen.",
 "projectsBadEndDate1"=>"Das Datum des Projektendes muss nach dem Datum des Projektbeginns liegen",
