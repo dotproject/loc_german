@@ -52,6 +52,7 @@
 "Priority"=>"Priorität",
 "Processing"=>"Laufend(e)",
 "Processing Tickets"=>"Laufende Fehlerkarten",
+"Report as PDF"=>"PDF-Bericht",
 "Return to parent"=>"Zur Elternkarte zurück",
 "Return to ticket list"=>"Zurück zur Kartenliste",
 "Search"=>"Suchen",

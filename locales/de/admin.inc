@@ -91,7 +91,7 @@
 "deny"=>"verbieten",
 "edit"=>"bearbeiten",
 "edit preferences"=>"die Einstellungen bearbeiten",
-"edit this user"=>"diesen Benutzer bearbeiten.",
+"edit this user"=>"Benutzer bearbeiten",
 "full access to module"=>"uneingeschränkter Zugang zum Modul",
 "hrs."=>"Std.",
 "idle"=>"idle",
