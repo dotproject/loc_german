@@ -7,7 +7,7 @@
 "Edit Contact"=>"Kontakt bearbeiten",
 "Reset search"=>"Suche zurücksetzen",
 "Search for"=>"Suche nach",
-"contacts list"=>"Kontaktliste",
+"contacts list"=>"Kontakteliste",
 "contactsDelete"=>"Soll dieser Kontakt wirklich gelöscht werden?",
 "contactsOrderBy"=>"Bitte ein Ordnungskriterium eingeben",
 "contactsValidName"=>"Bitte einen gültigen Kontaktnamen eingeben.",
