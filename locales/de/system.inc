@@ -20,6 +20,7 @@
 "Module installed"=>"Modul installiert",
 "Module menu state changed"=>"Menüstatus für dieses Modul geändert",
 "Module removed"=>"Modul entfernt",
+"Module re-ordered"=>"Module neu angeordnet",
 "Module setup file could not be found"=>"Installationsdatei für dieses Modul konnte nicht gefunden werden",
 "Module state changed"=>"Modulstatus geändert",
 "Preferences"=>"Einstellungen",
