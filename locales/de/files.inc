@@ -1,15 +1,18 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"All Projects"=>"Alle Projekte",
 "Add File"=>"Datei hinzufügen",
+"All Projects"=>"Alle Projekte",
 "Are you sure you want to cancel?"=>"Soll dieser Vorgang wirklich abgebrochen werden?",
 "Date"=>"Datum",
 "Edit File"=>"Datei bearbeiten",
 "File Name"=>"Dateiname",
 "File could not be written"=>"Datei konnte nicht gespeichert werden",
+"File(s)"=>"Datei(en)",
 "Filter"=>"Filter",
 "New File"=>"Neue Datei",
+"Page(s)"=>"Seite(n)",
+"Please select a project first!"=>"Bitte zuerst ein Projekt wählen!",
 "Size"=>"Größe",
 "Type"=>"Typ",
 "Upload File"=>"Datei hochladen",

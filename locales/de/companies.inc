@@ -2,7 +2,9 @@
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
 "Add Company"=>"Firma hinzufügen",
+"All Companies"=>"Alle Firmen",
 "Budget"=>"Budget",
+"Clients"=>"Kunden",
 "Company Name"=>"Firmenname",
 "Company Owner"=>"Firmenbesitzer",
 "Edit Company"=>"Firma bearbeiten",
@@ -10,6 +12,7 @@
 "No companies available"=>"Keine Firmen verfügbar",
 "Started"=>"Beginn",
 "Status"=>"Status",
+"Suppliers"=>"Zulieferer",
 "View Company"=>"Firma ansehen",
 "cdepartment::store-check failed"=>"Abteilung: Konnte nicht gespeichert werden.",
 "companies list"=>"Firmenliste",
@@ -17,8 +20,8 @@
 "companyDelete"=>"Soll diese Firma wirklich gelöscht werden?",
 "companyValidName"=>"Bitte einen gültigen Firmennamen eingeben",
 "delete company"=>"Firma löschen",
-"edit this company"=>"diese Firma bearbeiten",
 "e-mail"=>"E-Mail",
+"edit this company"=>"diese Firma bearbeiten",
 "inserted"=>"hinzugefügt",
 "new company"=>"Neue Firma",
 "new contact"=>"neuer Kontakt",
