@@ -10,6 +10,7 @@
 "Started"=>"Beginn",
 "Status"=>"Status",
 "View Company"=>"Firma ansehen",
+"cdepartment::store-check failed"=>"Abteilung: Konnte nicht gespeichert werden.",
 "companies list"=>"Firmenliste",
 "company list"=>"Firmenliste",
 "companyDelete"=>"Soll diese Firma wirklich gelöscht werden?",
