@@ -10,7 +10,7 @@
 "Category"=>"Kategorie",
 "Checking in"=>"Einchecken",
 "Checkout"=>"Auschecken (co)",
-"Checkout Reason"=>"Auscheck(co)-Grund",
+"Checkout Reason"=>"co-Grund",
 "Date"=>"Datum",
 "Document"=>"Dokument",
 "Edit File"=>"Datei bearbeiten",
