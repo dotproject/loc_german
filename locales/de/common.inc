@@ -1,6 +1,8 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
+"% of work done (based on duration)"=>"Arbeitsfortschritt (Dauer) [%]",
+"User Efficiency (based on completed tasks)"=>"Mitarbeiter-Effizienz (# abgeschlossene Aufgaben) [%]",
 "(no start date)"=>"(kein Startdatum)",
 "(no end date)"=>"kein Enddatum",
 "- New Item -"=>"- Neu -",
