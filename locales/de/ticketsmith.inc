@@ -1,0 +1,22 @@
+##
+## DO NOT MODIFY THIS FILE BY HAND!
+##
+"All Tickets"=>"Alle Tickets",
+"Assigned to"=>"Zugeteilt zu",
+"Assigned to Me"=>"Mir zugeteilt",
+"Author"=>"Autor",
+"Closed"=>"Geschlossen",
+"Date"=>"Datum",
+"Deleted"=>"Geloescht",
+"Followup"=>"",
+"Open"=>"Offen",
+"Open Tickets"=>"Offene Tickets",
+"Priority"=>"Prioritaet",
+"Processing"=>"Laufende",
+"Search"=>"Suche",
+"Back to top"=>"Zum Seitenanfang",
+"Status"=>"Status",
+"Subject"=>"Betreff",
+"Trouble Ticket Management"=>"Fehlerkarten-Verwaltung",
+"View"=>"Ansehen",
+"new ticket"=>"neues Ticket",

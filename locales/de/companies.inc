@@ -1,0 +1,20 @@
+##
+## DO NOT MODIFY THIS FILE BY HAND!
+##
+"Add Company"=>"Firma hinzufuegen",
+"Budget"=>"Budget",
+"Company Name"=>"Firmenname",
+"Company Owner"=>"Firmenbesitzer",
+"Edit Company"=>"Firma bearbeiten",
+"Invalid Company ID"=>"Ungueltige Firmen-ID",
+"Started"=>"",
+"Status"=>"Status",
+"View Company"=>"Firma ansehen",
+"companies list"=>"Firmenliste",
+"company list"=>"Firmenliste",
+"companyDelete"=>"Soll diese Firma wirklich geloescht werden?",
+"companyValidName"=>"Bitte einen gueltigen Firmennamen eingeben",
+"delete company"=>"Firma loeschen",
+"edit this company"=>"diese Firma bearbeiten",
+"new company"=>"Neue Firma",
+"view this company"=>"diese Firma ansehen",
