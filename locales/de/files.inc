@@ -8,7 +8,6 @@
 "File Name"=>"Dateiname",
 "File could not be written"=>"Datei konnte nicht gespeichert werden",
 "New File"=>"Neue Datei",
-"new file"=>"Neue Datei",
 "Size"=>"Größe",
 "Type"=>"Typ",
 "Upload File"=>"Datei hochladen",
@@ -20,4 +19,5 @@
 "fileIdError"=>"Der Funktion wurde ein falsches Dateihandle übergeben",
 "files list"=>"Dateiliste",
 "filesDelete"=>"Soll diese Datei wirklich gelöscht werden?",
+"new file"=>"Neue Datei",
 "select task"=>"Aufgabe auswählen",

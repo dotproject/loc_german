@@ -9,6 +9,7 @@
 "badCompany"=>"Diese Firma ist ungültig. Es kann deshalb keine Abteilung hinzugefügt werden.",
 "delDept"=>"Soll diese Abteilung wirklich gelöscht werden?",
 "deptIndexPage"=>"Bitte die Abteilung über eine Firma ansehen",
+"deptValidName"=>"Bitte einen gültigen Namen für diese Abteilung eingeben",
 "deptWithProject"=>"Eine mit Projekten assoziierte Abteilung kann nicht gelöscht werden.",
 "deptWithSub"=>"Eine Abteilung mit Unterabteilungen kann nicht gelöscht werden.",
 "edit this department"=>"diese Abteilung bearbeiten",

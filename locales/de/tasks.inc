@@ -1,7 +1,6 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 #
-"none"=>"Keine",
 "Access"=>"Zugang",
 "Action"=>"Aktion",
 "Active"=>"Aktiv",
@@ -68,7 +67,7 @@
 "badTaskProject"=>"Die Aufgabe kann nicht erstellt werden. Angabe des zugehörigen Projekts fehlt..",
 "days"=>"Tage",
 "delete task"=>"Aufgabe löschen",
-"Due In"=>"fällig in",
+"due In"=>"fällig in",
 "duration"=>"Dauer",
 "edit this task"=>"diese Aufgabe bearbeiten",
 "finish date"=>"Enddatum",
@@ -79,6 +78,7 @@
 "mark as finished"=>"als abgeschlossen markieren",
 "my todo"=>"meine anstehenden Aufgaben",
 "new task"=>"neue Aufgabe",
+"none"=>"Keine",
 "normal"=>"normal",
 "notifyChange"=>"Der Aufgabe zugeteilte Benutzer via Email benachrichtigen",
 "see gantt chart"=>"Verlaufsdiagramm ansehen",
