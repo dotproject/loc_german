@@ -4,6 +4,7 @@
 "none"=>"Kein",
 "Action"=>"Aktion",
 "Active"=>"Aktiv",
+"Add Log"=>"Logeintrag",
 "Add Task"=>"Aufgabe hinzufügen",
 "All Tasks"=>"Alle Aufgaben",
 "All Tasks for my Company"=>"Alle Aufgaben für meine Firma",
