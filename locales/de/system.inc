@@ -250,7 +250,7 @@
 "session_gc_scan_queue_title"=>"Überprüfe Ereignisschlange bei Session-Garbage Collection?",
 "session_gc_scan_queue_tooltip"=>"Bei Benutzung der Mailwarteschlange oder anderer Ereigniswarteschlangen veranlasst der garbage collector der Session, die Warteschlange abzuarbeiten.",
 "session_group_title"=>"Sessionbezogene Einstellungen",
-"session_handling_title"=>"Sessionmetihode (Handler)",
+"session_handling_title"=>"Sessionmethode (Handler)",
 "session_handling_tooltip"=>"\'php\' für traditionelle PHP Sessionverwaltung oder \'app\' für dotProjectEigene Verwaltung via Datenbank für verlängerte und schlankere Sessions",
 "session_idle_time_title"=>"Session IDLE",
 "session_idle_time_tooltip"=>"Die max. Zeit, für welche die Session inaktiv sein darf, bevor sie für tot erklärt wird. Werte in Sekunden angeben, falls nicht einer der Buchstaben h (std.), d (tage), m (monate), y (jahre) angegeben wird. Nur genau ein Buchstabe kann verwendet werden. (2d4h ist ungültig; 28h funktioniert)",
