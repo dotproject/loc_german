@@ -64,6 +64,7 @@
 "Task Logs"=>"Aufgabenprotokollierung",
 "Task Name"=>"Aufgabenname",
 "Task Parent"=>"Übergeordnete Aufgabe",
+"Task added"=>"Aufgabe hinzugefügt",
 "To"=>"Bis",
 "Time Worked"=>"Arbeitszeitinvestition",
 "Total Hours"=>"Gesamtstunden",
