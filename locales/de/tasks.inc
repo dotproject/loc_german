@@ -42,6 +42,7 @@
 "New Log"=>"Neuer Eintrag",
 "Overdue"=>"Überfällig",
 "P"=>"P",
+"Parent Task"=>"Übergeordnete Aufgabe",
 "Priority"=>"Priorität",
 "Progress"=>"Fortschritt",
 "Project Tasks"=>"Projektaufgaben",
