@@ -1,73 +1,28 @@
-<!-- $Id: help.toc.hlp,v 1.6 2003/06/26 13:33:23 gregorerhardt Exp $ -->
+<!-- $Id: help.toc.hlp,v 1.11 2003/07/01 04:16:58 kobudo Exp $ -->
 <table cellspacing="2" cellpadding="4" border="0" class="tbl" width="100%">
 <tr>
-	<td width="50%" valign="top">
+	<td width="100%" valign="top">
 		<p>
-			<strong>dotProject 1.0</strong>
+			<strong>dotProject Online Hilfe</strong>
 			<br />
-			<br /><a href="?m=help&dialog=1&hid=overview.about">Über dotProject</a>
-			<br /><a href="?m=help&dialog=1&hid=overview.license">Lizenzierung</a>
-			<br /><a href="?m=help&dialog=1&hid=overview.features">Funktionen</a>
-			<br /><a href="?m=help&dialog=1&hid=overview.whatsnew">Neues</a>
-			<br /><a href="?m=help&dialog=1&hid=overview.usermods">Erweiterungsmodule</a>
-		</p>
-		<p>
-			<strong>Installation</strong>
+			<br />Wir haben folgende Kanäle im Internet für die Hilfe rund um dotProject eingerichtet. Diese Kanäle sind keine Einbahnstraße.
+			Sie leben davon, dass BenutzerInnen sich gegenseitig helfen.
 			<br />
-			<br /><a href="?m=help&dialog=1&hid=install.upgrade">Aktualisieren</a>
-			<br /><a href="?m=help&dialog=1&hid=install.system">Systemvoraussetzungen</a>
-			<br /><a href="?m=help&dialog=1&hid=install.install">DotProject installieren</a>
-			<br /><a href="?m=help&dialog=1&hid=install.configure">DotProject konfigurieren</a>
-		</p>
-		<p>
-			<strong>Allgemeines</strong>
+			<br />In der <a href="http://sites.sakienvirotech.com/dp_docs/tiki/tiki-index.php?page=Introduction" target="_blank">dotProject Online Dokumentation</a>
+			finden sich Informationen zur Funktionsweise von dotProject.
 			<br />
-			<br /><a href="?m=help&dialog=1&hid=general.topmenu">Hauptmenü</a>
-			<br /><a href="?m=help&dialog=1&hid=general.leftnav">Navigationsleiste</a>
-			<br /><a href="?m=help&dialog=1&hid=general.help">Hilfe erhalten</a>
-			<br /><a href="?m=help&dialog=1&hid=general.saveplace">Arbeitsplatz sichern</a>
-			<br /><a href="?m=help&dialog=1&hid=general.breadcrumbs">"Brotkrümel"</a>
-			<br /><a href="?m=help&dialog=1&hid=general.tabbox">Registerkarten</a>
-		</p>
-		<p>
-			<strong>Erste Schritte</strong>
+			<br />Bekannte Probleme und vorgeschlagene Verbesserungen/Erweiterungen können auf der Seite
+			<a href="http://www.dotproject.net/mantis/main_page.php" target="_blank">dotProject Bugs&Suggestions</a> angesehen und eingegeben werden.
 			<br />
-			<br /><a href="?m=help&dialog=1&hid=start.overview">Übersicht</a>
-			<br /><a href="?m=help&dialog=1&hid=start.addcomp">Eine Firma hinzufügen</a>
-			<br /><a href="?m=help&dialog=1&hid=start.adduser">Einen Benutzer hinzufügen</a>
-		</p>
-	</td>
-	<td width="50%" valign="top">
-		<p>
-			<strong>Kontexthilfe</strong>
+			<br />Persönliche Assistenz kann in einem der
+			<a href="http://www.dotproject.net/modules.php?op=modload&name=PNphpBB2&file=index" target="_blank">dotProject Support Foren</a> gefunden werden.
+			Dort werden relevante Themen ausgiebig diskutiert.
 			<br />
-			<br /><strong>Firmen</strong>
-			<br /><a href="?m=help&dialog=1&hid=companies.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=companies.view">Ansicht</a>
-			<br /><a href="?m=help&dialog=1&hid=companies.addedit">Hinzufügen/Bearbeiten</a>
+			<br />Professionnelle Unterstützung rund um dotProject findet man über unsere
+			<a href="http://www.dotproject.net/modules.php?op=modload&name=Web_Links&file=index&req=viewlink&cid=4" target="_blank">Linksammlung zum Commercial Support</a>.
 			<br />
-			<br /><strong>Kontakte</strong>
-			<br /><a href="?m=help&dialog=1&hid=contacts.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=contacts.addedit">Hinzufügen/Bearbeiten/Löschen</a>
-			<br />
-			<br /><strong>Foren</strong>
-			<br /><a href="?m=help&dialog=1&hid=forums.index">Index</a>
-			<br />
-			<br /><strong>Projekte</strong>
-			<br /><a href="?m=help&dialog=1&hid=projects.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=projects.view">Ansicht</a>
-			<br /><a href="?m=help&dialog=1&hid=projects.addedit">Hinzufügen/Bearbeiten</a>
-			<br />
-			<br /><strong>Aufgaben</strong>
-			<br /><a href="?m=help&dialog=1&hid=tasks.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=tasks.view">Ansicht</a>
-			<br /><a href="?m=help&dialog=1&hid=tasks.addedit">Hinzufügen/Bearbeiten</a>
-			<br /><a href="?m=help&dialog=1&hid=tasks.todo">Anstehende Aufgaben</a>
-			<br />
-			<br /><strong>Systemverwaltung</strong>
-			<br /><a href="?m=help&dialog=1&hid=system.index">Index-Seite</a>
-			<br /><a href="?m=help&dialog=1&hid=system.addeditpref">Benutzereinstellungen</a>
-			<br />
+			<br />Ist bei der Suche nach Unterstützung der Wunsch nach direkter, zeitnaher Kommunikation aufgetreten,
+			versuche man sein Glück im dotProject IRC Chat Kanal #dotproject auf irc.freenode.net.
 		</p>
 	</td>
 </tr>
