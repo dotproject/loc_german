@@ -67,6 +67,7 @@
 "Messages"=>"Nachrichten",
 "Mobile Phone"=>"Mobiltelefon",
 "Modules"=>"Module",
+"Mon"=>"Mo",
 "My"=>"Mein(e)",
 "My Info"=>"persönliche Informationen",
 "Name"=>"Name",

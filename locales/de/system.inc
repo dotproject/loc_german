@@ -6,7 +6,7 @@
 "Are you sure you want to delete this?"=>"Dieses Objekt wirklich löschen?",
 "Are you sure?"=>"Diesen Vorgang wirklich durchführen?",
 "Billing Code"=>"Rechnungsnummern",
-"Billing Code Table"=>"Rehcnungsnummerntabelle",
+"Billing Code Table"=>"Rechnungsnummerntabelle",
 "Could not open locales file to save."=>"Die Lokalisierungsdatei konnte nicht für Speichervorgang geöffnet werden.",
 "Currency Format"=>"Währungsformat",
 "Custom Field Editor"=>"Bearbeite eigene Felder",

@@ -123,7 +123,7 @@
 "delete project"=>"Projekt löschen",
 "edit this project"=>"dieses Projekt bearbeiten",
 "inserted"=>"hinzugefügt",
-"move/copy tasks"=>"aufgaben verschieben/kopieren",
+"move/copy tasks"=>"Aufgaben verschieben/kopieren",
 "new file"=>"Neue Datei",
 "new project"=>"neues Projekt",
 "new task"=>"neue Aufgabe",
