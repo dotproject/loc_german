@@ -1,7 +1,6 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"Access"=>"Zugang",
 "Action"=>"Aktion",
 "Active"=>"Aktiv",
 "Add Log"=>"Logeintrag",

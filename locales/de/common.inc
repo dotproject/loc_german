@@ -182,6 +182,7 @@
 "add"=>"hinzufügen",
 "added"=>"hinzugefügt",
 "allow"=>"erlauben",
+"application"=>"Applikation",
 "back"=>"zurück",
 "cancel"=>"verwerfen",
 "chgpwNoMatch"=>"Die beiden Eingaben für das neue Passwort sind nicht identisch",
