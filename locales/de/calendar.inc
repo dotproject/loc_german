@@ -33,6 +33,7 @@
 "day view"=>"Tagesansicht",
 "delete event"=>"Ereignis löschen",
 "deleteEvent"=>"Soll dieses Ereignis wirklich gelöscht werden?",
+"eventDelete"=>"Soll dieses Ereignis wirklich gelöscht werden?",
 "edit this event"=>"dieses Ereignis bearbeiten",
 "in advance"=>"fortschreitend",
 "mark as finished"=>"als abgeschlossen markieren",
