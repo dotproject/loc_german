@@ -40,6 +40,7 @@
 "Overdue"=>"überfällig",
 "P"=>"P",
 "Parent Task"=>"Übergeordnete Aufgabe",
+"Please enter a valid event title"=>"Bitte einen gültigen Ereignistitel eingeben",
 "Progress"=>"Fortschritt",
 "Quarterly"=>"Vierteljährlich",
 "Recurs"=>"Wiederkehr",
