@@ -1,57 +1,42 @@
-<!-- $Id: contacts.addedit.hlp,v 1.1 2003/03/16 06:07:14 kobudo Exp $ -->
-<h2>Add, Edit or Delete Contacts</h2>
+<!-- $Id: contacts.addedit.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<h2>Einen Kontakteintrag hinzufügen, bearbeiten oder löschen</h2>
 
-<h3>Adding a New Contact</h3>
+<h3>Einen neuen Kontakt hinzufügen</h3>
 
-<p>You can <strong>Add</strong> a new contact by clicking on the <strong>New Contact</strong> button that is 
-presented on the <strong>main contacts</strong> page, as well as on any of the <strong>contacts entry</strong> 
-subpages.</p>
+<p>Das <strong>Hinzufügen</strong> geschieht durch Klick auf <strong>neuer Kontakt</strong>, der sich auf der <strong>Kontakte</strong> Hauptseite befindet.</p>
 
-<p>Once you click the <strong>New Contact</strong> button, you will be on redirected to a <strong>New Contact 
-Form</strong>. If you decide to exit this form without completing a <strong>new contact</strong>, you can click
-the <strong>contact listings</strong> hyperlink to return to the main contacts page.</p>
+<p>Nach dem Klick auf den <strong>neuer Kontakt</strong> Schalter, wird man zu einem <strong>Kontakt hinzufügen</strong> Formular weitergeleitet. Ein Klick auf <strong>zurück</strong> oder <strong>Kontaktliste</strong>, mit dem man zur Kontakte Hauptseite gelangt, bricht die Aktion ab und die eingegebenen Daten gehen verloren.</p>
 
-<p>Using the <strong>New Contact Form</strong> you can populate your record with the following information:</p>
+<p>Mit dem <strong>Kontakt hinzufügen Formular</strong> können folgende Informationen gespeichert werden:</p>
 
 <ul>
-	<li>First Name, Last Name, and Display Name</li>
-	<li>Private Entry</li>
-	<li>Company, Title, and Type</li>
-	<li>Address 1, Address 2, City, State, Zip</li>
-	<li>Phone 1, Phone 2, Mobile Phone</li>
-	<li>Email 1, Email 2, ICQ</li>
-	<li>Birthday</li>
-	<li>Contact Notes</li>
+<li>Vorname, Nachname und anzuzeigender Name</li>
+	<li>Firma, Titel, und Typ</li>
+	<li>Addresse1, Addresse2, Stadt, Staat, PLZ</li>
+	<li>Telefon1, Telefon2, Mobiltelefon</li>
+	<li>Email1, Email2, ICQ</li>
+	<li>Geburtstag</li>
+	<li>Kontaktnotizen</li>
 </ul>
 
-<p>The only <strong>required</strong> field for a <strong>contact listing</strong> is the <strong>Last Name</strong>
-field. However, the required field validation is only performed by client-side JavaScript, and is not incorporated into the 
-underlying database model.</p>
+<p>Das einzige Feld, <strong>das ausgefüllt werden muss</strong>, ist das <strong>Nachname</strong>
+Feld. Allerdings geschieht die Gültigkeitsüberprüfung für notwendige Felder auf der Client-Seite durch JavaScript, und nicht auf dem darunterliegenden Datenbankmodell.</p>
 
-<p>There is no validation logic for either of the <strong>Email</strong> address fields.</p>
+<p>Die Gültigkeit einer <strong>Emailadresse</strong> wird ebenfalls nicht überprüft.</p>
 
-<p>Furthermore, even though the <strong>Birthday</strong> field requests the date be supplied in <strong>(yyyy-mm-dd)
-</strong> format, there is no validation [either client-side or server-side] to insure this data was entered correctly.</p>
+<p>Das Feld <strong>Geburtstag</strong> erfordert die Eingabe im Format <strong>(yyyy-mm-dd)
+</strong>, es ist jedoch keine Gültigkeitsprüfung  [weder client-seitig noch server-seitig] vorhanden, die eine korrekte Eingabe gewährleistet.</p>
 
-<p>The behavior of the <strong>private entry</strong> option remains allusive, and it is likely some bit of legacy code for a
-never-implemented &quot;future feature&quot;. You should thoroughly test that <strong>private entry</strong> contacts 
-behave as you require or disable the <strong>contacts module</strong> or <strong>deny access</strong> to meet your 
-security level requirements.</p>
+<p>Das Verhalten der Funktion <strong>privater Eintrag</strong> hat derzeit eher Symbol-, denn Funktionscharakter für ein bisher noch nicht implementiertes Verfahren. Dennoch ist es ein Versuch wert, das Verhalten in Verbindung mit einer entsprechenden Rechtevergabe in der Benutzerverwaltung zu überprüfen.</p>
 
-<p>To enter a new contact data record, hit the <strong>submit button</strong> at the bottom of the <strong>New Contact
-</strong> form.</p>
+<p>Um in das Formular eingegebene Daten zu speichern, klicke man auf den <strong>abschicken</strong> Schalter rechts unter dem Formular.</p>
 
 
-<h3>Editting Existing Contacts</h3>
+<h3>Einen existierenden Kontakt bearbeiten</h3>
 
-<p>If you are user with <strong>Read-Write</strong> access, whenever view a contact's details by clicking on the hyperlinked
-name of the contact, you are presented with the <strong>Edit Contact Form</strong> for this contact. You can make changes 
-to any of the fields on the form and save the modifications by clicking the <strong>submit button</strong>.
+<p>Ein Benutzer mit <strong>Schreib- und Leserechten</strong> gelangt durch Klick auf einen hyperlinkartigen Kontaktnamen zum <strong>Kontakt bearbeiten Formular</strong>. Dort können beliebige Felder editiert und die Änderungen später mit <strong>abschicken</strong> gespeichert werden.
 
 
-<h3>Deleting Contacts</h3>
-<p>Contacts can be deleted by clicking on either the <strong>delete contact</strong> hyperlink or the <strong>trashcan icon</strong>
-from any <strong>Edit Contact</strong> screen.</p>
+<h3>Einen Kontakt löschen</h3>
+<p>Ein Kontakt kann auf seiner <strong>Kontakt bearbeiten</strong> Seite durch Klick entweder auf <strong>Kontakt löschen</strong> oder auf das <strong>Mülleimer</strong> Symbol gelöscht werden.</p>
 
-<p>While these options also appear on the <strong>New Contact</strong> page, they have no contact listing to delete, and 
-therefore have no function.</p>

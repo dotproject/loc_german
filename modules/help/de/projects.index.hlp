@@ -1,17 +1,17 @@
-<!-- $Id: projects.index.hlp,v 1.2 2003/05/27 10:19:48 eddieajau Exp $ -->
-<h2>Projects Index Screen</h2>
+<!-- $Id: projects.index.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<h2>Projekte Indexseite</h2>
 
-<p>This page shows you a list of the projects that have been defined.</p>
+<p>Diese Seite zeigt eine Liste an vorhandenen Projekten.</p>
 
-<p>The "percentage complete" is shown to the left of the Project Name in a box with the background of the project colour.  Click on the Project Name to view more information about the project.</p>
+<p>Links vom Projektnamen wird der "Projektstatus in Prozent des Fortschritts" in einer Box von der eindeutigen Farbe des Projekts angezeigt.  Ein Klick auf den Projektnamen liefert detaillierte Informationen über das Projekt.</p>
 
-<p>A list box is provided for you to filter the projects listed by the Comany they are associated with.</p>
+<p>Eine Liste bietet die Möglichkeit, die Projekte nach ihren zugehörigen Firmen zu filtern.</p>
 
-<p>Click on the "<strong>new company</strong>" button to add a new company to your database.</p>
+<p>Um eine neue Firma hinzu zu fügen, klicke man auf <strong>neues Projekt</strong>".</p>
 
-<p>There are three tabs to view the Projects by:</p>
+<p>Die Registerkartenansicht bietet folgende Differenzierung:</p>
 <ul>
-	<li>Active Projects - those that are less than 100% complete</li>
-	<li>Completed Projects - those that are 100% complete</li>
-	<li>Archived Projects - those projects that have been marked as archived</li>
+	<li>Aktive Projekte - mit weniger als 100% Fortschritt</li>
+	<li>Vollständige Projekte- mit genau 100% Fortschritt</li>
+	<li>Archivierte Projekte - als archiviert ausgezeichnete Projekte</li>
 </ul>

@@ -1,43 +1,43 @@
-<!-- $Id: companies.addedit.hlp,v 1.3 2003/05/27 10:28:53 eddieajau Exp $ -->
-<h2>Add/Edit Company Page</h2>
+<!-- $Id: companies.addedit.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<h2>Eine Firma hinzufügen/bearbeiten</h2>
 
-<p>This page allows you to edit information about a new or existing Company.</p>
+<p>Diese Seite bietet die Möglichkeit, eine neue oder bereits existierende Firma zu bearbeiten.</p>
 
-<p>The fields are explained below:</p>
+<p>Die Felder werden im Folgenden erklärt:</p>
 
 <dl>
-	<dt>Name</dt>
-		<dd>A name for the company.</dd>
+	<dt>Firmenname</dt>
+		<dd>Ein Firmenname.</dd>
 	<dt>Email</dt>
-		<dd>The email address for the company.</dd>
-	<dt>Phone &amp; Phone2</dt>
-		<dd>Phone numbers for the company.</dd>
+		<dd>Die Emailadresse der Firma.</dd>
+	<dt>Telefon &amp; Telefon2</dt>
+		<dd>Die Telefonnummern der Firma.</dd>
 	<dt>Fax:</dt>
-		<dd>The fax number for the company</dd>
-	<dt>Address1</dt>
-		<dd>The first line for the address.</dd>
-	<dt>Address2</dt>
-		<dd>The second line for the address.</dd>
-	<dt>City</dt>
-		<dd>The City for the address.</dd>
-	<dt>State</dt>
-		<dd>The State for the address.</dd>
-	<dt>Zip</dt>
-		<dd>The postal code for the address.</dd>
+		<dd>Die Faxnummer der Firma.</dd>
+	<dt>Adresse1</dt>
+		<dd>Die erste Adresszeile.</dd>
+	<dt>Adresse2</dt>
+		<dd>Eine zweite Zeile für die Firmenadresse.</dd>
+	<dt>Stadt</dt>
+		<dd>Die zugehörige Stadt.</dd>
+	<dt>Staat</dt>
+		<dd>Der zugehörige Staat.</dd>
+	<dt>PLZ</dt>
+		<dd>Die zugehörige PostLeitZahl.</dd>
 	<dt>URL</dt>
-		<dd>A web site associated with the company.</dd>
-	<dt>Company Owner</dt>
-		<dd>The user you assign ownership of the Company.</dd>
-	<dt>Type</dt>
-		<dd>This is a list of types you can assign to the company (see System Values).</dd>
-	<dt>Description</dt>
-		<dd>A free text area for you to add any extra information about the company.</dd>
+		<dd>Eine zugehörige Website.</dd>
+	<dt>Firmenbesitzer</dt>
+		<dd>Der Benutzer, dem die Firma besitzmäßig zugeordnet ist.</dd>
+	<dt>Typ</dt>
+		<dd>Dies stellt eine Liste von Firmentypen dar, die über die systemweiten Werte bearbeitet werden kann.</dd>
+	<dt>Beschreibung</dt>
+		<dd>Textfeld für zusätzliche Firmeninformationen.</dd>
 </dl>
 
-<p>Use the breadcrumbs to back to the Company View page or the Companies Index.</p>
+<p>Man benutze die Brotkrümel, um zu Firmenansicht oder zur Firmenliste zurück zu kehren.</p>
 
-<p>Related Information</p>
+<p>Verwandte Themen</p>
 
 <p>
-<a href="?m=help&a=system.sysvals">System Values</a>
+<a href="?m=help&a=system.sysvals">Systemweite Werte</a>
 </p>

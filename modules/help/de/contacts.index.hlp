@@ -1,49 +1,31 @@
-<!-- $Id: contacts.index.hlp,v 1.2 2003/03/16 06:07:14 kobudo Exp $ -->
-<h2>Contacts Index</h2>
+<!-- $Id: contacts.index.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<h2>Kontakte Index</h2>
 
-<p>The <strong>Contacts</strong> screen works very much like an address book. You can look up information about existing contacts 
-by clicking on any of the hyperlinked contact names.</p>
+<p>Die <strong>Kontakte</strong> Seite funktioniert etwa wie ein Adressbuch. Man kann dort Informationen über vorhandene Kontakte abrufen, indem man auf einen der hyperlinkartigen Kontaktnamen klickt.</p>
 
-<p>You can see all of the available contact listings by choosing the <strong>show all</strong> option. Alternatively, you 
-can restrict the number of visible contacts to those lastnames starting with specific letters of the alphabet. [Note: you are
-only able to restrict to specific alphabet letters if there are entries that exist for those letters].</p>
+<p>Durch Wahl der <strong>Zeige Alle(s)</strong> Option werden alle verfügbaren Kontakte aufgelistet. Man kann die Ansicht der Kontakteliste weiterhin auf Kontakte eines Anfangsbuchstaben des Nachnamens einschränken. [Anmerkung: Die Ansicht lässt sich nur genau dann auf einen speziellen alphabetischen Buchstaben einschränken, wenn für diesen auch Einträge vorhanden sind].</p>
 
-<p>Under the contacts module you can store and retreive information such as:</p>
+<p>Im Kontaktmodul können die folgenden Informationen gespeichert und abgerufen werden:</p>
 <ul>
-	<li>First Name, Last Name, and Display Name</li>
-	<li>Company, Title, and Type</li>
-	<li>Address 1, Address 2, City, State, Zip</li>
-	<li>Phone 1, Phone 2, Mobile Phone</li>
-	<li>Email 1, Email 2, ICQ</li>
-	<li>Birthday</li>
-	<li>Contact Notes</li>
+	<li>Vorname, Nachname und anzuzeigender Name</li>
+	<li>Firma, Titel, und Typ</li>
+	<li>Addresse1, Addresse2, Stadt, Staat, PLZ</li>
+	<li>Telefon1, Telefon2, Mobiltelefon</li>
+	<li>Email1, Email2, ICQ</li>
+	<li>Geburtstag</li>
+	<li>Kontaktnotizen</li>
 </ul>
 
-<p>New contacts are added by clicking on the <strong>New Contact</strong> button. Detailed information about adding
-new contacts, editting existing contacts, or deleting contacts is presented on the <strong>Add, Edit, or Delete</strong>
- Contacts help page.</p>
+<p>Neue Kontakte werden durch Klicken auf den <strong>Neuer Kontakt</strong> Schalter hinzugefügt. Detaillierte Informationen zum Hinzufügen eines neuen Kontakts, zum Bearbeiten oder Löschen eines existierenden Kontakts finden sich auf der Hilfeseite mit dem Titel <strong>Kontakte hinzufügen, bearbeiten oder löschen</strong>.</p>
 
-<p> Currently, the <strong>contacts module</strong> is not integrated with either the <strong>user module</strong>
-or the <strong>company module</strong>. Furthermore, to date, the data stored in this module has not be used by 
-other modules.</p>
+<p>Derzeit bildet das <strong>Kontaktmodul</strong> weder mit dem <strong>Benutzermodul</strong> noch mit <strong>Firmenmodul</strong> eine integrative Einheit. Daten, die im Kontaktmodul gespeichert wurden, werden von anderen Modulen noch nicht verwendet.</p>
 
-<p>The overall objective of the <strong>contacts module</strong> was to create a centralized location where users of 
-the system could access contact information. However, this may not be desireable in some circumstances. For example,
-if you are providing your <strong>clients</strong> with <strong>read access</strong> to your dotproject installation, they
-will be able to view your <strong>contacts listing</strong> and may thereby gain access to your full client list.</p>
+<p>Das erste Ziel für das <strong>Kontaktmodule</strong> war es , eine zentralisierte Kontaktdatenbank zu konstruieren, wo Benutzer des Systems Informationen speichern und abrufen können. Allerdings ist dies unter Umständen nicht immer erwünscht. Wenn man zum Beispiel seinen <strong>Kunden</strong> <strong>Schreibrechte</strong> für dotProject gewährt, so haben diese die Möglichkeit die <strong>Kontakteliste</strong> einzusehen und damit möglicherweise vollen Zugang zu der eigenen Kundenliste.</p>
 
-<p>The <strong>private entry</strong> does not work as you might expect either. For instance, if you create a user 
-with <strong>read only</strong> permission for the <strong>contacts module</strong>, they will be able to see a listing
-of <strong>all contact entries</strong>. However, if they try to get details on a <strong>specific contact</strong> they 
-will encounter a <strong>permission denied</strong> error message. This would occur for all entries, regardless of whether
-marked as a <strong>private entry</strong> or not.</p>
+<p>Die Funktion <strong>privater Eintrag</strong> arbeitet nicht in der Weise, wie man es von ihr erwarten könnte. Erstellt man zum Beispiel einen Benutzer mit <strong>NUR-Leserechten</strong> für das <strong>Kontaktmodul</strong>, so wird dieser trotzdem die Liste <strong>aller Kontakteinträge</strong> sehen können. Will der Benutzer allerdings Details eines<a <strong>speziellen Kontaktes</strong> sehen, wird er eine <strong>Zugang verweigert</strong> Fehlernachricht erhalten. Dies wird für alle Einträge geschehen, ungeachtet dessen, ob sie als <strong>private Einträge</strong> ausgezeichnet wurden oder nicht.</p>
 
-<p>[The behavior described above existed in the 15 Mar 2003 CVS version of dotProject 1.0 alpha.]</p>
+<p>[Dieses oben beschriebene Verhalten bezieht sich auf die dotProject CVSVersion 1.0 alpha vom 15. März 2003.]</p>
 
-<p>If you are concerned about other dotProject users viewing the <strong>contacts listing</strong>, you may want to 
-<strong>disable</strong> this dotproject module in the <strong>System Admin</strong> section. Alternatively, you 
-could <strong>deny access</strong> to this module to specific users.</p>
+<p>Sollte dieses Verhalten unerwünscht sein, besteht die Möglichkeit, dieses Modul in der <strong>Systemverwaltung</strong> <strong>unsichtbar</strong> zu machen bzw. abzuschalten. Alternativ kann man speziellen Benutzern zu diesem Modul auch den <strong>Zugang verweigern</strong>.</p>
 
-<p>To date, the <strong>contacts module</strong> has not received much attention from current development team, and 
-will probably be rewritten as part of an amalgamated <strong>user</strong> or <strong>company</strong> submodule. If you 
-have suggestions on how you think the <strong>contacts module</strong> should function, please send us your ideas.</p>
+<p>In der Vergangenheit hat das <strong>Kontaktmodul</strong> nicht viel Aufmerksamkeit von dem bestehenden Entwicklerteam erhalten, es besteht jedoch die Möglichkeit, dass dieses Modul zu einem späteren Zeitpunkt einmal als integratives Modul neu geschrieben wird. Über Vorschläge und Ideen dazu, wie das <strong>Kontaktmodul</strong> funktionieren sollte, würde sich das Entwicklerteam sehr freuen.</p>
