@@ -66,7 +66,7 @@
 "User Management"=>"Benutzerverwaltung",
 "User Table"=>"Benutzer-Liste",
 "User Type"=>"Benutzertyp",
-"added - please setup roles and permissions now. User must have at least one role to log in."=>"hinzugefügt - bitte nun Rollen und Rechte setzen. Benutzer muss mindestens eine Rolle besitzen, um anmeldefähig zu sein.",
+"please setup roles and permissions now. User must have at least one role to log in."=>"bitte nun Rollen und Rechte setzen. Benutzer muss mindestens eine Rolle besitzen, um anmeldefähig zu sein.",
 "View"=>"Betrachte",
 "View User"=>"Benutzer ansehen",
 "add user"=>"Benutzer hinzufügen",
