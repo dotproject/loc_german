@@ -51,7 +51,7 @@
 "forumEmailBody"=>"In einem Ihrer verfolgten Foren gab es Aktivität",
 "forumEmailFrom"=>"Dotproject Forenverfolgung",
 "forumEmailSubj"=>"Dotproject Forenaktivität",
-"forumForceWatch"=>"Forenverfolgung für alle Benutzer für alle Foren erzwingen",
+"forumForceWatch"=>"Forenverfolgung für alle Benutzer für alle Foren erzwingen (Achtung: mögliche Sicherheitslücke!)",
 "forumName"=>"Bitte einen gültigen Forennamen eingeben",
 "forumSelectOwner"=>"Bitte den Besitzer des Forums auswählen",
 "forumSelectProject"=>"Bitte das Projekt auswählen, mit dem das Forum assoziiert werden soll",
