@@ -17,6 +17,7 @@
 "Menu Status"=>"Menü-Status",
 "Menu Text"=>"Menü-Text",
 "Module"=>"Modul",
+"Module menu state changed"=>"Module: Menüstatus geändert",
 "Module state changed"=>"Modulstatus geändert",
 "Preferences"=>"Einstellungen",
 "Preferences updated"=>"Einstellungen aktualisiert",
