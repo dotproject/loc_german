@@ -66,6 +66,7 @@
 "Ends"=>"Ende",
 "Event"=>"Ereignis",
 "Events"=>"Ereignisse",
+"Events I Created"=>"Von mir erstellte Ereignisse",
 "Fax"=>"Fax",
 "File"=>"Datei",
 "File Name"=>"Dateiname",
