@@ -25,6 +25,7 @@
 "My Projects"=>"Meine Projekte",
 "My Watched"=>"Meine Forenverfolgung",
 "New Topic"=>"Neues Thema",
+"No posts"=>"Keine Beiträge",
 "No replies"=>"Keine Antwortbeiträge",
 "Owner"=>"Besitzer",
 "Post Reply"=>"Antwortbeitrag",

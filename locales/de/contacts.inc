@@ -17,6 +17,8 @@
 "contactsValidName"=>"Bitte einen gültigen Kontaktnamen eingeben.",
 "delete contact"=>"Kontakt löschen",
 "new contact"=>"neuer Kontakt",
+"select company"=>"Wähle Firma",
+"select department"=>"Wähle Abteilung",
 "use in display"=>"als angezeigter Name",
 "vCard(s) imported"=>"vCard(s) importiert",
 "vCardFileUploadError"=>"Fehler beim (Hoch)Laden der vCard-Datei",

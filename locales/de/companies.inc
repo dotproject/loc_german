@@ -7,6 +7,7 @@
 "Company Owner"=>"Firmenbesitzer",
 "Edit Company"=>"Firma bearbeiten",
 "Invalid Company ID"=>"Ungültige Firmen-ID",
+"No companies available"=>"Keine Firmen verfügbar",
 "Started"=>"Beginn",
 "Status"=>"Status",
 "View Company"=>"Firma ansehen",
