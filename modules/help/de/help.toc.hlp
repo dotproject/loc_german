@@ -1,4 +1,4 @@
-<!-- $Id: help.toc.hlp,v 1.4 2003/06/22 18:34:41 gregorerhardt Exp $ -->
+<!-- $Id: help.toc.hlp,v 1.5 2003/06/26 13:14:01 gregorerhardt Exp $ -->
 <table cellspacing="2" cellpadding="4" border="0" class="tbl" width="100%">
 <tr>
 	<td width="50%" valign="top">
@@ -62,7 +62,7 @@
 			<br /><a href="?m=help&dialog=1&hid=tasks.index">Index</a>
 			<br /><a href="?m=help&dialog=1&hid=tasks.view">Ansicht</a>
 			<br /><a href="?m=help&dialog=1&hid=tasks.addedit">Hinzufügen/Bearbeiten</a>
-			<br /><a href="?m=help&dialog=1&hid=tasks.todo">To Do</a>
+			<br /><a href="?m=help&dialog=1&hid=tasks.todo">Liste der anstehenden Aufgaben</a>
 			<br />
 			<br /><strong>Systemverwaltung</strong>
 			<br /><a href="?m=help&dialog=1&hid=system.index">Index-Seite</a>
