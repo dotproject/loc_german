@@ -138,6 +138,7 @@
 "URL"=>"URL",
 "User"=>"Benutzer",
 "User Admin"=>"Benutzerverwaltung",
+"User(s) unassigned from Task"=>"Benutzer von Aufgabe entfernt",
 "Username"=>"Benutzername",
 "Users"=>"Benutzer",
 "Vendor"=>"Händler",
