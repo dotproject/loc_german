@@ -1,7 +1,7 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"911"=>"911",
+"911"=>"112",
 ""=>"Activity",
 "Activity"=>"Aktivität",
 "All"=>"Alle",
