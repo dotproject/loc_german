@@ -243,6 +243,8 @@
 "pt_br"=>"Portugiesisch Brasilianisch",
 "record types"=>"liste der typen von einträgen",
 "remove"=>"entfernen",
+"reset_memory_limit_title"=>"RAM-Speicher für Gantt",
+"reset_memory_limit_tooltip"=>"Bei Problemen mit nicht dargestellten Gantt-Charts kann man hiermit den Speicher während des Gantt-Zeichnens temporär erhöhen. Gewöhnliche Werte sind 64M, 128M etc.",
 "restrict_color_selection_title"=>"Farbwahl einschränken?",
 "restrict_color_selection_tooltip"=>"Bei true wird nur eine Textauswahl laut Systemweiten Werten bereitgestellt. Sonst ein erweiterter grafischer Farbauswähler.",
 "restrict_task_time_editing_title"=>"Aufgaben: Zeitbearbeitung einschränken?",
