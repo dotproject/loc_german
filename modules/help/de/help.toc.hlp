@@ -1,4 +1,4 @@
-<!-- $Id: help.toc.hlp,v 1.11 2003/07/01 04:16:58 kobudo Exp $ -->
+<!-- $Id: help.toc.hlp,v 1.8 2004/09/20 06:55:39 gregorerhardt Exp $ -->
 <table cellspacing="2" cellpadding="4" border="0" class="tbl" width="100%">
 <tr>
 	<td width="100%" valign="top">
@@ -21,8 +21,7 @@
 			<br />Professionnelle Unterstützung rund um dotProject findet man über unsere
 			<a href="http://www.dotproject.net/modules.php?op=modload&name=Web_Links&file=index&req=viewlink&cid=4" target="_blank">Linksammlung zum Commercial Support</a>.
 			<br />
-			<br />Ist bei der Suche nach Unterstützung der Wunsch nach direkter, zeitnaher Kommunikation aufgetreten,
-			versuche man sein Glück im dotProject IRC Chat Kanal #dotproject auf irc.freenode.net.
+			<br />Direkte, zeitnahe Kommunikation mit hilfsbereiten Menschen findet man im IRC Chat Kanal #dotproject auf irc.freenode.net.
 		</p>
 	</td>
 </tr>
