@@ -3,70 +3,70 @@
 <tr>
 	<td width="50%" valign="top">
 		<p>
-			<strong>dotProject 1.0 alpha 1</strong>
+			<strong>dotProject 1.0</strong>
 			<br />
-			<br /><a href="?m=help&dialog=1&hid=overview.about">About dotProject</a>
-			<br /><a href="?m=help&dialog=1&hid=overview.license">License</a>
-			<br /><a href="?m=help&dialog=1&hid=overview.features">Features</a>
-			<br /><a href="?m=help&dialog=1&hid=overview.whatsnew">What's New</a>
-			<br /><a href="?m=help&dialog=1&hid=overview.usermods">User Mods</a>
+			<br /><a href="?m=help&dialog=1&hid=overview.about">Über dotProject</a>
+			<br /><a href="?m=help&dialog=1&hid=overview.license">Lizenzierung</a>
+			<br /><a href="?m=help&dialog=1&hid=overview.features">Funktionen</a>
+			<br /><a href="?m=help&dialog=1&hid=overview.whatsnew">Neues</a>
+			<br /><a href="?m=help&dialog=1&hid=overview.usermods">Erweiterungsmodule</a>
 		</p>
 		<p>
 			<strong>Installation</strong>
 			<br />
-			<br /><a href="?m=help&dialog=1&hid=install.upgrade">Upgrading</a>
-			<br /><a href="?m=help&dialog=1&hid=install.system">System Requirements</a>
-			<br /><a href="?m=help&dialog=1&hid=install.install">Installing dotProject</a>
-			<br /><a href="?m=help&dialog=1&hid=install.configure">Configuring dotProject</a>
+			<br /><a href="?m=help&dialog=1&hid=install.upgrade">Aktualisieren</a>
+			<br /><a href="?m=help&dialog=1&hid=install.system">Systemvoraussetzungen</a>
+			<br /><a href="?m=help&dialog=1&hid=install.install">DotProject installieren</a>
+			<br /><a href="?m=help&dialog=1&hid=install.configure">DotProject konfigurieren</a>
 		</p>
 		<p>
-			<strong>General Concepts</strong>
+			<strong>Allgemeines</strong>
 			<br />
 			<br /><a href="?m=help&dialog=1&hid=general.topmenu">Top Menu</a>
-			<br /><a href="?m=help&dialog=1&hid=general.leftnav">Left Navigation</a>
-			<br /><a href="?m=help&dialog=1&hid=general.help">Getting Help</a>
-			<br /><a href="?m=help&dialog=1&hid=general.saveplace">Saving Your Place</a>
-			<br /><a href="?m=help&dialog=1&hid=general.breadcrumbs">Breadcrumbs</a>
-			<br /><a href="?m=help&dialog=1&hid=general.tabbox">Tabbed Boxes</a>
+			<br /><a href="?m=help&dialog=1&hid=general.leftnav">Navigationsleiste</a>
+			<br /><a href="?m=help&dialog=1&hid=general.help">Hilfe erhalten</a>
+			<br /><a href="?m=help&dialog=1&hid=general.saveplace">Arbeitsplatz sichern</a>
+			<br /><a href="?m=help&dialog=1&hid=general.breadcrumbs">Brotkrümel</a>
+			<br /><a href="?m=help&dialog=1&hid=general.tabbox">Registerkarten</a>
 		</p>
 		<p>
-			<strong>Getting Started</strong>
+			<strong>Erste Schritte</strong>
 			<br />
-			<br /><a href="?m=help&dialog=1&hid=start.overview">Overview</a>
-			<br /><a href="?m=help&dialog=1&hid=start.addcomp">Adding a Company</a>
-			<br /><a href="?m=help&dialog=1&hid=start.adduser">Adding a User</a>
+			<br /><a href="?m=help&dialog=1&hid=start.overview">Übersicht</a>
+			<br /><a href="?m=help&dialog=1&hid=start.addcomp">Eine Firma hinzufügen</a>
+			<br /><a href="?m=help&dialog=1&hid=start.adduser">Einen Benutzer hinzufügen</a>
 		</p>
 	</td>
 	<td width="50%" valign="top">
 		<p>
-			<strong>Screen Context Help</strong>
+			<strong>Kontexthilfe</strong>
 			<br />
-			<br /><strong>Companies</strong>
+			<br /><strong>Firmen</strong>
 			<br /><a href="?m=help&dialog=1&hid=companies.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=companies.view">View</a>
-			<br /><a href="?m=help&dialog=1&hid=companies.addedit">Add/Edit</a>
+			<br /><a href="?m=help&dialog=1&hid=companies.view">Ansicht</a>
+			<br /><a href="?m=help&dialog=1&hid=companies.addedit">Hinzufügen/Bearbeiten</a>
 			<br />
-			<br /><strong>Contacts</strong>
+			<br /><strong>Kontakte</strong>
 			<br /><a href="?m=help&dialog=1&hid=contacts.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=contacts.addedit">Add, Edit or Delete Contacts</a>
+			<br /><a href="?m=help&dialog=1&hid=contacts.addedit">Kontakte hinzufügen, bearbeiten oder löschen</a>
 			<br />
-			<br /><strong>Forums</strong>
+			<br /><strong>Foren</strong>
 			<br /><a href="?m=help&dialog=1&hid=forums.index">Index</a>
 			<br />
-			<br /><strong>Projects</strong>
+			<br /><strong>Projekte</strong>
 			<br /><a href="?m=help&dialog=1&hid=projects.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=projects.view">View</a>
-			<br /><a href="?m=help&dialog=1&hid=projects.addedit">Add/Edit</a>
+			<br /><a href="?m=help&dialog=1&hid=projects.view">Ansicht</a>
+			<br /><a href="?m=help&dialog=1&hid=projects.addedit">Hinzufügen/Bearbeiten</a>
 			<br />
-			<br /><strong>Tasks</strong>
+			<br /><strong>Aufgaben</strong>
 			<br /><a href="?m=help&dialog=1&hid=tasks.index">Index</a>
-			<br /><a href="?m=help&dialog=1&hid=tasks.view">View</a>
-			<br /><a href="?m=help&dialog=1&hid=tasks.addedit">Add/Edit</a>
+			<br /><a href="?m=help&dialog=1&hid=tasks.view">Ansicht</a>
+			<br /><a href="?m=help&dialog=1&hid=tasks.addedit">Hinzufügen/Bearbeiten</a>
 			<br /><a href="?m=help&dialog=1&hid=tasks.todo">To Do</a>
 			<br />
-			<br /><strong>System Administration</strong>
-			<br /><a href="?m=help&dialog=1&hid=system.index">Index Page</a>
-			<br /><a href="?m=help&dialog=1&hid=system.addeditpref">User Preferences</a>
+			<br /><strong>Systemverwaltung</strong>
+			<br /><a href="?m=help&dialog=1&hid=system.index">Index-Seite</a>
+			<br /><a href="?m=help&dialog=1&hid=system.addeditpref">Benutzereinstellungen</a>
 			<br />
 		</p>
 	</td>

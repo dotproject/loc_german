@@ -1,9 +1,9 @@
 <!-- $Id: start.overview.hlp,v 1.1 2003/03/14 00:53:13 eddieajau Exp $ -->
-<h2>Getting Started - Overview</h2>
-<p>Now that you have installed dotproject and have been able to login, where do you go from here.</p>
+<h2>Erste Schritte - Übersicht</h2>
+<p>Nun, da dotProject erfolgreich installiert ist und Sie sich anmelden konnten, versuchen Sie doch einmal folgendes:</p>
 <ul>
-	<li>Add some users</li>
-	<li>Add a company</li>
-	<li>Add a project</li>
-	<li>Add a task</li>
+	<li>Füge einige Benutzer hinzu</li>
+	<li>Füge eine Firma hinzu</li>
+	<li>Füge ein Projekt hinzu</li>
+	<li>Füge eine Aufgabe hinzu</li>
 </ul>

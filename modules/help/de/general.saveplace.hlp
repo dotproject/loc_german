@@ -1,4 +1,4 @@
 <!-- $Id: general.saveplace.hlp,v 1.1 2003/03/14 00:53:13 eddieajau Exp $ -->
-<h2>Saving Your Place</h2>
-<p>When you select an edit link or icon, your "place" is saved.</p>
-<p>When have finished adding or editting an item, you are returned to place where you started. </p>
+<h2>Arbeitsplatz sichern</h2>
+<p>Der Arbeitsplatz wird immer dann automatisch gespeichert, wenn ein Bearbeiten-Textlink oder -Symbol angeklickt.</p>
+<p>Nach erfolgreichem Hinzufügen oder Bearbeiten eines Elements, bringt dotProject den Benutzer wieder an die Stelle zurück, von welcher der Benutzer die Aktion gestartet hatten. </p>

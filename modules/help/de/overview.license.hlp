@@ -1,5 +1,19 @@
 <!-- $Id: overview.license.hlp,v 1.1 2003/04/09 01:24:16 eddieajau Exp $ -->
-<h2>dotProject License</h2>
+<h2>dotProject Lizenz (deutsche Übersetzung)</h2>
+<p>Copyright (c) 2003, dotProject Entwicklerteam sf.net/projects/dotproject
+Alle Rechte vorbehalten.</p>
+<p>Es gilt die unten abgebildete Copyright-Klausel im Original! Informativ steht hier eine Übersetzung. Die Übersetzung besitzt keinerlei rechtlichen Status. Bei der unten angeführten Lizenz handelt es sich um eine modifizierte BSD-Lizenz, die klassiche Open-Source-Lizenz. Insbesondere kann sich niemand auf diese Übersetzung berufen.</p>
+
+<p>Weitergabe und Benutzung der originalen oder modifizierten Quell- und Binärkodes ist erlaubt, vorausgesetzt die folgenden Bedingungen bleiben gewahrt:</p>
+
+<ul>
+<li>Bei Weitergabe des Quellkodes müssen die oben abgebildete Copyright-Information, diese Bedingungsliste und der folgende Widerruf erhalten bleiben.</li>
+<li>Bei Weitergabe in Binärform müssen die oben abgebildete Copyright-Information, diese Bedingungsliste und der folgende Widerruf in der Dokumentation und/oder anderen Materialien, die mit der Distribution geliefert werden, wiedergegeben werden.</li>
+<li>Weder der Name des dotProject Entwicklerteams (in aktueller oder vergangener Form) noch die Namen der Mitwirkenden dürfen ohne vorherige schriftliche Genehmigung benutzt werden, um für Produkte zu werben, die aus dieser Software entstanden sind.</li>
+</ul>
+<p>IN KEINEM FALL SIND DIE HALTER DER KOPIERRECHTE UND DIE MITWIRKENDEN GEGENÜBER JEDEM MÖGLICHEN BETEILIGTEN FÜR DIE DIREKTEN, INDIREKTEN, SPEZIELLEN, BEILÄUFIGEN ODER FOLGESCHÄDEN, EINSCHLIEßLICH DER VERLORENEN PROFITE VERANTWORTLICH, DIE AUS DEM GEBRAUCH VON DIESER SOFTWARE UND SEINEN UNTERLAGEN HERAUS ENTSTEHEN, SELBST WENN DIE HALTER DER KOPIERRECHTE UND DIE MITWIRKENDEN VON DER MÖGLICHKEIT SOLCHEN SCHADENS BENACHRICHTIGT WORDEN SIND. DIE HALTER DER KOPIERRECHTE UND DIE MITWIRKENDEN LEHNEN SPEZIELL ALLE MÖGLICHE GARANTIEN AB, EINSCHLIESSLICH, ABER NICHT BEGRENZT AUF, DIE IMPLIZIERTEN GARANTIEN VON GESCHÄFTSNUTZEN UND EIGNUNG ZU EINEM BESTIMMTEN ZWECK. DIE SOFTWARE, DIE NACHSTEHEND BEREITGESTELLT WIRD, BASIERT AUF EINER "SO WIE SIE IST"-GRUNDLAGE, UND DIE HALTER DER KOPIERRECHTE UND DIE MITWIRKENDEN HABEN KEINE VERPFLICHTUNGEN, WARTUNG, SUPPORT, AKTUALISIERUNGSVORGÄNGE,VERBESSERUNGEN ODER ÄNDERUNGEN ZUR VERFÜGUNG ZU STELLEN.</p>
+
+<h2>dotProject License (Original Version)</h2>
 <p>Copyright (c) 2003, The dotProject Development Team sf.net/projects/dotproject
 All rights reserved.</p>
 
