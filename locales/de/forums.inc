@@ -1,7 +1,7 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"%s ago"=>"",
+"%s ago"=>"% vorher",
 "- Filters -"=>"- Filter -",
 "Add Forum"=>"Forum hinzufügen",
 "Add Message"=>"Nachricht hinzufügen",
@@ -53,7 +53,7 @@
 "forumSelectOwner"=>"Bitte den Besitzer des Forums auswählen",
 "forumSelectProject"=>"Bitte das Projekt auswählen, mit dem das Forum assoziiert werden soll",
 "forumSubject"=>"Bitte einen gültigen Betreff für diese Nachricht eingeben.",
-"forumTypeMessage"=>"Please type a message before posting",
+"forumTypeMessage"=>"Bitte eine Nachricht eingeben",
 "forums list"=>"Forenliste",
 "forumsDelete"=>"Soll diese Nachricht wirklich gelöscht werden?",
 "hours"=>"Stunden",
@@ -63,5 +63,3 @@
 "this topic"=>"dieses Thema",
 "topics for this forum"=>"Themen in diesem Forum",
 "update watches"=>"Forenverfolgung aktualisieren",
-
-

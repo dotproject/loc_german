@@ -7,7 +7,7 @@
 "Edit Contact"=>"Kontakt bearbeiten",
 "contacts list"=>"Kontaktliste",
 "contactsDelete"=>"Soll dieser Kontakt wirklich gelöscht werden?",
-"contactsOrderBy"=>"Please enter an order by value.",
+"contactsOrderBy"=>"Bitte ein Ordnungskriterium eingeben",
 "contactsValidName"=>"Bitte einen gültigen Kontaktnamen eingeben.",
 "delete contact"=>"Kontakt löschen",
 "new contact"=>"neuer Kontakt",

@@ -1,7 +1,6 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"index"=>"Inhalt",
 "About Modules"=>"Modulinfo",
 "Access Denied"=>"Zutritt verweigert",
 "Adding a Company"=>"Ein Projekt hinzufügen",
@@ -14,7 +13,6 @@
 "Left Navigation"=>"Navigationsleiste",
 "Saving Your Place"=>"Arbeitsplatz sichern",
 "Tabbed Property Boxes"=>"Registerkartenansicht",
-"Top Menu"=>"Menüleiste (oben)",
+"Top Menu"=>"Hauptmenüleiste",
 "helpIntro"=>"Hier finden sich einige Links zu Hilfethemen, welche nicht über die Kontexthilfe erreichbar sind.",
-
-
+"index"=>"Inhalt",

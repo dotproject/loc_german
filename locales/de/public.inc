@@ -8,5 +8,3 @@
 "notasks"=>"Keine Aufgaben vorhanden",
 "nodepartments, companies, permissions"=>"Keine Abteilungen, Firmen, Rechte vorhanden",
 "colorLegend"=>"Bitte für die eindeutige Identifizierung der Auswahl eine Farbe wählen und dann den Farbwähler schließen.",
-
-

@@ -29,7 +29,7 @@
 "In Progress"=>"In Bearbeitung",
 "Last Post"=>"Letzter Foreneintrag",
 "Log All"=>"Berichte Alles",
-"Make PDF"=>"PDF erstellen",
+"Make PDF"=>"PDF Datei erstellen",
 "Manage Project"=>"Projekt verwalten",
 "Messages"=>"Nachrichten",
 "New Project"=>"Neues Projekt",
@@ -69,7 +69,7 @@
 "projects list"=>"Projektliste",
 "projectsBadCompany"=>"Bitte eine Firma auswählen.",
 "projectsBadEndDate1"=>"Das Datum des Projektendes muss nach dem Datum des Projektbeginns liegen",
-"projectsBadEndDate2"=>"The Actual Project End Date must be after the Start Date",
+"projectsBadEndDate2"=>"Das aktuelle Datum des Projektendes muss nach dem Datum des Projektbeginnes liegend",
 "projectsColor"=>"Bitte einen Farbkode zur Projektidentifizierung auswählen.",
 "projectsDelete"=>"Soll dieses Projekt wirklich gelöscht werden?",
 "projectsValidName"=>"Bitte einen gültigen Projektnamen eingeben",
@@ -80,4 +80,3 @@
 "show this month"=>"aktuellen Monat zeigen",
 "to"=>"bis",
 "view this project"=>"dieses Projekt ansehen",
-

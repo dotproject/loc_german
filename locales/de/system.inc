@@ -25,7 +25,7 @@
 "Role deleted"=>"Rolle gelöscht",
 "Role inserted"=>"Rolle hinzugefügt",
 "Role updated"=>"Rolle aktualisiert",
-"Short Date Format"=>"Format für Kurzdatum",
+"Short Date Format"=>"Datumkurzformat",
 "String"=>"Zeichenkette",
 "System Administration"=>"Systemverwaltung",
 "System Lookup Keys"=>"Systemweite Schlüssel",
@@ -53,5 +53,3 @@
 "system admin"=>"Systemverwalter",
 "visible"=>"sichtbar",
 "zh"=>"Chinese",
-
-

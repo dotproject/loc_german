@@ -59,7 +59,7 @@
 "Time Worked"=>"Arbeitszeitinvestition",
 "Total Hours"=>"Gesamtstunden",
 "User"=>"Benutzer",
-"View Task"=>"Aufgabe anzeigen",
+"View Task"=>"Aufgabe ansehen",
 "Web Address"=>"Internetadresse",
 "Work"=>"Arbeit",
 "badTaskProject"=>"Die Aufgabe kann nicht erstellt werden. Angabe des zugehörigen Projekts fehlt..",
@@ -101,4 +101,3 @@
 "update task"=>"Aufgabe aktualisieren",
 "view this project"=>"dieses Projekt ansehen",
 "view this task"=>"diese Aufgabe ansehen",
-
