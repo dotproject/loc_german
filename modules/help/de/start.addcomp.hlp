@@ -1,4 +1,4 @@
-<!-- $Id: start.addcomp.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<!-- $Id: start.addcomp.hlp,v 1.3 2003/06/19 09:44:04 gregorerhardt Exp $ -->
 <h2>Eine Firma hinzufügen</h2>
 <style type="text/css">
 /*<![CDATA[*/
@@ -26,6 +26,6 @@ Man wird nun (wie in dotProject üblich) zurück zu jener Seite geleitet, von der 
 Dort wird man nun einen Eintrag in der Liste sehen. Es wird angezeigt, dass mit der neuen Firma keine aktiven 
 oder archivierten Projekte assoziiert sind.</p>
 
-<p>Man erstelle nun ein weitere neue Firma zum Beispiel mit dem Namen <strong
+<p>Man erstelle nun eine weitere neue Firma zum Beispiel mit dem Namen <strong
 class="c1">Swodniw</strong>.
 </p>

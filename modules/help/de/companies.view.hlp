@@ -1,6 +1,6 @@
-<!-- $Id: companies.view.hlp,v 1.3 2003/06/17 18:46:30 gregorerhardt Exp $ -->
+<!-- $Id: companies.view.hlp,v 1.4 2003/06/19 09:44:04 gregorerhardt Exp $ -->
 <h2>Firma ansehen</h2>
 
 <p>Diese Seite bietet Informationen bezüglich gespeicherter Firmen.  Eine InfoBox oben auf der Seite zeigt die hauptsächlichen Details über eine Firma. Darunter befindet sich eine Serie von Tabellen bzw. Registerkarten mit Firmendetails aus anderen Modulen.</p>
 
-<p>Man benutze die Brotkrümel, um zur Firmenindexseite zurück zu kehren oder um die betrachtete Firma zu bearbeiten.  Der Link "Firma löschen" verändert sich in Abhängigkeit davon, ob die Firma weitere Abhängigkeiten mit anderen Modulen besitzt oder nicht.  Ein Kontextmenü, das sich bei Mauskontakt öffnet, zeigt etwaige Abhängigkeiten.  Eine Firma, welche Abhängigkeiten mit anderen Modulen besitzt, kann nicht gelöscht werden.</p>
+<p>Man benutze die "Brotkrümel", um zur Firmenindexseite zurück zu kehren oder um die betrachtete Firma zu bearbeiten.  Der Link "Firma löschen" verändert sich in Abhängigkeit davon, ob die Firma weitere Abhängigkeiten mit anderen Modulen besitzt oder nicht.  Ein Kontextmenü, das sich bei Mauskontakt öffnet, zeigt etwaige Abhängigkeiten.  Eine Firma, welche Abhängigkeiten mit anderen Modulen besitzt, kann nicht gelöscht werden.</p>

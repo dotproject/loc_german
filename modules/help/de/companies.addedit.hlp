@@ -1,4 +1,4 @@
-<!-- $Id: companies.addedit.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<!-- $Id: companies.addedit.hlp,v 1.3 2003/06/17 18:46:30 gregorerhardt Exp $ -->
 <h2>Eine Firma hinzufügen/bearbeiten</h2>
 
 <p>Diese Seite bietet die Möglichkeit, eine neue oder bereits existierende Firma zu bearbeiten.</p>
@@ -34,7 +34,7 @@
 		<dd>Textfeld für zusätzliche Firmeninformationen.</dd>
 </dl>
 
-<p>Man benutze die Brotkrümel, um zu Firmenansicht oder zur Firmenliste zurück zu kehren.</p>
+<p>Man benutze die "Brotkrümel", um zu Firmenansicht oder zur Firmenliste zurück zu kehren.</p>
 
 <p>Verwandte Themen</p>
 

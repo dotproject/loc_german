@@ -1,4 +1,4 @@
-<!-- $Id: contacts.addedit.hlp,v 1.3 2003/06/17 18:46:30 gregorerhardt Exp $ -->
+<!-- $Id: contacts.addedit.hlp,v 1.4 2003/06/19 09:44:04 gregorerhardt Exp $ -->
 <h2>Einen Kontakteintrag hinzufügen, bearbeiten oder löschen</h2>
 
 <h3>Einen neuen Kontakt hinzufügen</h3>
@@ -32,11 +32,11 @@ Feld. Allerdings geschieht die Gültigkeitsüberprüfung für notwendige Felder auf 
 <p>Um in das Formular eingegebene Daten zu speichern, klicke man auf den <strong>abschicken</strong> Schalter rechts unter dem Formular.</p>
 
 
-<h3>Einen existierenden Kontakt bearbeiten</h3>
+<h3>Einen existierenden Kontakt bearbeiten.</h3>
 
 <p>Ein Benutzer mit <strong>Schreib- und Leserechten</strong> gelangt durch Klick auf einen hyperlinkartigen Kontaktnamen zum <strong>Kontakt bearbeiten Formular</strong>. Dort können beliebige Felder editiert und die Änderungen später mit <strong>abschicken</strong> gespeichert werden.
 
 
-<h3>Einen Kontakt löschen</h3>
+<h3>Einen Kontakt löschen.</h3>
 <p>Ein Kontakt kann auf seiner <strong>Kontakt bearbeiten</strong> Seite durch Klick entweder auf <strong>Kontakt löschen</strong> oder auf das <strong>Mülleimer</strong> Symbol gelöscht werden.</p>
 

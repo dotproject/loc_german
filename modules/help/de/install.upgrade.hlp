@@ -1,9 +1,9 @@
-<!-- $Id: install.upgrade.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<!-- $Id: install.upgrade.hlp,v 1.3 2003/06/19 09:44:04 gregorerhardt Exp $ -->
 <h2>Eine bestehende Version aktualisieren</h2>
 <p>Dies stellt eine allgemeine Anleitung für die Aktualisierung der bestehenden dotProject-Version
 dar (etwa Version 0.2.1 oder 0.2.2)<p>
 <ol>
-	<li>Man besorge das neueste Paket von dotProject und folge den Installationsanweisungen, um
+	<li>Man besorge sich das neueste Paket von dotProject und folge den Installationsanweisungen, um
 	dieses in einem neuem Verzeichnis zu installieren.</li>
 	<li>Man erstelle eine Kopie der bestehenden Datenbank.</li>
 	<li>Man bearbeite die Datenbankparameter in der Datei config.php, so dass sie auf die neue

@@ -1,4 +1,4 @@
-<!-- $Id: help.toc.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<!-- $Id: help.toc.hlp,v 1.3 2003/06/19 09:44:04 gregorerhardt Exp $ -->
 <table cellspacing="2" cellpadding="4" border="0" class="tbl" width="100%">
 <tr>
 	<td width="50%" valign="top">
@@ -22,11 +22,11 @@
 		<p>
 			<strong>Allgemeines</strong>
 			<br />
-			<br /><a href="?m=help&dialog=1&hid=general.topmenu">Top Menu</a>
+			<br /><a href="?m=help&dialog=1&hid=general.topmenu">Hauptmenü</a>
 			<br /><a href="?m=help&dialog=1&hid=general.leftnav">Navigationsleiste</a>
 			<br /><a href="?m=help&dialog=1&hid=general.help">Hilfe erhalten</a>
 			<br /><a href="?m=help&dialog=1&hid=general.saveplace">Arbeitsplatz sichern</a>
-			<br /><a href="?m=help&dialog=1&hid=general.breadcrumbs">Brotkrümel</a>
+			<br /><a href="?m=help&dialog=1&hid=general.breadcrumbs">"Brotkrümel"</a>
 			<br /><a href="?m=help&dialog=1&hid=general.tabbox">Registerkarten</a>
 		</p>
 		<p>

@@ -1,4 +1,4 @@
-<!-- $Id: contacts.index.hlp,v 1.3 2003/06/17 18:46:30 gregorerhardt Exp $ -->
+<!-- $Id: contacts.index.hlp,v 1.4 2003/06/19 09:44:04 gregorerhardt Exp $ -->
 <h2>Kontakte Index</h2>
 
 <p>Die <strong>Kontakte</strong> Seite funktioniert etwa wie ein Adressbuch. Man kann dort Informationen über vorhandene Kontakte abrufen, indem man auf einen der hyperlinkartigen Kontaktnamen klickt.</p>
@@ -18,7 +18,7 @@
 
 <p>Neue Kontakte werden durch Klicken auf den <strong>Neuer Kontakt</strong> Schalter hinzugefügt. Detaillierte Informationen zum Hinzufügen eines neuen Kontakts, zum Bearbeiten oder Löschen eines existierenden Kontakts finden sich auf der Hilfeseite mit dem Titel <strong>Kontakte hinzufügen, bearbeiten oder löschen</strong>.</p>
 
-<p>Derzeit bildet das <strong>Kontaktmodul</strong> weder mit dem <strong>Benutzermodul</strong> noch mit <strong>Firmenmodul</strong> eine integrative Einheit. Daten, die im Kontaktmodul gespeichert wurden, werden von anderen Modulen noch nicht verwendet.</p>
+<p>Derzeit bildet das <strong>Kontaktmodul</strong> weder mit dem <strong>Benutzermodul</strong> noch mit dem <strong>Firmenmodul</strong> eine integrative Einheit. Daten, aus dem Kontaktmodul, werden von anderen Modulen noch nicht verwendet.</p>
 
 <p>Das erste Ziel für das <strong>Kontaktmodule</strong> war es , eine zentralisierte Kontaktdatenbank zu konstruieren, wo Benutzer des Systems Informationen speichern und abrufen können. Allerdings ist dies unter Umständen nicht immer erwünscht. Wenn man zum Beispiel seinen <strong>Kunden</strong> <strong>Schreibrechte</strong> für dotProject gewährt, so haben diese die Möglichkeit die <strong>Kontakteliste</strong> einzusehen und damit möglicherweise vollen Zugang zu der eigenen Kundenliste.</p>
 

@@ -8,11 +8,11 @@ dotProject an die eigenen Bedürfnisse anzupassen.</p>
 <ul>
   <li>den Link 'Systemverwalter', dann Standard 'Standardeinstellungen für Benutzer'</li>
 
-  <li>den Link 'persönliche Informationen' im top menu, dann 'Einstellungen bearbeiten'
+  <li>den Link 'persönliche Informationen' im "persönlichen Menü", dann 'Einstellungen bearbeiten'
   aus den Brotkrümeln</li>
 
   <li>den Link für das Modul 'Benutzerverwalter', dann wähle man den zu bearbeitenden Benutzernamen
-  und auf der folgenden Seite schließlich'Einstellungen bearbeiten' aus den Brotkrümeln</li>
+  und auf der folgenden Seite schließlich'Einstellungen bearbeiten' aus den "Brotkrümeln"</li>
 </ul>
 
 <p>Für jeden Benutzer können individuelle Voreinstellungen vorgenommen werden (Weg 2 und 3 oben). Ausserdem besteht
@@ -25,7 +25,7 @@ für den einzelnen Benutzer oder das ganze System angezeigt.</p>
 
 <p><strong>Tabellendarstellung</strong>: Die Tabellendarstellung kann sowohl in Form von
 (flachen) 'Tabellen', als auch in Form von 'Registerkarten' geschehen. Die Option 'beide(s)' bietet die
-Wahlmöglichkeit zwischen den Varianten noch zur Laufzeit über die Brotkrümel.</p>
+Wahlmöglichkeit zwischen den Varianten noch zur Laufzeit über die "Brotkrümel".</p>
 
 <p><strong>Datumkurzformat</strong>: Hier besteht die Möglichkeit zur Wahl zwischen verschiedenen
 Kurzformaten für das Datum mit Tag, Monat, Jahr.</p>

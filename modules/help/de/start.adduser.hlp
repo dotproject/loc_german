@@ -1,7 +1,7 @@
-<!-- $Id: start.adduser.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
+<!-- $Id: start.adduser.hlp,v 1.3 2003/06/19 09:44:04 gregorerhardt Exp $ -->
 <h2>Einen Benutzer hinzufügen</h2>
 
-<p>Der nächste sinnvolle Schritt könnte sein, einige weitere Benutzer hinzu zu fügen. Benutzer können das Recht erhalten auf vollen Zugang zu ganz dotProject oder auch nur auf teilweisen Zugang zu bestimmten Bereichen. Im Auslieferungszustand von dotProject existiert bereits der Systemverwalter als Benutzer.</p>
+<p>Der nächste sinnvolle Schritt könnte sein, einige weitere Benutzer hinzu zu fügen. Benutzer können das Recht auf vollen Zugang zu ganz dotProject oder auch nur auf teilweisen Zugang zu bestimmten Bereichen erhalten. Im Auslieferungszustand von dotProject existiert bereits der Systemverwalter als Benutzer.</p>
 
 <p>Man klicke in der Navigationsleiste auf 'Benutzerverwalter' (dieser link sollte vorhanden sein, vorausgesetzt man ist als Systemverwalter angemeldet). Man wähle nun <strong>Benutzer hinzufügen</strong>.</p>
 
@@ -22,8 +22,8 @@
 - Man wähle eine <strong>Stufe</strong> für das Recht vom Typ <strong>read-write</strong> aus der Liste.<br />
 - Man klicke auf den Schalter <strong>hinzufügen</strong>.</p>
 
-<p>Nach automatisch neu geladenem Bildschirm, sieht man, dass Linus Soft nun uneingeschränkten Zugang (read-write) zum Firmenmodul Companies hat. Linus ist ein kleiner Gauner. Wir wollen ihm also den Zutritt zur Firma Swodniw verwehren (aus gegebenen Gründen). Dazu ist folgendes notwendig:<br />
-- Man wähle das Modul Companies.<br />
+<p>Nach automatisch neu geladenem Bildschirm, sieht man, dass Linus Soft nun uneingeschränkten Zugang (read-write) zum Firmenmodul "Companies" hat. Linus ist ein kleiner Gauner. Wir wollen ihm also den Zutritt zur Firma Swodniw verwehren (aus gegebenen Gründen). Dazu ist folgendes notwendig:<br />
+- Man wähle das Modul "Companies".<br />
 - Man klicke auf den Schalter [...] rechts neben dem Eintragfeld.<br />
 - Im aufgehenden Fenster wähle man Swodniw aus der Liste.<br />
 - Man klicke auf den Auswahlschalter in der Dialogbox. Nun erscheint Swodniw in dem Feld Eintrag.<br />
@@ -32,4 +32,4 @@
 
 <p>Nachdem die Seite neu aufgebaut wurde, ist ersichtlich, dass Linus uneingeschränkten Zugang zum Firmenmodul hat, aber ihm der Zugang zur Firma Swodniw versagt bleibt.<br />
 </p>
-<p>Man klicke nun auf <strong>Benutzerliste</strong> aus den Brotkrümeln im Titelblock. Sollte die Registerkarte Inaktive Benutzer angezeigt werden (dotProject merkt sich normalerweise, wo man sich vor einer Aktion befand), stellt man fest, dass Linus nicht mehr dieser Liste angehört. Klickt man auf Aktive Benutzer, findet man dort unter anderem Linus.</p>
+<p>Man klicke nun auf <strong>Benutzerliste</strong> aus den "Brotkrümeln" im Titelblock. Sollte die Registerkarte Inaktive Benutzer angezeigt werden (dotProject merkt sich normalerweise, wo man sich vor einer Aktion befand), stellt man fest, dass Linus nicht mehr dieser Liste angehört. Klickt man auf Aktive Benutzer, findet man dort unter anderem Linus.</p>
