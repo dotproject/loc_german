@@ -106,6 +106,7 @@
 "Tickets"=>"Fehlerkarten",
 "Title"=>"Titel",
 "Today"=>"Heute",
+"Todo"=>"Todo",
 "Total Hours"=>"Stunden insgesamt",
 "Type"=>"Typ",
 "URL"=>"URL",

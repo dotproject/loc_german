@@ -140,7 +140,7 @@
 "id"=>"id",
 "low"=>"niedrig",
 "mark as finished"=>"als abgeschlossen markieren",
-"my todo"=>"meine anstehenden Aufgaben",
+"my todo"=>"Todo-Liste",
 "new task"=>"neue Aufgabe",
 "none"=>"Keine",
 "normal"=>"normal",
