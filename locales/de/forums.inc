@@ -37,6 +37,8 @@
 "Subject"=>"Betreff",
 "Topics"=>"Themen",
 "Watch"=>"Verfolge",
+"Watch Forced"=>"Forenverfolgung erzwungen",
+"Watch Unforced"=>"Erzwingen der Forenverfolgung aufgehoben",
 "Watch updated"=>"Verfolgung aktualisiert",
 "add new forum"=>"neues Forum hinzufügen",
 "closed"=>"geschlossen",
