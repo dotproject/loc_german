@@ -7,6 +7,7 @@
 "Department Parent"=>"Übergeordnete Abteilung",
 "Edit Department"=>"Abteilung bearbeiten",
 "Select Unit"=>"Wähle Einheit",
+"Telephone"=>"Telefon",
 "View Department"=>"Abteilung ansehen",
 "badCompany"=>"Diese Firma ist ungültig. Es kann deshalb keine Abteilung hinzugefügt werden.",
 "delDept"=>"Soll diese Abteilung wirklich gelöscht werden?",

@@ -84,6 +84,7 @@
 "Password updated"=>"Passwort aktualisiert",
 "Permission"=>"Recht",
 "Phone"=>"Telefon",
+"Pin"=>"Pin",
 "Pinned Only"=>"Nur Gepinnte",
 "Postcode"=>"PLZ",
 "Private"=>"Privat",
@@ -102,7 +103,7 @@
 "Search"=>"Suche",
 "Select"=>"Auswählen",
 "Show"=>"Zeige",
-"Show Todo for:"=>"Zeige Todoliste fÃ¼r:",
+"Show Todo for:"=>"Zeige Todoliste für:",
 "SmartSearch"=>"Suche",
 "Start Date"=>"Anfangsdatum",
 "Starts"=>"Beginnt",
@@ -179,8 +180,7 @@
 "sendpass2"=>"hat die Erstellung und Versendung eines neuen Passwortes für oben gennantes Benutzerkonto an diese Email-Adresse veranlasst.
 
  Das neue Passwort lautet:",
-"sendpass3"=>"
-Sollte der/die Empfänger(in) dieser Email die Passwortänderung nicht veranlasst haben, ist dies kein Grund zur Sorge. Schließlich sieht er/sie diese Nachricht, nicht der/die unbekannte Schelm(in). Es bietet sich nun an, sich auf oben genannter Seite anzumelden und das Passwort nach Belieben zu verändern.",
+"sendpass3"=>"Sollte der/die Empfänger(in) dieser Email die Passwortänderung nicht veranlasst haben, ist dies kein Grund zur Sorge. Schließlich sieht er/sie diese Nachricht, nicht der/die unbekannte Schelm(in). Es bietet sich nun an, sich auf oben genannter Seite anzumelden und das Passwort nach Belieben zu verändern.",
 "sendpass4"=>"Neues Passwort für",
 "sort by"=>"sortieren nach",
 "submit"=>"abschicken",

@@ -1,11 +1,11 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"Add history"=>"Eintrag hinzuf&uuml;gen",
+"Add history"=>"Eintrag hinzufügen",
 "Edit history"=>"Historie bearbeiten",
-"History added"=>"Historieneintrag hinzugef&uuml;gt",
-"History deleted"=>"Historieneintrag gel&ouml;scht",
+"History added"=>"Historieneintrag hinzugefügt",
+"History deleted"=>"Historieneintrag gelöscht",
 "History updated"=>"Historieneintrag aktualisiert",
 "New history"=>"Neuer Historieneintrag",
 "any"=>"nicht zugeordnet",
-"delete history"=>"Eintrag l&ouml;schen",
+"delete history"=>"Eintrag löschen",

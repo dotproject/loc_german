@@ -64,7 +64,6 @@
 "Operative"=>"Operativ",
 "Overdue"=>"Überfällig",
 "P"=>"P",
-"Pin"=>"Pin",
 "Priority"=>"Priorität",
 "Progress"=>"Fortschritt",
 "Project Hours"=>"Projektstunden",

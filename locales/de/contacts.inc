@@ -9,7 +9,7 @@
 "Fetch vCard(s) File"=>"Datei mit vCard-Information(en) hochladen",
 "Import vCard"=>"vCard importieren",
 "Job Title"=>"Auftragsname",
-"Overwrite contact address information"=>"Ãœberschreibe Kontaktadressinformation",
+"Overwrite contact address information"=>"Überschreibe Kontaktadressinformation",
 "Reset search"=>"Suche zurücksetzen",
 "Search for"=>"Suche nach",
 "View Contact"=>"Zeige Kontakt",
