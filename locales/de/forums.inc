@@ -12,6 +12,7 @@
 "Forum"=>"Forum",
 "Forum Name"=>"Forenname",
 "Inactive Projects"=>"Inaktive Projekte",
+"Incorrect watch type passed to sql handler."=>"Fehlerhafter Typ für die Forenverfolgung wurde an die SQl-Verarbeitung übergeben.",
 "Last 30 days"=>"Einträge der letzten 30 Tage",
 "Last Post"=>"Letzter Eintrag",
 "Last post"=>"Letzter Eintrag",
