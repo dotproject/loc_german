@@ -50,6 +50,7 @@
 "EMail"=>"EMail",
 "Edit"=>"Bearbeiten",
 "Email"=>"Email",
+"Empty Dates"=>"Leere Data",
 "End Date"=>"Enddatum",
 "Ends"=>"Ende",
 "Event"=>"Ereignis",
