@@ -73,7 +73,7 @@
 "Not Applicable"=>"Nicht anwendbar",
 "Not Defined"=>"Nicht definiert",
 "Not implemented"=>"Nicht implementiert",
-"On Hold"=>"Auf Eis",
+"On Hold"=>"Angehalten",
 "Owner"=>"Besitzer",
 "Participant"=>"TeilnehmerIn",
 "Password"=>"Passwort",

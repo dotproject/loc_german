@@ -59,7 +59,7 @@
 "Target Budget"=>"Zielbudget",
 "Target End Date"=>"vor. Enddatum",
 "Target Finish Date"=>"vor. Abschlussdatum",
-"Task Creator"=>"Aufgabeninitiator",
+"Task Creator"=>"Aufgabenverantwortl.",
 "Task Name"=>"Aufgabenname",
 "Task added"=>"Aufgabe hinzugefügt",
 "Tasks (In-Active)"=>"Aufgaben (Inaktiv)",

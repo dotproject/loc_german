@@ -31,7 +31,7 @@
 "Mobile"=>"Mobiltelefon",
 "Module"=>"Modul",
 "Not Defined"=>"Nicht definiert",
-"On hold"=>"auf Eis",
+"On hold"=>"Angehalten",
 "Owned Projects"=>"Eigene Projekte",
 "Permissions"=>"Rechte",
 "Preferences"=>"Einstellungen",
