@@ -17,7 +17,8 @@ I) 	a) Installationsanweisungen
 ---------------
 Der Lokalisierungsmanager möchte hiermit die Benutzer auffordern, sich an der Weiterentwicklung der 
 deutschen Lokalisierung zu beteiligen. Bestimmt gibt es viele bessere, sinnvollere als die gewählten 
-Übersetzungen etc. Der Maintainer freut sich über intensive Sendung der Verbesserungsvorschläge an:
+Übersetzungen oder schlicht und einfach vergessene etc. Der Maintainer freut sich über intensive Sendung 
+der Verbesserungsvorschläge an:
 		
 		gregorerhardt at users dot sourceforge dot net
 	
@@ -33,9 +34,9 @@ I) a) Installationsanweisungen:
 0) 	Man lade das deutsche Lokalisationspaket von sourceforge.net/projects/dotmods herunter
 1) 	Man entpacke (tar -xvvz de_DE????????.tar.gz) das Archiv in das dotProject Wurzelverzeichnis.
 	Es enthält die relevante Verzeichnisstruktur.
-2)	Für dotProject 2.0 und höher kann es notwendig sein, die eine neue Session zu starten, um
+2)	Für dotProject 2.0 und höher kann es notwendig sein, eine neue Session zu starten, um
 	zu garantieren, dass die deutschen Lokalisationsdateien erkannt werden. Eventuell ist Abmelden 
-	und Wiederanmeldung (am besten mit Systemverwaltungsrechten) notwendig.
+	und Wiederanmeldung notwendig.
 3)	Es bestehen nun die folgenden Optionen:
 
 	i) 	Die deutsche Sprache für sich selbst setzen (keine Administratorrechte notwendig):
@@ -70,11 +71,10 @@ I) b) Installation:
 1) 	Untar (tar -xvvz de_DE????????.tar.gz) the file to the dotProject root directory.
 	This archive contains the relevant diretory structure.
 2)	As with dotProject 2.0 and above it could be necessary to refresh the session in order 
-	to have the new localisation files registered with dotProject. Eventually logout and relogin
-	with system adminitration permissions.
+	to have the new localisation files registered with dotProject. Eventually logout and relogin.
 3)	You now have the following options:
 
-	i) 	Set the german language  for yourself (No system administrators permissions required):
+	i) 	Set the german language for yourself (No system administrators permissions required):
 		+ Login with your username/password combination to dotProject
 		+ Choose 'My Info' from the upper right menu of dotProject
 		+ Choose 'user preferences' from the breadcrumb below the site header
