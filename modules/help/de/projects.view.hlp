@@ -1,6 +1,0 @@
-<!-- $Id: projects.view.hlp,v 1.3 2003/06/17 18:46:30 gregorerhardt Exp $ -->
-<h2>Projekt ansehen</h2>
-
-<p>Diese Seite bietet Informationen zu einem Projekt. Eine Infobox oben auf der Seite zeigt die hauptsächlichen Details zum Projekt. Darunter befinden sich einige Registerkarten mit projektverwandten Informationen aus anderen Modulen.</p>
-
-<p>Man benutze die "Brotkrümel", um zurück zur Projektliste zu gelangen oder das aktuelle Projekt zu bearbeiten.  Der "Projekt löschen" Link verändert sich je nach vorhandenen Abhängigkeiten des Projekts mit anderen Modulen.  Fährt man mit der Maus über diesen Link, so erscheint ein Kontextmenü mit Informationen zu etwaig vorhandenen Abhängigkeiten. Bestehen Abhängigkeiten für das Projekt, so kann es nicht gelöscht werden..</p>

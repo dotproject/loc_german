@@ -1,3 +1,0 @@
-<!-- $Id: install.system.hlp,v 1.1 2003/03/14 00:53:13 eddieajau Exp $ -->
-<h2>Systemvoraussetzungen</h2>
-Folgende Komponenten werden benötigt, um den dotProject-Quellcode und dessen Datenverwaltung zu unterstützen:<ul><li>PHP 4.1 oder höher</li><li>MySQL 3.? oder höher</li></ul><p>Die für diese Anwendungen geltenden Voraussetzungen hängen von der Plattform ab, auf der diese installiert werden sollen.</p><p>Die folgenden Browser unterstützen dotProject, jedoch kann die Benutzeroberfläche auf Grund von Unterschieden in der Implementierung von JavaScript und StyleSheets leicht unterschiedlich dargestellt werden:<ul><li>Internet Explorer 5.5 oder höher</li><li>Mozilla 1.2 oder höher</li><li>Opera 6 oder höher</li></ul>

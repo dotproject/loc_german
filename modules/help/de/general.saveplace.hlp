@@ -1,4 +1,0 @@
-<!-- $Id: general.saveplace.hlp,v 1.1 2003/03/14 00:53:13 eddieajau Exp $ -->
-<h2>Arbeitsplatz sichern</h2>
-<p>Der Arbeitsplatz wird immer dann automatisch gespeichert, wenn ein Bearbeiten-Textlink oder -Symbol angeklickt.</p>
-<p>Nach erfolgreichem Hinzufügen oder Bearbeiten eines Elements, bringt dotProject den Benutzer wieder an die Stelle zurück, von welcher der Benutzer die Aktion gestartet hatten. </p>

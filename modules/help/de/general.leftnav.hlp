@@ -1,4 +1,0 @@
-<!-- $Id: general.leftnav.hlp,v 1.1 2003/03/14 00:53:13 eddieajau Exp $ -->
-<h2>Navigationsleiste</h2>
-<p>Die "Navigationsleiste" erlaubt den zentralen Zugang zu den Modulen von dotProject.</p>
-<p>Die Position der Navigationsleiste kann je nach Oberflächenstil variieren (z.B. links beim klassischen dotProject Stil, oben beim einfachen Standardstil).  Andere Stile, die etwa von Benutzern zur Verfügung gestellt werden, müssen nicht notwendig über dieses Element verfügen.</p>

@@ -1,7 +1,0 @@
-<!-- $Id: general.topmenu.hlp,v 1.3 2003/06/19 09:44:04 gregorerhardt Exp $ -->
-<h2>"persönliches Menü"</h2>
-das ""persönliche Menü" zeigt den Willkommensgruß und den aktuellen Benutzer. Ausserdem stellt es einige Funktionen zur schnellen Verfügung:
-<P>Man klicke auf "persönliche Informationen"&nbsp;, um Informationen über den angemeldeten Benutzer zu gewinnen.
-<P>Man wähle "Abmelden", um die dotProject-Sitzung zu beenden.
-<P>Man entscheide sich für "Hilfe", um das dotProject Hilfesystem zu starten.
-<P>Ausserdem gehört noch die Auswahlbox rechts oben auf der Seite zum Huaptmenü. Diese bietet eine schnelle und bequeme Methode, um neue Objekte zur Datenbank hinzu zu fügen. <BR><BR>Man beachte, dass diese Aussagen für den klassischen Stil für die Benutzeroberfläche gelten. Andere Stile können in Leistung und Anordnung der Elemente abweichen.</P>

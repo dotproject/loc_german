@@ -1,6 +1,0 @@
-<!-- $Id: general.tabbox.hlp,v 1.3 2003/06/16 23:34:00 gregorerhardt Exp $ -->
-<h2>Registerkarten</h2>
-<p>dotProject stellt eine Registerkartenansicht (wie etwa die Registerkartenansicht für Einstellungen in einer Dialogbox) zur Verfügung, um viele Bereiche mit verwandten Informationen auf bequeme Art und Weise erreichbar zu machen.  Ein Klick auf den Titel eine Registerkarte aktiviert die Ansicht für diese Rubrik.</p>
-<p>Es besteht die Möglichkeit, über die "Brotkrümel" "Registerkarten : Tabellen" zwischen der Registerkartenansicht und der normalen, flachen Tabellenansicht hin und her zu wechseln.</p>
-
-<p>Weiterhin kann für jeden Benutzer eine individuelle Voreinstellung für die Ansichtsarten getroffen werden. Dabei besteht die Wahl zwischen der Registerkartenansicht, der Tabellenansicht oder den "Brotkrümeln", die beide Ansichten ermöglichen. Um diese Voreinstellungen treffen zu können, wähle man 'persönliche Informationen' aus dem "persönlichen Menü" und dann 'Einstellungen bearbeiten'.  Man schlage unter 'Benutzereinstellungen bearbeiten' nach, um Informationen darüber zu gewinnen, wie man Benutzereinstellungen ändert.</p>

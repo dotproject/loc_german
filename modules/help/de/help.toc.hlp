@@ -1,12 +1,12 @@
-<!-- $Id: help.toc.hlp,v 1.8 2004/09/20 06:55:39 gregorerhardt Exp $ -->
+<!-- $Id: help.toc.hlp,v 1.9 2004/09/20 06:58:41 gregorerhardt Exp $ -->
 <table cellspacing="2" cellpadding="4" border="0" class="tbl" width="100%">
 <tr>
 	<td width="100%" valign="top">
 		<p>
 			<strong>dotProject Online Hilfe</strong>
 			<br />
-			<br />Wir haben folgende Kanäle im Internet für die Hilfe rund um dotProject eingerichtet. Diese Kanäle sind keine Einbahnstraße.
-			Sie leben davon, dass BenutzerInnen sich gegenseitig helfen.
+			<br />Wir haben folgende Kanäle im Internet für die Hilfe rund um dotProject eingerichtet.
+			Diese Kanäle sind keine Einbahnstraße; sie leben davon, dass man sich gegenseitig hilft.
 			<br />
 			<br />In der <a href="http://sites.sakienvirotech.com/dp_docs/tiki/tiki-index.php?page=Introduction" target="_blank">dotProject Online Dokumentation</a>
 			finden sich Informationen zur Funktionsweise von dotProject.

@@ -1,6 +1,0 @@
-<!-- $Id: companies.index.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
-<h2>Firmen Index Seite</h2>
-<p>Diese Seite zeigt eine Liste bereits definierter Firmen, die Anzahl der assoziierten Projekte
-und den Firmentyp.</p>
-<p>Man klicke auf den Firmennamen, um detaillierte Informationen über eine Firma zu erhalten.</p>
-<p>Man klicke auf "<strong>neue Firma</strong>", um der Datenbank eine neue Firma hinzu zu fügen.</p>
