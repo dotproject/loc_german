@@ -11,7 +11,7 @@
 "Context Help"=>"Kontexthilfe",
 "General Concepts"=>"Allgemeine Konzepte",
 "Getting Started"=>"Erste Schritte",
-"Left Navigation"=>"linke Navigationsleiste",
+"Left Navigation"=>"Navigationsleiste",
 "Saving Your Place"=>"Arbeitsplatz sichern",
 "Tabbed Property Boxes"=>"Registerkartenansicht",
 "Top Menu"=>"Menüleiste (oben)",
