@@ -1,0 +1,2 @@
+Mitarbeiter-Projektstunden
+Dieser Bericht zeigt, wie viele Stunden ein Mitarbeiter in einem zu wählenden Zeitraum zugewiesen hat. 
