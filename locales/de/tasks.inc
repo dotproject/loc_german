@@ -208,7 +208,7 @@
 "taskNotify"=>"Der Aufgabe zugeteilte Benutzer via Email benachrichtigen",
 "taskValidStartDate"=>"Bitte ein gültiges Anfangsdatum eingeben",
 "tasks list"=>"Aufgabenliste",
-"tasks per user"=>"Aufgaben-Benutzer-öbersicht",
+"tasks per user"=>"Aufgaben-Benutzer-Übersicht",
 "tasksComment"=>"Bitte einen lohnenden Kommentar eingeben.",
 "tasksPercent"=>"Die Prozentangabe für den Aufgabenstatus muss eine ganze Zahl sein.",
 "tasksPercentValue"=>"Die Prozentangabe für den Aufgabenstatus muss einen Wert zwischen 0 und 100 haben.",

@@ -11,5 +11,6 @@
 
 $dir = basename(dirname(__FILE__));
 
+//$LANGUAGES['de_DE'] = array($dir, 'German', 'Deutsch', 'deu', 'ISO-8859-1');
 $LANGUAGES['de_DE'] = array ( $dir, 'German (Ger)', 'Deutsch (DE)', 'de');
 ?>
