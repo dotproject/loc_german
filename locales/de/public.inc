@@ -3,7 +3,7 @@
 ##
 "Access Denied"=>"Zutritt verweigert",
 "Color Selector"=>"Farbwähler",
-"Contacts for"=>"Kontakte fär",
+"Contacts for"=>"Kontakte für",
 "Continue"=>"Fortfahren",
 "Preset"=>"Zuräcksetzen",
 "[none]"=>"[nichts]",
