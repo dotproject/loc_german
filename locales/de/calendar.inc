@@ -30,6 +30,7 @@
 "Recurs"=>"Wiederkehr",
 "Remind Me"=>"Erinnere mich",
 "Should have started"=>"Sollte bereits begonnen sein",
+"Show only on Working Days"=>"Nur an Arbeitstagen anzeigen",
 "Start Date"=>"Anfangsdatum",
 "Start-Date >= End-Date, please correct"=>"Anfangsdatum >= Enddatum, bitte korrigieren",
 "Started and on time"=>"Begonnen und in der Zeit",

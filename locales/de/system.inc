@@ -61,6 +61,7 @@
 "User Interface Style"=>"Stil für Benutzeroberfläche",
 "User Preferences"=>"Benutzereinstellungen",
 "User Roles"=>"Benutzerrollen",
+"User Task Assignment Maximum"=>"Bneutzerkapazität für Aufgabenzuteilung",
 "Values"=>"Werte",
 "View Modules"=>"Module ansehen",
 "active"=>"aktiv",
