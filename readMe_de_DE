@@ -10,6 +10,8 @@ Overview:
 	
 I) 	a) Installationsanweisungen 
 	b) Installation 
+	
+II)	a)  Hinweise
 ---------
 
 
@@ -97,3 +99,8 @@ I) b) Installation:
 		+ Go to the System Admin Module (Main Menu)
 		+ Choose 'System Configuration'
 		+ Change the Host Locale option to 'de' and save
+		
+II a) Hinweise:
+---------------
+- Mittels $locale_char_set = 'UTF-8'; in locales.php und Bearbeitung der Übersetzung mittels 
+  "recode latin1..utf-8 xxx.inc" stimmt das Ganze auch auf einem UTF-8 voreingestellten System (thanks, Goik)
