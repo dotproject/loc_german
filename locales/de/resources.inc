@@ -1,12 +1,12 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"Add Resource"=>"Ressource hinzufÃ¼gen",
+"Add Resource"=>"Ressource hinzufügen",
 "All Resources"=>"Alle Ressourcen",
-"Equipment"=>"AusrÃ¼stung",
+"Equipment"=>"Ausrüstung",
 "ID"=>"ID",
-"Max Alloc %"=>"Max. mÃ¶gl. %",
-"Maximum Allocation Percentage"=>"Maximal mÃ¶gliche Zuordnung [%]",
+"Max Alloc %"=>"Max. mögl. %",
+"Maximum Allocation Percentage"=>"Maximal mögliche Zuordnung [%]",
 "Notes"=>"Notizen",
 "Resource ID"=>"Ressourcen-ID",
 "Resource Name"=>"Ressourcen-Name",

@@ -3,5 +3,5 @@
 ##
 "Empty"=>"Leer",
 "Events"=>"Ereignisse",
-"Forum Messages"=>"ForeneintrÃ¤ge",
+"Forum Messages"=>"Foreneinträge",
 "Task Log"=>"Aufgabenlogs",
