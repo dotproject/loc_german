@@ -17,6 +17,7 @@
 "All Day Event"=>"Alltägliches Ereignis",
 "All Modules"=>"Alle Module",
 "All Users"=>"Alle Benutzer",
+"All w/o in progress"=>"Alle ohne 'Nicht in Bearbeitung'",
 "Anniversary"=>"Geburtstagsfeier",
 "Anonymous"=>"Anonym",
 "Appointment"=>"Termin",
