@@ -1,6 +1,8 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
+"(no start date)"=>"(kein Startdatum)",
+"(no end date)"=>"kein Enddatum",
 "- New Item -"=>"- Neu -",
 "About"=>"Über",
 "ACL Administration"=>"ACL-Verwaltung",
@@ -180,6 +182,7 @@
 "You must have cookies enabled in your browser"=>"Cookies müssen im Browser aktiviert sein",
 "Zip"=>"PLZ",
 "Zip Code"=>"PLZ",
+"active"=>"aktiv",
 "add"=>"hinzufügen",
 "added"=>"hinzugefügt",
 "allow"=>"erlauben",
@@ -209,6 +212,7 @@
 "forgotPassword"=>"Hilfe! Ich habe meinen Benutzernamen und/oder mein Passwort vergessen!",
 "hour"=>"h",
 "hours"=>"h",
+"inactive"=>"inaktiv",
 "invalidID"=>"ID ist ungültig. Betrachtung unmöglich.",
 "login"=>"Anmelden",
 "new File"=>"neue Datei",
