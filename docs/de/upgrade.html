@@ -1,0 +1,63 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>dotProject aktualisieren</title>
+	<meta name="Generator" content="EditPlus">
+	<meta name="Author" content="Andrew Eddie, gregorerhardt">
+	<meta name="Description" content="dotProject aktualisieren">
+
+	<link rel="stylesheet" type="text/css" href="../../style/default/main.css">
+</head>
+
+<body>
+<h2>Eine bestehende Version aktualisieren</h2>
+<p>Dies stellt eine allgemeine Anleitung für die Aktualisierung der bestehenden dotProject-Version
+dar (etwa Version 0.2.1 oder 0.2.2)</p>
+<ol>
+	<li>Man besorge sich das neueste Paket von dotProject und folge den Installationsanweisungen, um
+	dieses in einem neuem Verzeichnis zu installieren.</li>
+	<li>Man erstelle eine Kopie der bestehenden Datenbank.</li>
+	<li>Man bearbeite die Datenbankparameter in der Datei config.php, so dass sie auf die neue
+	Datenbank zeigen und passe gegebenenfalls die anderen Parameter den Gegebenheiten an.
+	Viele der Einstellungen können aus der alten Version übernommen werden bzw. sind dieser ähnlich.</li>
+	<li>Man wende das mitgelieferte Aktualisierungsskript auf die neue Datenbank an.</li>
+	<li>Man teste die neue Version von dotProject.  Für den Fall, dass alles optimal funktioniert,
+	stelle man auf die Benutzung der neuen Version um und archiviere die ehemalige Version
+	Für den Fall, dass Probleme auftreten, wende man sich an das dotProject Entwicklerteam.</li>
+</ol>
+Die folgenden Befehle werden von der Kommandozeile innerhalb des dotProject-Datenbankverzeichnisses ausgeführt.
+<br />&nbsp;<br /><strong>Erstellung einer Sicherungskopie einer bestehenden Datenbank</strong><br />
+<emphasis>mysqldump -udp_user -pdp_pass dp_1_0_alpha >
+ dp_1_0_alpha1_backup.sql</emphasis><br />
+<br />
+<strong>Aktualisierung der bestehenden Datenbank</strong><br />
+<emphasis>mysql -udp_user -pdp_pass dp_1_0_alpha <
+ upgrade_100_alpha1_to_alpha2.sql</emphasis><br />
+<h3>Aktualisierung auf Version 1.0</h3>
+Version 1.0 beinhaltet viele Erweiterungen und Änderungen bezüglich der bestehenden
+Datenbankstruktur. Es ist notwendig, das Skript upgrade_022_to_100.sql auf die MySQL Datenbank
+anzuwenden, um auf die neue Datenbankstruktur umzustellen.<br />
+<h3>Aktualisierung von DotProject 1.0 alpha 1 auf DotProject 1.0 alpha 2</h3>
+Die Datenbankstruktur des Aufgabenlogbuchs und des Projektmoduls wurden von alpha1 nach alpha2 leicht verändert. Es wird notwendig sein, das Datenbanksystem zu aktualisieren, um die Verbesserungen nutzbar zu machen.<br />
+<br />
+Man wende das Skript <code>upgrade_alpha2_to_beta1.sql</code> auf die kopierte Datenbank an.<br />
+<br />
+Das folgende Beispiel geht von einer entsprechenden Konfiguration aus. Man passe es den eigenen Gegebenheiten an.<br />
+<br />
+<strong>
+$dPconfig['dbname'] = "dp_1_0_alpha";<br />
+$dPconfig['dbuser'] = "dp_user";<br />
+$dPconfig['dbpass'] = "dp_pass";<br />
+</strong>
+<h3>Aktualisierung von  DotProject 1.0 alpha 2 auf DotProject 1.0 beta 1</h3>
+Beta 1 beinhaltet zwei größere Verbesserung im Bereich der Sicherheit.  Die Veränderungen wurden vorgenommen, um eine Sicherheitslücke bei der SQL-Behandlung der Benutzename/Passwort-Kombination zu stopfen. Außerdem wurde die Verschlüsselungsmethode für Passwörter den Empfehlungen von MySQL entsprechend geändert.<br />
+<br />
+Man wende das Skript code>upgrade_alpha2_to_beta1.sql</code> auf die kopierte Datenbank an.<br />
+<br />
+Außerdem muss die Konfigurationsvariable <code>check_legacy_password</code> auf <code>true</code> gesetzt werden:.
+<pre>$dPconfig['check_legacy_password'] = true;</pre>
+Dies wird das Passwort nach altem Schema bei der ersten Anmeldung des Benutzers zu einem Passwort neuen Schemas aktualisieren.
+<br />&nbsp;<br/>
+Ein neues <code>temp</code> Verzeichnis befindet sich unter <code>files/</code>.  Dies wird für die Erstellung von temporären Dateien benötigt (z.B. für die Berichte im PDF-Format).  Der Webserver muss Schreibrechte für dieses Verzeichnis erhalten.<br />
+</body>
+</html>

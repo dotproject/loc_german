@@ -1,0 +1,87 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>dotProject Roadmap</title>
+	<meta name="Generator" content="EditPlus">
+	<meta name="Author" content="Andrew Eddie, gregorerhardt">
+	<meta name="Description" content="dotProject Problembehandlung">
+
+	<link rel="stylesheet" type="text/css" href="../../style/default/main.css">
+</head>
+
+<body>
+
+<h1>dotProject Problembehandlung</h1>
+
+<h2>Einstellungen in der includes/config.php</h2>
+<ol>
+	<li>Wurde im Zuge einer Neuinstallation von dotProject eine Kopie der Datei <b>config-dist.php</b> mit dem Namen <b>config.php</b>erstellt?</li>
+	
+	<li>Wurden bei einer etwaigen Aktualisierung eventuell neue Konfigurationseinstellungen der neuen <b>config-dist.php</b> in die vorhandene Datei <b>config.php</b>übernommen bzw. wurden die alten Einträge korrekt übernommen?</li>
+	
+	<li>Ist die Konfigurationsvariable <b>root_dir</b> korrekt gesetzt?</li>
+	
+	<li>Befinden sich nach dem schließenden PHP Tag ?&gt; Leerstellen (White Spaces) oder leere Zeilen(Carriage Returns)? Falls ja, müssen diese alle gelöscht werden. Sonst werden die HTMl-Kopfdaten zu früh gesendet.</li>
+
+	<li>Wurde bei einer eventuellen Aktualisierung die Konfigurationsvariable <code>check_legacy_password</code> auf <code>true</code> gesetzt? Falls nicht, hole man dies nach. Dies erlaubt die Konvertierung alter Datenbankstrukturen für die Passwortabfrage.
+	<pre>$dPconfig['check_legacy_password'] = true;</pre>
+	</li>
+</ol>
+
+
+<h2>Dateieinstellungen in der php.ini</h2>
+<ol>
+	<li>
+		<b>register_globals = off</b>
+		<br />Normalerweise sollte dotProject zufriedenstellend mit "off" arbeiten. Man kann aber auch mal versuchen, diese Variable auf "on" zu setzen.
+	</li>
+	<li>
+		<b>session.auto_start = 0</b>
+		<br />Im Allgemeinen sollte dies auf "0" gesetzt sein. Ist die Variable auf "1" gesetzt und es treten Probleme auf, sollte man es einmal mit "0" versuchen.
+	</li>
+	<li>
+		<b>session.save_path = /tmp</b> (*nix style)
+		<br /><b>session.save_path = "d:/apache/php/sessiontemp"</b> (Windows-Stil)
+		<br />Man überprüfe die Existenz dieses obligatorischen Verzeichnisses.
+	</li>
+</ol>
+
+<h2>PHP</h2>
+<ol>
+	<li>Es wird PHP Version 4.1.x oder höher benötigt.</li>
+	<li>Ist <b>MySQL</b> auf einem *nix Server korrekt in PHP einkompiliert?  Dies kann überprüft werden, indem man ein kleines phpSkript mit folgendem Inhalt schreibt und ausführt::
+	<pre>&lt;?php phpinfo(); ?&gt;</pre>
+	Man führe diese Datei (über den WebServer) im Browser aus und suche nach Konfigurationseinträge für MySQL.
+	</li>
+
+	<li>Wenn die Gantt-Charts nicht funktionieren: Wurde die GD-Bibliothek korrekt in PHP einkompiliert?</li>
+</ol>
+
+<h2>Was man noch versuchen kann</h2>
+<p>In der Datei ./index.php befindet sich eine Zeile mit etwa folgendem Inhalt:
+<pre>// If you experience a 'white screen of death' or other problems,
+// uncomment the following line of code:
+//error_reporting( E_ALL );</pre>
+Man lösche die Kommentare ("//") am Anfang der error_reporting-Zeile und beobachte, ob noch immer Fehlermeldungen auftreten.</p>
+
+<h2>Allgemeines</h2>
+<p>Der Fortschrittsstatus für Projekte wird über ein gewichtetes Mittel der Dauer der assoziierten Aufgaben berechnet. Deshalb kann es vorkommen, dass der Fortschritt eines Projektes geringer als 50% ist, obwohl die beiden assoziierten Aufgaben einen Fortschritt von 50% besitzen. Dies ist darauf zurückzuführen, dass die Aufgaben von unterschiedlicher Dauer sind. Hat keine Aufgabe eine positive Dauer, wird der Fortschritt für das projekt immer 0% betragen.</p>
+
+</p>Möchte man das Modul zur Übersetzungsverwaltung benutzen, so müsssen das Verzeichnis <code>locales/{country code}</code> und alle beinhalteten Dateien (von der Form *.inc) unter einem POSIX basierten Betriebssystem die entsprechenden Rechte besitzen, so dass der WebServer über Schreib-&Lesezugriff verfügen kann.</p>
+
+<h2>Hilfe!</h2>
+<p>Wenn alles andere keinen Erfolg bringt, sende man sein Problem an das SourceForge-Forum oder den SF-Tracker von dotProject (<a href="http://sourceforge.net/projects/dotproject/" target="_blank">http://sourceforge.net/projects/dotproject/</a>). Für eine umfassende Fehleranalyse sollten auf jeden Fall folgende Informationen der Problemschilderung beigefügt werden:</p>
+
+<ul>
+	<li>Die Version von PHP und MySQL.</li>
+	<li>Name und Version des Webservers.</li>
+	<li>Name und Version des WebBrowsers.</li>
+	<li>Die benutzte Version von dotProject (offizielles Release oder CVS).</li>
+</ul>
+
+<p>Man beschreibe das Problem so gut als möglich. Je mehr Informationen bereit gestellt werden, desto größer ist die Wahrscheinlichkeit, dass dem Problem Abhilfe geschaffen werden kann. Man versuche beispielsweise nicht zu sagen: "Die Kontaktlinks funktionieren nicht".  Beschreibungen von der Form "Wenn ich auf die Buchstaben der Kontakte-Startseite klicke, lande ich in der Benutzerliste des Benutzerverwalters." sind wesentlich hilfreicher und effektiver.<p>
+
+<p>Ein anderes Beispiel könnte sein: "Wenn ich versuche, ein Projekt zu bearbeiten, bekomme ich die Fehlermeldung 'Bitte zuerst eine Firma erstellen'!". Die entscheidende Information fehlt hier, nämlich dass der Benutzer lediglich Leserechte für das Projektmodul besitzt.</p>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+dotProject Lizenz (deutsche Übersetzung)
+---------------------------------------------------------------------------------------
+Copyright (c) 2003, dotProject Entwicklerteam sf.net/projects/dotproject
+Alle Rechte vorbehalten.
+
+Es gilt die unten abgebildete Copyright-Klausel im Original! Informativ steht hier eine Übersetzung. 
+Die Übersetzung besitzt keinerlei rechtlichen Status. Bei der unten angeführten Lizenz handelt es 
+sich um eine modifizierte BSD-Lizenz, die klassiche Open-Source-Lizenz. Insbesondere kann sich 
+niemand auf diese Übersetzung berufen.
+
+Weitergabe und Benutzung der originalen oder modifizierten Quell- und Binärkodes ist erlaubt, 
+vorausgesetzt die folgenden Bedingungen bleiben gewahrt:
+
+*Bei Weitergabe des Quellkodes müssen die oben abgebildete Copyright-Information, 
+diese Bedingungsliste und der folgende Widerruf erhalten bleiben.
+*Bei Weitergabe in Binärform müssen die oben abgebildete Copyright-Information, 
+diese Bedingungsliste und der folgende Widerruf in der Dokumentation und/oder anderen Materialien,
+die mit der Distribution geliefert werden, wiedergegeben werden.
+*Weder der Name des dotProject Entwicklerteams (in aktueller oder vergangener Form), 
+noch die Namen der Mitwirkenden dürfen ohne vorherige schriftliche Genehmigung benutzt werden, 
+um für Produkte zu werben, die aus dieser Software entstanden sind.
+IN KEINEM FALL SIND DIE HALTER DER KOPIERRECHTE UND DIE MITWIRKENDEN 
+GEGENÜBER JEDEM MÖGLICHEN BETEILIGTEN FÜR DIE DIREKTEN, INDIREKTEN, 
+SPEZIELLEN, BEILÄUFIGEN ODER FOLGESCHÄDEN, EINSCHLIEßLICH DER 
+VERLORENEN PROFITE VERANTWORTLICH, DIE AUS DEM GEBRAUCH VON DIESER 
+SOFTWARE UND SEINEN UNTERLAGEN HERAUS ENTSTEHEN, SELBST WENN DIE 
+HALTER DER KOPIERRECHTE UND DIE MITWIRKENDEN VON DER MÖGLICHKEIT 
+SOLCHEN SCHADENS BENACHRICHTIGT WORDEN SIND. DIE HALTER DER 
+KOPIERRECHTE UND DIE MITWIRKENDEN LEHNEN SPEZIELL ALLE MÖGLICHE 
+GARANTIEN AB, EINSCHLIESSLICH, ABER NICHT BEGRENZT AUF, DIE IMPLIZIERTEN 
+GARANTIEN VON GESCHÄFTSNUTZEN UND EIGNUNG ZU EINEM BESTIMMTEN ZWECK. 
+DIE SOFTWARE, DIE NACHSTEHEND BEREITGESTELLT WIRD, BASIERT AUF EINER 
+"SO WIE SIE IST"-GRUNDLAGE, UND DIE HALTER DER KOPIERRECHTE UND DIE 
+MITWIRKENDEN HABEN KEINE VERPFLICHTUNGEN, WARTUNG, SUPPORT, 
+AKTUALISIERUNGSVORGÄNGE,VERBESSERUNGEN ODER ÄNDERUNGEN 
+ZUR VERFÜGUNG ZU STELLEN.
+
+
+
+The dotProject License (Original Version)
+-------------------------------------------------------------------------------
+
+Copyright (c) 2003, The dotProject Development Team sf.net/projects/dotproject
+All rights reserved.
+
+This program is free software.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+* Neither the name of the dotproject development team (past or present) nor the
+  names of its contributors may be used to endorse or promote products derived
+  from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The JPGraph License
+-------------------------------------------------------------------------------
+The JPGraph libaries are included under the terms and conditions of the authors
+license.  Please verify that your implementation is in keeping with their
+requirements.
+
+Gnome Icons
+-------------------------------------------------------------------------------
+Gnome icons included with dotProject have been sourced from GNU GPL products.
+

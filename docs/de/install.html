@@ -1,0 +1,194 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>dotProject Installationsanweisungen</title>
+	<meta name="Generator" content="EditPlus">
+	<meta name="Author" content="Andrew Eddie, gregorerhardt">
+	<meta name="Description" content="dotProject Installationsanweisungen">
+
+	<link rel="stylesheet" type="text/css" href="../../style/default/main.css">
+</head>
+
+<body>
+<h1>dotProject installieren</h1>
+
+<h2>Systemvoraussetzungen</h2>
+<p><b>dotProject</b> benötigt einen funktionierenden Webserver mit Implementierung von PHP und Unterstützung von MySQL und außerdem einen Webbrowser. Folgende Systeme sind gängig:</p>
+
+<ul>
+	<li><b>LAMP</b>: Linux+Apache+MySQL+PHP</li>
+	<li><b>WAMP</b>: Windows+Apache+MySQL+PHP</li>
+	<li><b>WIMP</b>: Windows+IIS+MySQL+PHP</li>
+</ul>
+
+<p><b>Web Server</b></p>
+
+<p> Für Apache (www.apache.org) empfiehlt sich eine Version ab 1.3.27.  Apache Version 2.x verfügt über einige Funktionen, wie zum Beispiel die Implementierung des SAPI-Moduls, die sich noch in der Experimentierphase befinden.</p>
+
+<p>Implementierungen von Apache 1.3.20+ wurden erfolgreich unter Windows und Linux getestet.</p>
+
+<p><b>PHP</b></p>
+
+<p> Es wird PHP (www.php.net) Version 4.1.x oder höher benötigt.  PHP Versionen vor 4.0.x werden NICHT MEHR UNTERSTÜTZT.</p>
+
+<p>PHP muss mit der GD library installiert sein, damit dotProject die Gantt-Charts anzeigen kann.  Man benutze die Funktion phpinfo()  auf dem (lokalen) Hostsystem PHP mit GD installiert ist.<p>
+
+<p><b>MySQL</b></p>
+
+<p>MySQL (www.mysql.com) wird ab Version 3.?? oder höher empfohlen.  Ein Datenbankverwaltungsassistent für MySQL empfiehlt sich in der Regel (wie z.B. das MySQL Command Centre - verfügbar auf der MySQL Webseite).</p>
+    
+<p><b>Browser</b></p>
+
+<p>Es wird ein Browser der vierten Generation benötigt mit Unterstützung für Stylesheets und JavaScript (IE Version 5.5 oder höher, Mozilla 1.2, Netscape 7.x, etc.).  Viele PNG-Bilder werden in dotProject mit Transparenz im Alpha-Kanal verwendet.  Neuere Versionen von Mozilla und Netscape rendern diese problemlos. Für den IE 6.0 ist ein Patch verfügbar, welches das Rendern dieser Bilder erlaubt. Ältere Versionen des IE können Probleme in der Darstellung bereiten.</p>
+
+<h2>ErstInstallation dotProject</h2>
+
+<ol>
+	<li>Man lade sich das aktuelle dotproject Release von <a href="http://sourceforge.net/projects/dotproject/" target="_blank">http://sourceforge.net/projects/dotproject/</a> herunter.</li>
+        
+	<li>Man entpacke dieses in das Wurzelverzeichnis der Webumgebung mit einem Windowsentpacker oder unter *nix durch Eingabe in der Kommandozeile:
+	<pre>tar -zxvf dotproject_*.tar.gz</pre>
+    [Anmerkung: Man ersetze * durch den entsprechenden Dateinamen.]</li>
+
+	<li>Man erstelle die dotProject-Datenbank für MySQL.
+		<ul>
+			<li>Man erstelle eine neue mysql Datenbank namens {dotproject}.</li>
+			<li>Man erstelle einen neuen mysql Benutzer namens {dotproject}.</li>
+			<li>Man gewähre dem Benutzer {dotproject} Zugang zur Datenbank {dotproject}.</li>
+			<li>Man merke sich das MySQl-dotproject-Benutzerpasswort {meinPasswort}.</li>
+			<pre>
+    // Anpassung von db_name, db_user, und db_pass.
+    mysql> CREATE DATABASE dotproject;
+    mysql> GRANT ALL PRIVILEGES ON dotproject.* 
+            TO dotproject@localhost IDENTIFIED BY
+            "meinPasswort" WITH GRANT OPTION;</pre></li>
+		</ul>
+		</li>
+	
+	<li>Anpassung des Datenbank Schema Scripts [OPTIONAL].
+	<p>Man öffne die Datei dotproject/db/dotproject.sql mit einem Texteditor und editiere den letzten Abschnitt an der Stelle, wo der standardgemäße dotProject-Systemverwalter (auch Administrator oder kurz Admin genannt) eingestellt wird (Zeile 352).</p>
+    
+    <p>Es wird empfohlen, einen neuen Benutzernamen, Passwort und Email für den Systemverwalter zu setzen. Man speichere die Änderungen. [Alternativ kann dieser Schritt auch nach der Installation in dem Bereich "Benutzerverwalter" von dotProject gegangen werden].</p>
+	</li>
+
+	<li>Füllen der Datenbank.<br>
+   Man benutze  die Informationen der Datenbankinstallation und das Skript "/db/dotproject.sql", um die Datenbank mit Inhalten zu füllen.
+    <pre>#mysql -udotproject -pmeinPasswort dotproject < dotproject/db/dotproject.sql </pre>
+	</li>
+    
+	<li>Konfiguration und Dateianpassung. Man folge den Anweisungen im Kopfbereich der Datei <code>dotproject/includes/config-dist.php</code></li>
+
+	<li>Man betrachte im Webbrowser die Seite http://ihreseite.de/dotproject/index.php.  Wenn alles gut läuft, sieht man nun den Anmeldungsbildschirm. Man melde sich mit folgenden Daten an: 
+	<pre>
+        Username: admin
+        Password: passwd</pre>
+	</li>
+
+	<li>Systemverwalterpasswort und Hinzufügen von Benutzern
+    <p>Die hier bereit gestellten Informationen sind sehr komprimiert. Für eine ausführlichere Hilfestellung, lese man die entsprechenden Abschnitte in der dotProject-Hilfe. Man klicke auf den Link/Schalter "User Admin" und ändere das Admin-Passwort so bald als möglich  (wenn nicht schon in Schritt 4 getan). Es können außerdem noch zusätzliche Benutzer  mit unterschiedlichen Zugangsrechten hinzugefügt werden.</p>
+    
+    <p>Möchte man eine andere Emailadresse für die Meldung "Help! I've forgotten my username and password" auf dem Anmeldungsbildschirm eintragen, ändere man die Zeile 56 (plus/minus) in /includes/login.php.  Der Standardeintrag lautet:
+        &lt;?php echo 'admin@' . $site_domain;?></p>
+	</li>
+
+	<li>Konfiguration der Dateiverwaltung.
+    
+	<p>Das Dateiverwaltungsmodul gibt Benutzern die Möglichkeit, Dateien hoch zu laden und mit anderen Benutzern zu teilen. Für die korrekte Funktion des Moduls sind einige Schritte notwendig.</p>
+
+	<ol type="a">
+		<li>Es ist sehr wichtig, dass die Konfigurationsvariable $root_dir in <code>"includes/config.php"</code>korrekt gesetzt ist. $root_dir muss den vollen Pfad zu der Realisierung der dotProject-Installation und deren Verzeichnisnamen enthalten.
+		<pre>
+        $root_dir = "/var/www/html/dotproject";     // Beispiel 1
+        $root_dir = "/wwwroot/dotproject";          // Beispiel 2</pre>
+		</li>
+
+		<li><p>Rechte des Dateiordners</p>
+		<p>Der Wenserver muss Schreibrechte für das Verzeichnis, in das hochgeladene Dateien abgelegt werden, besitzen, damit dder Prozess des Hochladens erfolgreich ist. Vas Verzeichnis, in das hochgeladene Dateien abgelegt werden, heißt standardmäßig <code>"files"</code> und beinhaltet die Datei <code>".htaccess"</code>, welche unauthorisierte Zugriffe verhindert.<p>
+		<p>Der sichere Weg, dem Webserver auf einem POSIX-Betriebssytem Schreibrechte für das Verzeichnis zu verleihen, ist der folgende.  Man finde mit nachfolgendem Befehl heraus, unter welchem Betriebssytembenutzer der (Apache-)Webserver läuft command:
+		<pre>[user@localhost dotproject]# ps -ef | grep httpd</pre> oder <pre>[user@localhost dotproject]# ps -ef | grep www</pre>
+		Die Ergebnisliste zeigt den Benutzer, unter dem Apache (wahrscheinlich <code>apache</code>)auf das Dateisystem zugreift. Man ändere den Besitzer des files-Verzeichnisses mit dem Apache-Benutzer als neuem Benutzer:
+		<pre>[user@localhost dotproject]# chown -R apache files/
+[user@localhost dotproject]# chmod -R 0700 files/</pre>
+		<p>Wer aus Faulheit einfach die Rechte des Verzeichnisses auf 777 setzt, wird zwar Erfolg haben, aber es entsteht eine im Allgemeinen nicht vertretbare, immense Sicherheitslücke.</p>
+		</li>
+
+		<li><p>Problembehandlung</p>
+		<p>Fehler bei der Spezifizierung der Konfigurationsvariable <code>$root_dir</code> ODER Fehler bei der Rechtevergabe für das Hochlade-Verzeichnis werden mit vielzähligen Fehlermeldungen einhergehen, etwa:
+		<pre>
+Warning: Unable to create '{$root_dir}/files/0/{rnd #}': 
+	Permission denied in {$root_dir}/dosql/addfile.php on line 17
+Warning: Unable to move '/tmp/phpt9SeKp' to '{$root_dir}/files/0/{rnd #}'
+	in {$root_dir}/dosql/addfile.php on line 17
+Warning: fopen("{$root_dir}/files/0/{rnd #}","r") - No such file 
+	or directory in {$root_dir}/dosql/addfile.php on line 51
+Warning: Supplied argument is not a valid File-Handle resource in
+	{$root_dir}/addfile.php on line 52
+Warning: Cannot add header information - headers already sent by (output 
+	started at {$root_dir}/dosql/addfile.php:17) in 
+	{$root_dir}/dosql/addfile.php on line 92
+		</pre>
+		<p>Trotz dieser (das Dateisystem betreffende) Fehlermeldungen, ist es möglich, dass die Datenbankeinträge ordnungsgemäß ausgeführt werden. Dennoch wird der Inhalt der hochgeladenen Dateien vielleicht nicht dem Original entsprechen bzw. leer sein. Stattdessen enthalten die "Dateien" Fehlermeldungen, die bei der Problemlösung behilflich sein können.</p>
+		<p>Ändert sich der Verzeichnisinhalt beim Hochladen von Dateien nicht, während jedoch korrekte Datenbankeinträge hinzugefügt werden, ist das ein Indiz für einen inkorrekten Pfad in der Konfigurationsvariable <code>$root_dir</code>.
+		</li>
+
+		<li><p>Verbesserung der Sicherheit</p>
+		<p>Das standardgemäße "files"-Verzeichnis enthält eine Datei ".htaccess" mit folgendem Inhalt:
+		</pre>
+Options -All
+deny from all</pre>
+		<p>Dies gewährt nur grundlegende Sicherheit, Paranoide Menschen können die Sicherheitsvorkehrungen wie folgt noch weiter verstärken:
+		<ul>
+			<li>Man benenne das Verzeichnisses <code>"files"</code> weniger offensichtlich.</li>
+			<li>Man verschiebe den Ordner <code>"files"</code> an eine Ort außerhalb des Webserver-Bereichs (Webroots).</li>
+			<li>Man tue beides!</li>
+		</ul>
+        <p>Diese Sicherheitsvorkehrungen erfordern mehr oder weniger hohe technische Fähigkeiten und lassen zukünftige Aktualisierungen von dotProject etwas mehr zu einer Herausforderung werden.</p>
+		</li>
+	</ol>
+	</li>
+</ol>
+            
+<h2>Web trouble ticket email gateway: dotproject/includes/gateway.pl</h2>
+<pre>
+---------------------------------------------------------------------------
+(from the ticketsmith installation)
+
+1.  Have a working perl install, with DBI and the DBD::MySQL bundles installed
+2.  Be sure to protect the gateway.pl file.  You basically need to do one 
+    of two things, either move it out of a web-accessible place or somehow 
+    protect it from being accessed over the web:
+    
+            <Files "gateway.pl">
+                    order deny,allow
+                    deny from all
+            </Files>
+    
+    If you don't protect it, one of two things will happen,  either users will be
+    able to see the source and thus grab your Ticketsmith MySQL password, or
+    something unpredictable will happen when Apache tries  to run it as a CGI
+    script.  I don't think this could be harmful, but hey,  you never know.
+
+
+
+7.  Edit the top of gateway.pl to fit your setup.
+
+
+    
+9.  Configure your MDA or MTA to pipe mail for your support list to gateway.pl.  For
+    example,  here is a sample procmail recipe:
+
+            :0
+            * (^To:|^CC:|^Cc:) .*support@foo.bar
+            |/path/to/gateway.pl
+
+    You can also set Ticketsmith up directly with sendmail in /etc/aliases: 
+
+            support: "|/path/to/gateway.pl"
+
+    Keep in mind that with sendmail you need to either put gateway.pl in 
+    /etc/smrsh or at least symlink to it from that directory so that 
+    sendmail will execute it.  If you do this, you'll have to point 
+    the /etc/aliases entry to the copy in /etc/smrsh.
+</pre>
+</body>
+</html>

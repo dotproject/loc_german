@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta name="Author" content="gregorerhardt">
+<link rel="stylesheet" type="text/css" href="../../style/default/main.css">
+<title>Deutsche Lokalisierung für dotProject installieren | Install dotProject german localisations</title>
+</head>
+<body>
+<h3>Deutsche Lokalisierung für dotProject installieren</h3>
+<ol>
+	<li>Man hole sich die deutschen Lokalisierungsdateien german*.tar.gz von <a href="http://sourceforge.net/projects/dotmods/">http://sourceforge.net/projects/dotmods/</a>.</li>
+	<li>Man entpacke den Inhalt des gzipten Archivs in das dotProject-Stammverzeichnis (das Archiv enthält die dotProject-Verzeichnissubstruktur). Folgende Verzeichnisse werden hinzugefügt bzw. bei einer Aktualisierung (teilweise) überschrieben: root_dir/locales/de, root_dir/modules/help/de, root_dir/db/, wobei root_dir das dotProject-Stammverzeichnis repräsentiert. Unter den Windows-Umgebungen ersetze man "/" durch "\".</li>
+	<li>Will man für <b>alle Benutzer</b> die deutsche Lokalisierung als Standard setzen, melde man sich mit Schreib- und Leserechten für die Systemverwaltung und für die Benutzerverwaltung an (admin). Man wechsle z.B. durch Klick auf <b>System Admin</b> bzw. <b>Systemverwalter</b> in das Systemverwaltungsmodul und wähle dort <b>Default User Preferences</b> bzw. <b>Standardeinstellungen für Benutzer</b>. Dort stelle man <b>Locale</b> bzw. <b>Orts- und Sprachanpassung</b> auf <b>de</b> bzw. <b>Deutsch</b>.<br>Alternative zu dem gerade beschriebenen Vorgehen: Man ändere in root_dir/includes/config.php die Konfigurationsvariable zu <code>$dPconfig['host_locale'] = "de";</code>, um Deutsch als Standardsprache einzustellen. Dann wird bereits die Anmeldungsseite auf deutsch angezeigt.</li>
+	<li>Will man als Administrator für einen <b>einzelnen Benutzer</b> die deutsche Lokalisierung als Standard setzen, melde man sich mit Schreib- und Leserechten für die Systemverwaltung und für die Benutzerverwaltung an (admin). Man wechsle z.B. durch Klick auf <b>User Admin</b> bzw. <b>Benutzerverwalter</b> in das Benutzerverwaltungsmodul und wähle dort den gewünschten Benutzer aus der Tabelle. Auf der Detailsseite für diesen Benutzer wähle man <b>Edit User Preferences</b> bzw. <b>Einstellungen bearbeiten</b> aus den Brotkrümeln. Dort stelle man <b>Locale</b> bzw. <b>Orts- und Sprachanpassung</b> auf <b>de</b> bzw. <b>Deutsch</b>.</li>
+	<li>Einige Listeneinträge werden in dotPoject über die zugrunde liegende Datenbank organisiert. Man nennt diese Einträge <b>Systemweite Werte</b> oder System Values. Will man diese ebenfalls in der deutschen Sprache angezeigt bekommen, so wende man das mitgelieferte Datenbank-Patch mit dem Namen root_dir/db/sysvals_de.sql an. Dies kann man im Allgemeinen auf zwei Arten tun: Entweder relativ bequem über phpMyAdmin, einer Weboberfläche zur Verwaltung der MySQL-Datenbanken, oder per Befehlseingabe via Kommandozeile direkt an den Datenbankserver - dies geht ohne zusätzliche Software immer. Vor Veränderungen der Datenbank, empfiehlt es sich immer, eine Sicherungsdatei der Datenbank anzulegen. Dieser Vorgang ist unter Weg B beschrieben, ist aber auch über den ersten Weg möglich - dazu entnehme man die Vorgehensweise bitte der Dokumentation zu phpMyAdmin.<br>
+	<b>A</b> Man starte phpMyAdmin in einem Webbrowser und wähle die entsprechende Datenbank (zumeist <b>dotproject</b> oder etwas ähnliches). Dann wähle man 'SQL' und lade dort über das 'Textfile'-Feld die auszuführende Datei. Die Datenbank sollte nun aktualisiert sein. Die beschriebene Vorgehensweise bezieht sich auf phpMyAdmin Version 2.5.1, andere Versionen können von dieser Vorgehensweise abweichen; in diesem Fall entnehme man bitte relevante Informationen bitte der phpMyAdmin-Dokumentation. PhpMyAdmin ist wie dotProject OpenSource-Software, d.h. es ist frei erhältlich. Es ist ebenfalls ein SourceForge-Projekt, man erhält es unter <a href="http://www.sourceforge.net/projects/phpmyadmin/" target="http://www.sourceforge.net/projects/phpmyadmin/"></a>.<br>
+<b>B</b> Man benutzt die Kommandozeile, um direkt Befehle an den Datenbankserver zu geben. Die nachfolgenden Beispiele gehen von dem Standarddatenbanknamen <b>dotproject</b> aus. Gegebenenfalls müssen die Befehle entsprechend angepasst werden, d.h. man ersetze 'dotproject' durch den dotProject-Datenbanknamen der vorliegenden Installation. Um herauszufinden, wie der Datenbankname lautet, schaue man sich - eine funktionierende dotProject Installation vorausgesetzt - den Eintrag der Konfigurationsvariable <code>$dPconfig['dbname'] = "gesuchterName";</code> in der dotProject-Konfigurationsdatei 'root_dir/includes/config.php' an. Hier wäre gesuchterName der gewünschte dotProject-Datenbankname.<br>
+Vor solchen Veränderungen an der (Live-)Datenbank, empfiehlt es sich immer, zuerst eine Sicherungsdatei mit dem Datenbankinhalt zu erstellen. Für die beiden nachfolgenden Befehlseingaben wechsle man in der Kommandozeile in das Verzeichnis root_dir/db/, sofern man sich nicht schon dort befindet. Ausserdem gebe man nach <code>-u</code> den entsprechenden MySQL-Benutzernamen und nach <code>-p</code> das korrespondierende MySQL-Passwort für die dotProject-Datenbank an.<br>&nbsp;<br>
+<strong>Erstellung einer Sicherungskopie einer bestehenden Datenbank</strong><br />
+<code>mysqldump -udp_user -pdp_pass dotproject >
+ dp100_backup.sql</code><br />
+<br />
+<strong>Aktualisierung der bestehenden Datenbank</strong><br />
+<code>mysql -udp_user -pdp_pass dotproject <
+ sysvals_de.sql</code><br />
+ 
+<br /></li>
+</ol>
+In dem Abschnitt <a href="upgrade.html">Aktualisierung</a> der Dokumentation findet man weitere Erklärungen und Hilfestellungen zu oben angeführten Verfahren, z.B. insbesondere zur Datenbankverwaltung.<br />&nbsp;<br />
+
+Das deutsche Übersetzungsteam freut sich über Anregungen, Kritik und weitere Teilnahme zur Verbesserung der Übersetzung. Man besuche dazu <a href="http://sourceforge.net/projects/dotmods/">http://sourceforge.net/projects/dotmods/</a>.<br>
+<h3>Install dotProject german localisations</h3>
+Users are welcome to contribute an english documentation of the installation process of the german localisations of dotProject!
+
+</html>
