@@ -1,4 +1,4 @@
-<!-- $Id: overview.license.hlp,v 1.1 2003/04/09 01:24:16 eddieajau Exp $ -->
+<!-- $Id: overview.license.hlp,v 1.2 2003/06/16 23:23:46 gregorerhardt Exp $ -->
 <h2>dotProject Lizenz (deutsche Übersetzung)</h2>
 <p>Copyright (c) 2003, dotProject Entwicklerteam sf.net/projects/dotproject
 Alle Rechte vorbehalten.</p>
@@ -39,4 +39,12 @@ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
 SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.<br>
+
+<h2>The JPGraph License</h2>
+The JPGraph libaries are included under the terms and conditions of the authors
+license.  Please verify that your implementation is in keeping with their
+requirements.<br>
+
+<h2>Gnome Icons</h2>
+Gnome icons included with dotProject have been sourced from GNU GPL products.</p>
