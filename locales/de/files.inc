@@ -11,6 +11,7 @@
 "Size"=>"Größe",
 "Type"=>"Typ",
 "Upload File"=>"Datei hochladen",
+"Upload file size is zero. Process aborted."=>"Größe der hochzuladenden Datei ist Null. Vorgang abgebrochen.",
 "Uploaded By"=>"hochgeladen von",
 "Version"=>"Version",
 "add new file"=>"neue Datei hinzufügen",

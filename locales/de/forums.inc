@@ -54,6 +54,7 @@
 "forums list"=>"Forenliste",
 "forumsDelete"=>"Soll diese Nachricht wirklich gelöscht werden?",
 "hours"=>"Stunden",
+"last edited by"=>"letzte Bearbeitung",
 "minutes"=>"Minuten",
 "moderated"=>"moderiert",
 "new forum"=>"neues Forum",

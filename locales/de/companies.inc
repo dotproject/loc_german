@@ -17,5 +17,6 @@
 "companyValidName"=>"Bitte einen gültigen Firmennamen eingeben",
 "delete company"=>"Firma löschen",
 "edit this company"=>"diese Firma bearbeiten",
+"inserted"=>"hinzugefügt",
 "new company"=>"Neue Firma",
 "view this company"=>"diese Firma ansehen",

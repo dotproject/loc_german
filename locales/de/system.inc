@@ -3,6 +3,8 @@
 ##
 "edit"=>"bearbeiten",
 "Abbreviation"=>"Abkürzung",
+"Could not open locales file to save."=>"Die Lokalisierungsdatei konnte nicht für Speichervorgang geöffnet werden.",
+"Currency Format"=>"Währungsformat",
 "Date and Time"=>"Datum und Zeit",
 "Default"=>"Standard",
 "Default User Preferences"=>"Standardeinstellungen für Benutzer",
@@ -53,6 +55,8 @@
 "fr"=>"Französisch",
 "hidden"=>"unsichtbar",
 "install"=>"installieren",
+"pl"=>"Polnisch",
+"pt"=>"Portugiesisch",
 "pt_br"=>"Portugiesisch Brasilianisch",
 "remove"=>"entfernen",
 "system admin"=>"Systemverwalter",
