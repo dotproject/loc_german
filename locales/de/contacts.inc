@@ -1,16 +1,16 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"Add Contact"=>"Kontakt hinzufuegen",
+"Add Contact"=>"Kontakt hinzufügen",
 "Contact Notes"=>"Kontaktnotizen",
 "Display Name"=>"Angezeigter Name",
 "Edit Contact"=>"Kontakt bearbeiten",
 "contacts list"=>"Kontaktliste",
-"contactsDelete"=>"Soll dieser Kontakt wirklich geloescht werden?",
+"contactsDelete"=>"Soll dieser Kontakt wirklich gelöscht werden?",
 "contactsOrderBy"=>"Please enter an order by value.",
-"contactsValidName"=>"Bitte einen gueltigen Kontaktnamen eingeben.",
-"delete contact"=>"Kontakt loeschen",
+"contactsValidName"=>"Bitte einen gültigen Kontaktnamen eingeben.",
+"delete contact"=>"Kontakt löschen",
 "new contact"=>"neuer Kontakt",
 "use in display"=>"als angezeigter Name",
 "view this contact"=>"diesen Kontakt ansehen",
-"(yyyy-mm-dd)"=>"jjjj-mm-tt",
+"yyyy-mm-dd"=>"jjjj-mm-tt",
