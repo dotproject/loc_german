@@ -115,6 +115,7 @@
 "New User Password created and emailed to you"=>"Ein neues Benutzerpasswort wurde erstellt und an die eingegebene Emailadresse versendet.",
 "No"=>"Nein",
 "No data available"=>"Keine Daten verfügbar",
+"No projects found"=>"Keine Projekte gefunden",
 "Non-Admin Modules"=>"Nicht-Verwaltungsmodule",
 "Normal Log"=>"Normaler Logeintrag",
 "Not Applicable"=>"Nicht anwendbar",
@@ -123,6 +124,7 @@
 "On Hold"=>"Auf Eis",
 "Other Contacts..."=>"Andere Kontakte",
 "Owner"=>"Besitzer",
+"P"=>"P",
 "Participant"=>"TeilnehmerIn",
 "Password"=>"Passwort",
 "Password updated"=>"Passwort aktualisiert",
@@ -263,10 +265,10 @@
 "sendpass0"=>"Dem Benutzerkonto",
 "sendpass1"=>"ist diese Email-Adresse zugeordnet.
  Ein(e) Internetnutzer(in) von",
-"sendpass2"=>"hat die Erstellung und Versendung eines neuen Passwortes für oben gennantes Benutzerkonto an diese Email-Adresse veranlasst.
+"sendpass2"=>"hat die Erstellung und Versendung eines neuen Passwortes für oben genanntes Benutzerkonto an diese Email-Adresse veranlasst.
 
- Das neue Passwort lautet:",
-"sendpass3"=>"Sollte der/die Empfänger(in) dieser Email die Passwortänderung nicht veranlasst haben, ist dies kein Grund zur Sorge. Schließlich sieht er/sie diese Nachricht, nicht der/die unbekannte Schelm(in). Es bietet sich nun an, sich auf oben genannter Seite anzumelden und das Passwort nach Belieben zu verändern.",
+Das neue Passwort lautet:",
+"sendpass3"=>"Sollte der/die Empfänger(in) dieser Email die Passwortänderung nicht veranlasst haben, ist dies kein Grund zur Sorge. Schließlich sieht der/die Empfänger(in) diese Nachricht, nicht der/die Unbekannte. Es wird dringend empfohlen, sich nun auf oben genannter Seite anzumelden und sogleich das Passwort nach Belieben zu verändern.",
 "sendpass4"=>"Neues Passwort für",
 "sort by"=>"sortieren nach",
 "submit"=>"abschicken",
