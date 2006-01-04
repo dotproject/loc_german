@@ -34,7 +34,7 @@
 "Module"=>"Modul",
 "Name(s)"=>"Name(n)",
 "Never Visited"=>"War nie anwesend",
-"Non-Admin Modules"=>"Nicht-administrative Module",
+"Non-Admin Modules"=>"Nicht-Verwaltungsmodule",
 "Not Defined"=>"Nicht definiert",
 "Offline"=>"Abwesend",
 "On hold"=>"angehalten",
