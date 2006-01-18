@@ -2,8 +2,8 @@
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
 "About Modules"=>"Modulinfo",
-"Access Denied"=>"Zutritt verweigert",
-"Adding a Company"=>"Ein Projekt hinzufügen",
+"Access Denied"=>"Zugriff verweigert",
+"Adding a Company"=>"Ein Firma hinzufügen",
 "Adding a Project"=>"Ein Projekt hinzufügen",
 "Adding a Task"=>"Eine Aufgabe hinzufügen",
 "Breadcrumbs"=>"Brotkrümel",

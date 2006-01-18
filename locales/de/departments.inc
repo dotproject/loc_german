@@ -13,7 +13,7 @@
 "delDept"=>"Soll diese Abteilung wirklich gelöscht werden?",
 "delete department"=>"Abteilung löschen",
 "departmentDelete"=>"Soll diese Abteilung wirklich gelöscht werden?",
-"deptIndexPage"=>"Bitte die Abteilung über eine Firma ansehen",
+"deptIndexPage"=>"Bitte Abteilungen über die jeweilige Firma aufrufen",
 "deptValidName"=>"Bitte einen gültigen Namen für diese Abteilung eingeben",
 "deptWithProject"=>"Eine mit Projekten assoziierte Abteilung kann nicht gelöscht werden.",
 "deptWithSub"=>"Eine Abteilung mit Unterabteilungen kann nicht gelöscht werden.",
