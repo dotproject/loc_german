@@ -6,6 +6,7 @@
 "All Projects"=>"Alle Projekte",
 "Application"=>"Anwendung",
 "Are you sure you want to cancel?"=>"Soll dieser Vorgang wirklich abgebrochen werden?",
+"Attach a file"=>"Datei hinzufügen",
 "CO Reason"=>"CO-Grund",
 "Category"=>"Kategorie",
 "Checking in"=>"Einpflegen",
@@ -42,4 +43,5 @@
 "files list"=>"Dateiliste",
 "filesDelete"=>"Soll diese Datei wirklich gelöscht werden?",
 "new file"=>"Neue Datei",
+"octet-stream"=>"Oktett-Stream",
 "select task"=>"Aufgabe auswählen",

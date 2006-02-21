@@ -3,6 +3,7 @@
 ##
 "Add Company"=>"Firma hinzufügen",
 "All Companies"=>"Alle Firmen",
+"Attach a file"=>"Datei hinzufügen",
 "Budget"=>"Budget",
 "Clients"=>"Kunden",
 "Company Name"=>"Firmenname",
@@ -15,6 +16,7 @@
 "Started"=>"Beginn",
 "Status"=>"Status",
 "Suppliers"=>"Zulieferer",
+"Task Name"=>"Aufgabenname",
 "View Company"=>"Firma ansehen",
 "cdepartment::store-check failed"=>"Abteilung: Konnte nicht gespeichert werden.",
 "companies list"=>"Firmenliste",
