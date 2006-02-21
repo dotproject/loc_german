@@ -23,7 +23,7 @@
 "Major Revision"=>"Hauptversion",
 "Minor Revision"=>"Unterversion",
 "New File"=>"Neue Datei",
-"Notify Assignees of Task or Project Owner by Email"=>"Email-Benachrichtigung an Aufgabenbearbeiter oder Projektbesitzer ",
+"Notify Assignees of Task or Project Owner by Email"=>"E-Mail-Benachrichtigung an Aufgabenbearbeiter oder Projektbesitzer ",
 "Page(s)"=>"Seite(n)",
 "Please select a project first!"=>"Bitte zuerst ein Projekt wδhlen!",
 "Size"=>"Grφίe",

@@ -77,7 +77,7 @@
 "View"=>"Ansehen",
 "View Ticket"=>"Karte ansehen",
 "a valid description"=>"eine gültige Beschreibung",
-"a valid email"=>"eine gültige Email-Adresse",
+"a valid email"=>"eine gültige E-Mail-Adresse",
 "a valid name"=>"einen gültigen Namen",
 "a valid subject"=>"einen gültigen Betreff",
 "ago"=>"vergangen",
