@@ -1,2 +1,2 @@
 Übersichtsbericht
-Gibt einen Kurzüberblick über wesentliche Eigenschaften aller Projekte
+Gibt einen Kurzüberblick über wesentliche Vorgänge aller Projekte

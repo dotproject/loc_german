@@ -1,2 +1,2 @@
-Aufgaben-Protokollierung (Logs)
-Zeige die Aufgabenlogs für das Projekt an
+Aufgaben-Protokollierung
+Zeige die Aufgabenprotokolle für das Projekt an
