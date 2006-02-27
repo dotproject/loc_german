@@ -4,4 +4,4 @@
 "Empty"=>"Leer",
 "Events"=>"Ereignisse",
 "Forum Messages"=>"Foreneinträge",
-"Task Log"=>"Aufgabenlogs",
+"Task Log"=>"Aufgabenprotokolle",
