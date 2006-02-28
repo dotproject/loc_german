@@ -1,5 +1,5 @@
 dotProject: 	German Localisation - Deutsche Lokalisierung
-		optimized for 2.0.x - optimiert für 2.0.x
+		optimized for 2.0.x - optimiert fÃ¼r 2.0.x
 ------------------------------------------------------------
 
 
@@ -17,14 +17,26 @@ II)	a)  Hinweise
 
 :) a) Aktuelles
 ---------------
-Der Lokalisierungsmanager möchte hiermit die Benutzer auffordern, sich an der Weiterentwicklung der 
-deutschen Lokalisierung zu beteiligen. Bestimmt gibt es einige bessere und sinnvollere Übersetzungen als die gewählten. Der Maintainer freut sich über intensive Sendung der Verbesserungsvorschläge an:
+0) 	Die Kodierung der Lokalisationsdateien ist nun an den dotProject Standardwert 'UTF-8' angepasst worden! 
+	Bitte passen Sie Ihr System (Betriebssystem, Datenbank, ggf. Browser) entsprechend an. Andernfalls ist
+	es wahrscheinlich, dass insbesondere Umlaute kryptisch dargestellt werden (z.B. bÃ¶se -> bï¿½se). 
+	Man benutze die GNU Recode Funktionen, um diese Ã„nderung rÃ¼ckgÃ¤ngig zu machen, falls notwendig.
+
+1)	Der Lokalisierungsmanager mÃ¶chte hiermit die Benutzer auffordern, sich an der Weiterentwicklung der 
+deutschen Lokalisierung zu beteiligen. Bestimmt gibt es einige bessere und sinnvollere Ãœbersetzungen als die gewÃ¤hlten. Der Maintainer freut sich Ã¼ber intensive Sendung der VerbesserungsvorschlÃ¤ge an:
 		
 				german at dotproject dot net
+
+
 	
 :) b) News
 ---------------
-Take part in the process of optimizing the german localisation! Mail your suggestions to:
+0)	The character encoding has changed to the gobal and dotProject standard 'UTF-8'. 
+	Please modify your system (Operating system, Database, Browser) in a suitable way. 
+	Otherwise it is very likely that german umlauts are not diplayed correctly (e.g. bÃ¶se -> bï¿½se).
+	If necessary use the GNU recode functions to rollback this change.
+
+1)	Take part in the process of optimizing the german localisation! Mail your suggestions to:
 		
 				german at dotproject dot net
 
@@ -34,35 +46,35 @@ I) a) Installationsanweisungen:
 -------------------------------
 0) 	Man lade das deutsche Lokalisationspaket von sourceforge.net/projects/dotmods herunter
 1) 	Man entpacke (tar -xvvz de_DE????????.tar.gz) das Archiv in das dotProject Wurzelverzeichnis.
-	Es enthält die relevante Verzeichnisstruktur.
-2)	Für dotProject 2.0 und höher kann es notwendig sein, eine neue Session zu starten, um
+	Es enthÃ¤lt die relevante Verzeichnisstruktur.
+2)	FÃ¼r dotProject 2.0 und hÃ¶her kann es notwendig sein, eine neue Session zu starten, um
 	zu garantieren, dass die deutschen Lokalisationsdateien erkannt werden. Eventuell ist Abmelden 
 	und Wiederanmeldung notwendig.
 3)	Es bestehen nun die folgenden Optionen:
 
-	i) 	Die deutsche Sprache für sich selbst setzen (keine Administratorrechte notwendig):
+	i) 	Die deutsche Sprache fÃ¼r sich selbst setzen (keine Administratorrechte notwendig):
 		+ Man melde sich (falls noch nicht getan) mit seinem Benutzernamen an.
-		+ Man wähle 'Über mich' vom kleinen Menü oben rechts in dotProject
-		+ Man wähle 'die Einstellungen bearbeiten' von den Brotkrümeln unterhalb der Seitenüberschrift
-		+ Man wähle 'German (Ger)' bzw. 'Deutsch (DE)' für Locale/Orts- & Sprachanpassung aus und klicke auf abschicken
+		+ Man wÃ¤hle 'Ãœber mich' vom kleinen MenÃ¼ oben rechts in dotProject
+		+ Man wÃ¤hle 'die Einstellungen bearbeiten' von den BrotkrÃ¼meln unterhalb der SeitenÃ¼berschrift
+		+ Man wÃ¤hle 'German (Ger)' bzw. 'Deutsch (DE)' fÃ¼r Locale/Orts- & Sprachanpassung aus und klicke auf abschicken
 			
-	Für die folgenden Optionen sind Administratorrechte notwendig:
+	FÃ¼r die folgenden Optionen sind Administratorrechte notwendig:
 		
-	ii)	Die deutsche Sprache für einen bestimmten, beliebigen Benutzer setzen:
+	ii)	Die deutsche Sprache fÃ¼r einen bestimmten, beliebigen Benutzer setzen:
 		+ Man gehe in das Benutzerverwaltungsmodul.
-		+ Man wähle den relevanten Benutzer aus der Liste und klicke auf seinen Namen
-		+ Man wähle 'die Einstellungen bearbeiten' von den Brotkrümeln unterhalb der Seitenüberschrift
-		+ Man wähle 'German (Ger)' bzw. 'Deutsch (DE)' für Locale/Orts- & Sprachanpassung aus und klicke auf abschicken
+		+ Man wÃ¤hle den relevanten Benutzer aus der Liste und klicke auf seinen Namen
+		+ Man wÃ¤hle 'die Einstellungen bearbeiten' von den BrotkrÃ¼meln unterhalb der SeitenÃ¼berschrift
+		+ Man wÃ¤hle 'German (Ger)' bzw. 'Deutsch (DE)' fÃ¼r Locale/Orts- & Sprachanpassung aus und klicke auf abschicken
 		
-	iii) 	Die deutsche Sprache für alle neuen Benutzer als Standard setzen (kann a posteriori verändert werden)
+	iii) 	Die deutsche Sprache fÃ¼r alle neuen Benutzer als Standard setzen (kann a posteriori verÃ¤ndert werden)
 		+ Man gehe in das Systemverwaltungsmodul.
-		+ Man wähle 'Standardeinstellungen für Benutzer'
-		+ Man wähle 'German (Ger)' bzw. 'Deutsch (DE)' für Locale/Orts- & Sprachanpassung aus und klicke auf abschicken
+		+ Man wÃ¤hle 'Standardeinstellungen fÃ¼r Benutzer'
+		+ Man wÃ¤hle 'German (Ger)' bzw. 'Deutsch (DE)' fÃ¼r Locale/Orts- & Sprachanpassung aus und klicke auf abschicken
 		
 	iv)	Zeige die Anmeldeseite in Deutsch:
 		+ Man gehe in das Systemverwaltungsmodul.
-		+ Man wähle 'Systemkonfiguration'
-		+ Man setze Host Locale bzw. Sprache für die Loginseite auf 'de' und speichere
+		+ Man wÃ¤hle 'Systemkonfiguration'
+		+ Man setze Host Locale bzw. Sprache fÃ¼r die Loginseite auf 'de' und speichere
 		
 
 
@@ -101,5 +113,6 @@ I) b) Installation:
 		
 II a) Hinweise:
 ---------------
-- Mittels $locale_char_set = 'UTF-8'; in locales.php und Bearbeitung der Übersetzung mittels 
+- Mittels $locale_char_set = 'UTF-8'; in locales.php und Bearbeitung der Ãœbersetzung mittels 
   "recode latin1..utf-8 xxx.inc" stimmt das Ganze auch auf einem UTF-8 voreingestellten System (thanks, Goik)
+  (Dieser Hinweis ist veraltet, aber vielleicht in umgekehrter Richtung fÃ¼r den einen oder anderen nÃ¼tzlich)
