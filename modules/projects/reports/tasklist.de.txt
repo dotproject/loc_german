@@ -1,2 +1,2 @@
 Aufgabenliste
-Zeige eine vollständige Aufgabenliste für das Projekt
+Zeige eine vollstÃ¤ndige Aufgabenliste fÃ¼r das Projekt an

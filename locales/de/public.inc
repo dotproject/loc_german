@@ -2,12 +2,12 @@
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
 "Access Denied"=>"Zutritt verweigert",
-"Color Selector"=>"Farbwähler",
-"Contacts for"=>"Kontakte für",
+"Color Selector"=>"FarbwÃ¤hler",
+"Contacts for"=>"Kontakte fÃ¼r",
 "Continue"=>"Fortfahren",
-"Preset"=>"Zurücksetzen",
+"Preset"=>"ZurÃ¼cksetzen",
 "[none]"=>"[nichts]",
-"accessDeniedMsg"=>"Für diesen Bereich der Anwendung besteht keine Zugangsberechtigung.",
-"colorLegend"=>"Bitte für die eindeutige Identifizierung eine Farbe wählen und dann den Farbwähler schließen.",
+"accessDeniedMsg"=>"FÃ¼r diesen Bereich der Anwendung besteht keine Zugangsberechtigung.",
+"colorLegend"=>"Bitte fÃ¼r die eindeutige Identifizierung eine Farbe wÃ¤hlen und dann den FarbwÃ¤hler schlieÃŸen.",
 "nodepartments, companies, permissions"=>"Keine Abteilungen, Firmen, Rechte vorhanden",
 "notasks"=>"Keine Aufgaben vorhanden",

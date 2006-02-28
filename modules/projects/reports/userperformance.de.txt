@@ -1,2 +1,2 @@
 Mitarbeiterauslastung
-Zeige gearbeitete Stunden eines Mitarbeiters gegenüber Aufgabendauer
+Zeige gearbeitete Stunden eines Mitarbeiters gegenÃ¼ber Aufgabendauer

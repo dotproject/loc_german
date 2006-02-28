@@ -1,11 +1,11 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"Add history"=>"Historie hinzuf¸gen",
+"Add history"=>"Historie hinzuf√ºgen",
 "Edit history"=>"Historie bearbeiten",
-"History added"=>"Historie hinzugef¸gt",
-"History deleted"=>"Historie gelˆscht",
+"History added"=>"Historie hinzugef√ºgt",
+"History deleted"=>"Historie gel√∂scht",
 "History updated"=>"Historie aktualisiert",
 "New history"=>"Neue Historie",
 "any"=>"beliebig",
-"delete history"=>"Historie lˆschen",
+"delete history"=>"Historie l√∂schen",

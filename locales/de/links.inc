@@ -1,15 +1,15 @@
 ##
 ## DO NOT MODIFY THIS FILE BY HAND!
 ##
-"Add Link"=>"Verweis hinzufügen",
+"Add Link"=>"Verweis hinzufÃ¼gen",
 "All Links"=>"Alle Verweise",
 "Are you sure you want to cancel?"=>"Wirklich verwerfen?",
 "Category"=>"Kategorie",
 "Link"=>"Verweis",
 "Link Name"=>"Verweisname",
 "Link URL"=>"Verweis-URL",
-"Please select a project first!"=>"Bitte zuerst ein Projekt wählen!",
+"Please select a project first!"=>"Bitte zuerst ein Projekt wÃ¤hlen!",
 "Task Name"=>"Aufgabenname",
 "links list"=>"Verweisliste",
 "new link"=>"Neuer Verweis",
-"select task"=>"Aufgabe wählen",
+"select task"=>"Aufgabe wÃ¤hlen",
