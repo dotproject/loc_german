@@ -92,7 +92,7 @@
 "month"=>"Monat",
 "months"=>"Monate",
 "my tickets"=>"Meine Fehlerkarten",
-"new ticket"=>"neue Karte",
+"new ticket"=>"Neue Karte",
 "newer"=>"neuer",
 "no results"=>"keine Ergebnisse",
 "none"=>"-",

@@ -73,7 +73,7 @@
 "mark as finished"=>"als abgeschlossen markieren",
 "minutes"=>"min.",
 "month view"=>"Monatsansicht",
-"new event"=>"neues Ereignis",
+"new event"=>"Neues Ereignis",
 "set priority to high"=>"Priorität auf hoch setzen",
 "set priority to low"=>"Priorität auf niedrig setzen",
 "set priority to normal"=>"Priorität auf normal setzen",

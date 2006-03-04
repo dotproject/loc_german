@@ -12,5 +12,5 @@
 "Resource Name"=>"Ressourcen-Name",
 "Tool"=>"Werkzeug",
 "Venue"=>"Ort",
-"new resource"=>"neue Ressource",
+"new resource"=>"Neue Ressource",
 "resource list"=>"Ressourcenliste",

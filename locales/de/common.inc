@@ -251,7 +251,7 @@
 "View"=>"Anzeigen",
 "View PDF File"=>"PDF-Datei anzeigen",
 "View Role"=>"Rolle anzeigen",
-"View all allowed companies"=>"Zeige alle zulässigen Firmen",
+"View all allowed companies"=>"Zeige alle freigegebenen Firmen",
 "Warning"=>"Warnung",
 "Welcome"=>"Herzlich Willkommen,",
 "Working Days"=>"Arbeitstage",

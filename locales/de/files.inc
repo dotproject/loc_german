@@ -45,3 +45,4 @@
 "new file"=>"Neue Datei",
 "octet-stream"=>"Oktett-Stream",
 "select task"=>"Aufgabe auswählen",
+"words indexed"=>"Wörter indiziert",
