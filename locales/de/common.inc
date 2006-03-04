@@ -44,6 +44,7 @@
 "BadDep_CircularGrandParent"=>"Übergeordnete Aufgabe kann nicht von untergeordneter Aufgabe abhängen",
 "BadDep_CircularDepOnParentDependent"=>"Ring-Abhängigkeitskonflikt: Es existiert bereits eine Abhängigkeit der übergeordneten Aufgabe(n)",
 "Birthday"=>"Geburtstag",
+"CSV Download"=>"CSV-Datei herunterladen",
 "Calendar"=>"Kalender",
 "Change User Password"=>"Benutzerpasswort ändern",
 "Changes to"=>"Änderungen in",
