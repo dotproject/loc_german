@@ -272,7 +272,7 @@
 "cancel"=>"verwerfen",
 "chgpwNoMatch"=>"Die eingegebenen Passwörter stimmen nicht überein",
 "chgpwUpdated"=>"Das Passwort wurde aktualisiert",
-"chgpwValidNew"=>"Bitte ein gültiges neues Passwort eingeben",
+"chgpwValidNew"=>"Bitte ein gültiges neues Passwort mind. folgender Länge eingeben: ",
 "chgpwValidOld"=>"Bitte ein gültiges altes Passwort eingeben",
 "chgpwWrongPW"=>"Das alte Passwort wurde falsch eingegeben",
 "clear"=>"zurücksetzen",
