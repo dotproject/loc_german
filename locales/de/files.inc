@@ -35,7 +35,7 @@
 "Uploaded By"=>"hochgeladen von",
 "Version"=>"Version",
 "Versions"=>"Versionen",
-"add new file"=>"neue Datei hinzufügen",
+"add new file"=>"Neue Datei hinzufügen",
 "co"=>"co",
 "delete file"=>"Datei löschen",
 "download"=>"herunterladen",
