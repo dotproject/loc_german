@@ -128,6 +128,7 @@
 "Message"=>"Nachricht",
 "Messages"=>"Nachrichten",
 "Mobile Phone"=>"Mobiltelefon",
+"Modified"=>"Änderung:",
 "Modules"=>"Module",
 "Mon"=>"Mo",
 "My"=>"Mein(e)",
