@@ -250,6 +250,7 @@
 "View"=>"Anzeigen",
 "View PDF File"=>"PDF-Datei anzeigen",
 "View Role"=>"Rolle anzeigen",
+"View all allowed companies"=>"Zeige alle zulässigen Firmen",
 "Warning"=>"Warnung",
 "Welcome"=>"Herzlich Willkommen,",
 "Working Days"=>"Arbeitstage",
