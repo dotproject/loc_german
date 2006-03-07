@@ -198,6 +198,7 @@
 "Server"=>"Server",
 "Show"=>"Zeige",
 "Show Inactive"=>"Zeige Inaktive",
+"Show Projects with assigned Tasks"=>"Zeige Projekte mit zugewiesenen Aufgaben",
 "Show Tasks"=>"Zeige Aufgaben",
 "Show Todo for:"=>"Zeige Todoliste für:",
 "Show all"=>"Zeige alle",
