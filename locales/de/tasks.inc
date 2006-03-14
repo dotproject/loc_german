@@ -116,7 +116,7 @@
 "Reference"=>"Referenz",
 "Reports"=>"Berichte",
 "Reset"=>"Zurücksetzen",
-"Resources"=>"Verfügbare Mitarbeiter",
+"Resources"=>"Ressourcen",
 "Select contacts"=>"Wähle Kontakte",
 "Select contacts..."=>"Wähle Kontakte ...",
 "Set task start date based on dependancy"=>"Setze Startdatum laut Abhängigkeiten",
