@@ -210,6 +210,7 @@
 "taskName"=>"Bitte einen gültigen Namen für die Aufgabe eingeben",
 "taskNameExist"=>"Ein Workpackage (Wurzelaufgabe) mit diesem Name existiert bereits. Bitte einen anderen Namen wählen.",
 "taskNotify"=>"Der Aufgabe zugeteilte Benutzer via E-Mail benachrichtigen",
+"taskValidEndDate"=>"Bitte Enddatum der Aufgabe eingeben",
 "taskValidStartDate"=>"Bitte ein gültiges Anfangsdatum eingeben",
 "tasks list"=>"Aufgabenliste",
 "tasks per user"=>"Aufgaben pro Benutzer",
