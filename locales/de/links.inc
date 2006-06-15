@@ -4,7 +4,6 @@
 "Add Link"=>"Verweis hinzufügen",
 "All Links"=>"Alle Verweise",
 "Application"=>"Anwendung",
-"Are you sure you want to cancel?"=>"Wirklich verwerfen?",
 "Category"=>"Kategorie",
 "Document"=>"Dokument",
 "Link"=>"Verweis",

@@ -36,6 +36,7 @@
 "Anonymous"=>"Anonym",
 "Appointment"=>"Termin",
 "Archived Projects"=>"Archivierte Projekte",
+"Are you sure you want to cancel?"=>"Soll der Vorgang wirklich abgebrochen werden?",
 "Are you sure you want to delete this permission?"=>"Diese Berechtigung wirklich löschen?",
 "Assigned Resources"=>"Zugewiesene Ressourcen",
 "Backup"=>"Sicherung",

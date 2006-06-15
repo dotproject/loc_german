@@ -5,7 +5,6 @@
 "All Files"=>"Alle Dateien",
 "All Projects"=>"Alle Projekte",
 "Application"=>"Anwendung",
-"Are you sure you want to cancel?"=>"Soll dieser Vorgang wirklich abgebrochen werden?",
 "Attach a file"=>"Datei hinzufügen",
 "CO Reason"=>"CO-Grund",
 "Category"=>"Kategorie",
